@@ -1,0 +1,1964 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>央广购物</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="font/index/iconfont.css"/>
+		<script type="text/javascript" src="js/jquery-1.11.1.js" ></script>	
+		<script type="text/javascript" src="js/myCookie.js" ></script>
+		<script type="text/javascript" src="js/public.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+	</head>
+	<body>
+		<!--头部的导航栏-->
+		<div class="header_nav">
+			<div class="header_nav_auto">
+				<ul class="header_nav_auto_nav">
+					<li class="xiala">
+						<a href="">我的订单<span class="rotate"></span></a>
+						<ul>
+							<li><a href="">待付款订单</a></li>
+							<li><a href="">待确认收货</a></li>
+							<li><a href="">待评价交易</a></li>
+						</ul>
+					</li>
+					<li class="xiala">
+						<a href="">我的收藏<span class="rotate"></span></a>
+						<ul>
+							<li><a href="">商品收藏</a></li>
+							<li><a href="">店铺收藏</a></li>
+						</ul>
+					</li>
+					<li class="xiala">
+						<a href="">客户服务<span class="rotate"></span></a>
+						<ul>
+							<li><a href="">购物指南</a></li>
+							<li><a href="">售后服务</a></li>
+							<li><a href="">商家服务</a></li>
+						</ul>
+					</li>
+					<li class="gys"><a href=""><img src="img/on2.png"/>成为供应商</a></li>
+				</ul>
+				<ul class="header_nav_auto_dz">
+					<li class="enter"><a href="logged.html">您好，请登录</a></li>
+					<li class="zc"><a href="login01.html">免费注册</a></li>
+				</ul>
+				<ul class="header_nav_auto_dl">
+					<li class="tuicu name"><a href="">xxxxx</a></li>
+					<li><a href="">欢迎光临</a></li>
+					<li class="tuicu yggw"><a href="">央广购物</a></li>
+					<li class="tuicu" id="tuichu">[<a href="javascript:;">退出</a>]</li>
+				</ul>
+			</div>
+		</div>
+		<!--logo栏-->
+		<div class="logolist">
+			<div class="logolist_auto">
+				<div class="logolist_auto_top">
+					<img class="logo" src="img/logo.png"/>
+					<div class="logolist_auto_top_center">
+						<div class="logolist_auto_top_center_top">
+							<div class="txt_left">
+								<a class="beibi" href="javascript:;">宝贝<span></span></a>
+								<!--<a class="dianpu" href="javascript:;">店铺<span></span></a>-->
+							</div>
+							<input type="text" name="" id="" placeholder="请输入您要搜索的商品关键字" class="txt"/>
+							<input type="submit" name="" id="" value="搜索" class="sub"/>
+						</div>
+						<ul class="logolist_auto_top_center_bottom">
+							<li><a href="">桥沙地瓜</a></li>
+							<li><a href="">娣归中华红橙</a></li>
+							<li><a href="">黄金皮蛋</a></li>
+							<li><a href="">海参</a></li>
+							<li><a href="">青藏高原野花蜜</a></li>
+							<li><a href="">西琳</a></li>
+							<li><a href="">破壁料理机</a></li>
+							<li><a href="">全球卖场</a></li>
+						</ul>
+					</div>
+					<div class="logolist_auto_top_right">
+						<div class="mall">
+							<a href="">
+								<span></span>
+								我的商城
+								<span></span>
+							</a>
+							<div class="mall_hadden">
+								<div class="mall_hadden_denglu">
+									<img src="img/denglu.png"/>
+									<a href="" class="denglu">您好，请登录！</a>
+								</div>
+								<div class="mall_hadden_xiaoxi">
+									<ul>
+										<li><a href="">站内消息</a></li>
+										<li><a href="">资讯回复</a></li>
+										<li><a href="">我的足迹</a></li>
+									</ul>
+									<ul>
+										<li><a href="shettlement.html">我的订单</a></li>
+										<li><a href="">我的收藏</a></li>
+										<li><a href="">我的积分</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="shopping">
+							<a href="">
+								<span></span>
+								购物车结算
+								<span></span>
+							</a>
+							<div class="shopping_hadden">
+								<p>最新加入的商品</p>
+								<div class="shopping_hadden_shoplist">
+									<div class="shoplist clearFix">
+										您的购物车中暂无商品，赶快选择心爱的商品吧！
+										
+										<!--<div class="shop">
+											<div class="left"><a href=""><img src="img/avatar.gif" alt="" /></a></div>
+											<div class="center">暗红色的离开静安寺的快捷安达科技路上看到穿内裤士大夫撒反对</div>
+											<div class="right">
+												<span class="price">32781</span>
+												<i class="del">删除</i>
+											</div>
+										</div>-->
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="logolist_auto_bottom">
+					<ul>
+						<li><a href="">所有商品分类</a></li>
+						<li><a href="">首页</a></li>
+						<li><a href="">TV直播</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--轮播图栏-->
+		<div class="shuffling">
+			<div class="shuffling_auto">
+				<ul class='shuffling_auto_left' id="shuffling_auto_left">
+					<li data-name="食品">
+						<a href="list.html?uid=食品饮料">食品 </a>/ <a href="list.html?uid=中外名酒">酒类 </a>/<a href="list.html?uid=饮料冲调"> 饮料</a>
+						<div class="shuffling_auto_hidden">
+							
+						<!-----以下是ajax请求数据对饮的结构------->
+							<!--<ul>
+								<p>健身器材<span></span></p>
+								<li><a href="">运动户外</a></li>
+							</ul>
+							<ul>
+								<p>健身器材<span></span></p>
+								<li><a href="">运动户外</a></li>
+							</ul>-->
+							
+						</div>
+					</li>
+					<li data-name="家用电器">
+						<a href="list.html?uid=家用电器">家用电器 </a>/<a href="list.html?uid=厨房用具"> 厨房用具</a>
+						<div class="shuffling_auto_hidden"></div>
+					</li>
+					<li data-name="珠宝首饰">
+						<a href="list.html?uid=珠宝首饰">珠宝首饰</a> /<a href="list.html?uid=时尚钟表"> 时尚钟表</a>
+						<div class="shuffling_auto_hidden"></div>
+					</li>
+					<li data-name="个护美妆">
+						<a href="list.html?uid=个护化妆">个护美妆 </a>/<a href="javascript:;"> 奢侈品</a> /<a href="list.html?uid=礼品箱包"> 箱包</a>
+						<div class="shuffling_auto_hidden"></div>
+					</li>
+					<li data-name="服饰内衣">
+						<a href="list.html?uid=服饰内衣">服饰内衣 </a>/<a href="list.html?uid=流行鞋靴"> 流行鞋靴</a>
+						<div class="shuffling_auto_hidden"></div>
+					</li>
+					<li data-name="家居家装">
+						<a href="list.html?uid=家居家装">家居家装 </a>/<a href="list.html?uid=家具陈设"> 家居陈设</a>
+						<div class="shuffling_auto_hidden"></div>
+					</li>
+					<li data-name="文化收藏">
+						<a href="list.html?uid=文化收藏">文化收藏 </a>/<a href="list.html?uid=书画票证"> 书画 </a>/<a href="javascript:;"> 器物</a>
+						<div class="shuffling_auto_hidden"></div>
+					</li>
+					<li data-name="手机">
+						<a href="list.html?uid=手机通讯">手机 </a>/<a href="list.html?uid=摄影数码"> 摄影数码</a> /<a href="list.html?uid=电脑办公"> 电脑</a>
+						<div class="shuffling_auto_hidden"></div>
+					</li>
+					<li data-name="营养滋补">
+						<a href="list.html?uid=营养护理">营养滋补 </a>/<a href="list.html?uid=养生器具"> 养生护理</a>
+						<div class="shuffling_auto_hidden"></div>
+					</li>
+					<li data-name="运动户外">
+						<a href="list.html?uid=运动户外">运动户外 </a>/<a href="list.html?uid=健身训练"> 健身器材</a>
+						<div class="shuffling_auto_hidden"></div>
+					</li>
+				</ul>
+				<div class="shuffling_auto_center">
+					<div class="shuffling_auto_center_top">
+						<a href=""><img src="img/zhibo.gif"/></a>
+						<div class="shuffling_auto_center_top_center">
+							<i></i>
+							<img src="img/119730_0.jpg@60w_60h.jpg"/>
+							<ul>
+								<li><a href="">东方瑞兽招财貔貅摆件</a></li>
+								<li><a href="">¥ 998.00</a></li>
+							</ul>
+						</div>
+						<img src="img/live.gif"/>
+					</div>
+					<!--轮播图-->
+					<ul class="shuffling_auto_center_bottom" id="shuffling">
+						<li style='z-index: 2;'>
+							<a href=""><img src="img/shipping01.jpg" alt="" /></a>
+						</li>
+						<li style='z-index: 1;'>
+							<a href=""><img src="img/shipping02.jpg" alt="" /></a>
+						</li>
+					</ul>
+					<!--轮播图下标-->
+					<ul class="shuffling_auto_center_bottom_active" id="cative">
+						<li class="active">1</li>
+						<li>2</li>
+					</ul>
+				</div>
+				<div class="shuffling_auto_right"><!-----定位做的--->
+					<p>今日最大牌</p>
+					<a href=""><img src="img/shengjiekang.jpg"/></a>
+					<i>圣洁康旗舰店</i>
+					<span>有家就有圣洁康 居家清洁 爱家就给它来次大扫除吧</span>
+				</div>
+			</div>
+		</div>
+		<!--轮播图下面的品牌栏-->
+		<div class="brand">
+			<div class="brand_auto">
+				<ul>
+					<li>
+						<p>
+							<a href="">法国西朗品牌</a>
+							<span>秋冬潮流 新品发布</span>
+						</p>
+						<img src="img/tu01.jpg"/>
+					</li>
+					<li>
+						<p>
+							<a href="">全球卖场</a>
+							<span>精选套组超值特惠</span>
+						</p>
+						<img src="img/tu02.jpg"/>
+					</li>
+					<li>
+						<p>
+							<a href="">美肤专场</a>
+							<span>甜而不腻  营养丰富</span>
+						</p>
+						<img src="img/tu03.jpg"/>
+					</li>
+					<li>
+						<p>
+							<a href="">海南桥沙地瓜</a>
+							<span>甜而不腻  营养丰富</span>
+						</p>
+						<img src="img/tu04.jpg"/>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--第一层楼-->
+		<div class="tower01 tower">
+			<div class="tower01_auto">
+				<!--上下结构，上部为选项卡导航栏以及楼层号，下部为选项卡布局-->
+				<div class="tower01_auto_top">
+					<p>
+						<span>1F</span>
+						<i>食品酒水</i>
+					</p>
+					<ul class="tower01_auto_top_nav">
+						<li class="active">
+							<a href="javascript:;">热门推荐</a>
+						</li>
+						<li>
+							<a href="javascript:;">食品饮料</a>
+						</li>
+						<li>
+							<a href="javascript:;">热销名酒</a>
+						</li>
+						<li>
+							<a href="javascript:;">营养保健</a>
+						</li>
+						<li>
+							<a href="javascript:;">香叶香茗</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tower01_auto_center">
+					<div class="tower01_auto_center_left">
+						<ul class="tower01_auto_center_left_top">
+							<li><img src="img/tower01-01.png"/><a href="">方便速食</a></li>
+							<li><img src="img/tower01-02.png"/><a href="">休闲零食</a></li>
+							<li><img src="img/tower01-03.png"/><a href="">葡萄酒  &ensp; </a></li>
+							<li><img src="img/tower01-04.png"/><a href="">醇香白酒</a></li>
+						</ul>
+						<ul class="tower01_auto_center_left_bottom">
+							<li><a href="">开碗就能吃的燕窝</a></li>
+							<li><a href="">桃花姬</a></li>
+							<li><a href="">方家铺子</a></li>
+							<li><a href="">茗茶</a></li>
+							<li><a href="">茅台</a></li>
+							<li><a href="">洋酒</a></li>
+							<li><a href="">古方红糖</a></li>
+							<li><a href="">燕之坊薏米红豆粉</a></li>
+							<li><a href="">营养燕麦</a></li>
+							<li><a href="">冷榨脱蜡亚麻籽油</a></li>
+							<li><a href="">自然味良品手指型饼干</a></li>
+						</ul>
+					</div>
+					<ul>
+						<li class="tower01_auto_top_nav1">
+							<div class="tower01_auto_center_02">
+								<a href=""><img src="img/tower01/c972304bcd4f0fbce7cd3f9a32aaa735.jpg"/></a>
+								<a href=""><img src="img/tower01/707c78246f21c992291a606932ced205.jpg"/></a>
+							</div>
+							<div class="tower01_auto_center_03">
+								<!--轮播图-->
+								<ul class="tower01_auto_center_031">
+									<li>
+										<a href=""><img src="img/tower01/c7d155e8c0f3c3b2a595eeca28afa2cd.jpg"/></a>
+										<a href=""><img src="img/tower01/b41f66192868ee7dd865cd13c2147b39.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/tower01/a6176156e43879617e4f3894f42f8809.jpg"/></a>
+										<a href=""><img src="img/tower01/947ca92743a91dac4e7797fe44487029.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/tower01/e983b0b1731862b0cfd6af0a258e5780.jpg"/></a>
+										<a href=""><img src="img/tower01/ff920d3c3a39f98215312d5e66791481.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/tower01/14fa15a06c98d7cea8fccf1f93cedcf7.jpg"/></a>
+										<a href=""><img src="img/tower01/82acfc2804e789d8c9692bc994171eb2.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/tower01/aae7b181811216fb3b4d6e36fdb5919c.jpg"/></a>
+										<a href=""><img src="img/tower01/4e199c8d66e443e97040f6d650b44abf.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/tower01/c7d155e8c0f3c3b2a595eeca28afa2cd.jpg"/></a>
+										<a href=""><img src="img/tower01/b41f66192868ee7dd865cd13c2147b39.jpg"/></a>
+									</li>
+								</ul>
+								<!--轮播图下标-->
+								<ul class="tower01_auto_center_032">
+									<li class="active"></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<!--轮播图左右按钮-->
+								<div class="tower01_auto_center_033">
+									<a class="left" href="javascript:;"><</a>
+									<a class="right" href="javascript:;">></a>
+								</div>
+							</div>
+							<div class="tower01_auto_center_04 tower01_auto_center_02">
+								<a href=""><img src="img/duanshujiejing.jpg" alt="" /></a>
+								<a href=""><img src="img/feite.jpg"/></a>
+							</div>
+							<div class="tower01_auto_center_05 tower01_auto_center_02">
+								<a href=""><img src="img/lanmeiganguo.jpg" alt="" /></a>
+								<a href=""><img src="img/chengdexingren.jpg"/></a>
+							</div>
+						</li>
+						<li style='display: none;' class="tower01_auto_top_nav2">
+							<ul>
+								<li>
+									<a href="page.html?name=神栗河北特产有机板栗仁66g*4袋 原产地直供&price=￥42.00&src=img/01xuanxiangka2/01xuanxiangka2-001.jpg&use=欢迎选购"><img src="img/01xuanxiangka2/01xuanxiangka2-001.jpg"/></a>
+									<a class="txt" href="page.html?name=神栗河北特产有机板栗仁66g*4袋 原产地直供&price=￥42.00&src=img/01xuanxiangka2/01xuanxiangka2-001.jpg&use=欢迎选购">神栗河北特产有机板栗仁66g*4袋 原产地直供</a>
+									<p>￥42.00</p>
+								</li>
+								<li>
+									<a href="page.html?name=战友蘑菇 天然百合干 干货 250g&price=￥30.40&src=img/01xuanxiangka2/01xuanxiangka2-002.jpg&use=战友蘑菇"><img src="img/01xuanxiangka2/01xuanxiangka2-002.jpg"/></a>
+									<a class="txt" href="page.html?name=战友蘑菇 天然百合干 干货 250g&price=￥30.40&src=img/01xuanxiangka2/01xuanxiangka2-002.jpg&use=战友蘑菇">战友蘑菇 天然百合干 干货 250g</a>
+									<p>￥30.40</p>
+								</li>
+								<li>
+									<a href="page.html?name=山西沁州黄小米超值特惠组 货号121704&price=￥199.00&src=img/01xuanxiangka2/01xuanxiangka2-003.jpg&use=山西沁州黄小米"><img src="img/01xuanxiangka2/01xuanxiangka2-003.jpg"/></a>
+									<a class="txt" href="page.html?name=山西沁州黄小米超值特惠组 货号121704&price=￥199.00&src=img/01xuanxiangka2/01xuanxiangka2-003.jpg&use=山西沁州黄小米">山西沁州黄小米超值特惠组 货号121704</a>
+									<p>￥199.00</p>
+								</li>
+								<li>
+									<a href="page.html?name=东来顺筋头巴脑超值组 货号121559&price=￥278.00&src=img/01xuanxiangka2/01xuanxiangka2-004.jpg&use=东来顺筋头巴脑超值组"><img src="img/01xuanxiangka2/01xuanxiangka2-004.jpg"/></a>
+									<a class="txt" href="page.html?name=东来顺筋头巴脑超值组 货号121559&price=￥278.00&src=img/01xuanxiangka2/01xuanxiangka2-004.jpg&use=东来顺筋头巴脑超值组">东来顺筋头巴脑超值组 货号121559</a>
+									<p>￥278.00</p>
+								</li>
+								<li>
+									<a href="page.html?name=资中塔罗科血橙新春抢购组 货号122434&price=￥199.00&src=img/01xuanxiangka2/01xuanxiangka2-005.jpg&use=资中塔罗科血橙新春抢购组"><img src="img/01xuanxiangka2/01xuanxiangka2-005.jpg"/></a>
+									<a class="txt" href="page.html?name=资中塔罗科血橙新春抢购组 货号122434&price=￥199.00&src=img/01xuanxiangka2/01xuanxiangka2-005.jpg&use=资中塔罗科血橙新春抢购组">资中塔罗科血橙新春抢购组 货号122434</a>
+									<p>￥199.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka2/01xuanxiangka2-006.jpg"/></a>
+									<a class="txt" href="">鲲华葡萄籽油1000ml铁罐装食用油</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka2/01xuanxiangka2-007.jpg"/></a>
+									<a class="txt" href="">神栗有机板栗仁熟栗子仁108g甘栗仁零食河北宽城特产 两款</a>
+									<p>￥12.80</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka2/01xuanxiangka2-008.jpg"/></a>
+									<a class="txt" href="">西班牙太阳树特级初榨橄榄油 货号119122</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka2/01xuanxiangka2-009.jpg"/></a>
+									<a class="txt" href="">广安特产农家手工黄金皮蛋组 货号122281</a>
+									<p>￥199.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka2/01xuanxiangka2-010.jpg"/></a>
+									<a class="txt" href="">木糖醇 无糖猴菇养胃饼干1500g礼盒 清真食品</a>
+									<p>￥39.80</p>
+								</li>
+							</ul>
+						</li>
+						<li style='display: none;' class="tower01_auto_top_nav2">
+							<ul>
+								<li>
+									<a href=""><img src="img/01xuanxiangka3/01xuanxiangka3-001.jpg"/></a>
+									<a class="txt" href="">五粮液股份1918精酿组 货号121527</a>
+									<p>￥782.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka3/01xuanxiangka3-002.jpg"/></a>
+									<a class="txt" href="">法国奥特斯酒庄干红尊享组 货号121211</a>
+									<p>￥598.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka3/01xuanxiangka3-003.jpg"/></a>
+									<a class="txt" href="">法国贝洛王金牌干红尊享组 货号121332</a>
+									<p>￥699.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka3/01xuanxiangka3-004.jpg"/></a>
+									<a class="txt" href="">法国拉菲珍藏波尔多干红超值组 货号121017</a>
+									<p>￥1088.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka3/01xuanxiangka3-005.jpg"/></a>
+									<a class="txt" href="">法国进口巴图波尔多干红葡萄酒AOC级 六支加赠酒杯套组</a>
+									<p>￥269.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka3/01xuanxiangka3-006.jpg"/></a>
+									<a class="txt" href="">汾酒集团四大美人收藏组 货号122031</a>
+									<p>￥998.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka3/01xuanxiangka3-007.jpg"/></a>
+									<a class="txt" href="">法兰骑士圣宴超值组 货号121195</a>
+									<p>￥898.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka3/01xuanxiangka3-008.jpg"/></a>
+									<a class="txt" href="">法国进口巴菲波尔多干红葡萄酒六支加赠醒酒器和酒杯特惠</a>
+									<p>￥269.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka3/01xuanxiangka3-009.jpg"/></a>
+									<a class="txt" href="">法国进口百年老藤干红珍酿组 货号122024</a>
+									<p>￥948.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka3/01xuanxiangka3-010.jpg"/></a>
+									<a class="txt" href="">茅台镇封坛老酱原浆私藏组 货号122577</a>
+									<p>￥399.00</p>
+								</li>
+							</ul>
+						</li>
+						<li style='display: none;' class="tower01_auto_top_nav2">
+							<ul>
+								<li>
+									<a href=""><img src="img/01xuanxiangka4/01xuanxiangka4-001.jpg"/></a>
+									<a class="txt" href="">维灵牌深海鱼油软胶囊回馈组 货号119919</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka4/01xuanxiangka4-002.jpg"/></a>
+									<a class="txt" href="">艾兰得氨糖软骨素维生素回馈组 货号119766</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka4/01xuanxiangka4-003.jpg"/></a>
+									<a class="txt" href="">藏蜜牌青藏高原野花蜜套组 货号119823</a>
+									<p>￥338.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka4/01xuanxiangka4-004.jpg"/></a>
+									<a class="txt" href="">晓芹海参央广特供大礼包 货号120714</a>
+									<p>￥1299.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka4/01xuanxiangka4-005.jpg"/></a>
+									<a class="txt" href="">汤臣倍健健力多氨糖软骨素钙片 货号121004</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka4/01xuanxiangka4-006.jpg"/></a>
+									<a class="txt" href="">【全球购】美国GNC葡萄籽套组 货号121570</a>
+									<p>￥299.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka4/01xuanxiangka4-007.jpg"/></a>
+									<a class="txt" href="">【全球购】美国GNC关节团购组 货号120557</a>
+									<p>￥499.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka4/01xuanxiangka4-008.jpg"/></a>
+									<a class="txt" href="">晓芹即食超级海参央广专享组 货号121082</a>
+									<p>￥1999.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka4/01xuanxiangka4-009.jpg"/></a>
+									<a class="txt" href="">东阿贡天府阿胶糕秒杀组 货号121406</a>
+									<p>￥199.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka4/01xuanxiangka4-010.jpg"/></a>
+									<a class="txt" href="">[全球卖场]PN高纯富硒片抢购组 货号121895</a>
+									<p>￥299.00</p>
+								</li>
+							</ul>
+						</li>
+						<li style='display: none;' class="tower01_auto_top_nav2">
+							<ul>
+								<li>
+									<a href=""><img src="img/01xuanxiangka5/01xuanxiangka5-001.jpg"/></a>
+									<a class="txt" href="">瓯叶 大红袍茶叶 武夷岩茶 武夷山茶叶 乌龙茶 20克/罐【买3送1】</a>
+									<p>￥35.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka5/01xuanxiangka5-002.jpg"/></a>
+									<a class="txt" href="">瓯叶 普洱茶 普洱熟茶散茶 云南茶叶 干仓存放 20克/罐【买3送1】</a>
+									<p>￥35.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka5/01xuanxiangka5-003.jpg"/></a>
+									<a class="txt" href="">佰儒金骏眉红茶套组 货号120495</a>
+									<p>￥398.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka5/01xuanxiangka5-004.jpg"/></a>
+									<a class="txt" href="">国津安化黑茶百两茶套组 货号120159</a>
+									<p>￥698.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka5/01xuanxiangka5-005.jpg"/></a>
+									<a class="txt" href="">瓯叶红茶 武夷山桐木关金骏眉茶叶 20克/罐【买3送1】</a>
+									<p>￥35.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka5/01xuanxiangka5-006.jpg"/></a>
+									<a class="txt" href="">瓯叶白茶 2012年福鼎老白茶饼 陈年老寿眉 357g【买3送1】</a>
+									<p>￥99.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka5/01xuanxiangka5-007.jpg"/></a>
+									<a class="txt" href="">论功夫武夷山一叶成茗金骏眉 货号121783</a>
+									<p>￥499.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka5/01xuanxiangka5-008.jpg"/></a>
+									<a class="txt" href="">瓯叶绿茶 2017年明前特级西湖龙井 明前春茶 100g【买2袋送礼盒包装】</a>
+									<p>￥169.00/p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka5/01xuanxiangka5-009.jpg"/></a>
+									<a class="txt" href="">瓯叶 碧螺春绿茶 雨前碧螺春 雨前春茶 新茶嫩芽 20g【买3送1】</a>
+									<p>￥46.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/01xuanxiangka5/01xuanxiangka5-010.jpg"/></a>
+									<a class="txt" href="">瓯叶红茶 大金芽滇红茶 松针滇红 云南滇红茶叶 20克/罐【买3送1】</a>
+									<p>￥35.00</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="tower01_auto_bottom">
+					<ul class="tower01_auto_bottom_img">
+						<li><a href=""><img src="img/bottom/01/bottom01.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/01/bottom02.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/01/bottom03.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/01/bottom04.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/01/bottom05.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/01/bottom06.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/01/bottom07.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/01/bottom08.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/01/bottom09.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/01/bottom10.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--第二层楼-->
+		<div class="tower02 tower">
+			<div class="tower02_auto">
+				<!--上下结构，上部为选项卡导航栏以及楼层号，下部为选项卡布局-->
+				<div class="tower02_auto_top">
+					<p>
+						<span>2F</span>
+						<i>家具家电</i>
+					</p>
+					<ul class="tower02_auto_top_nav">
+						<li class="active">
+							<a href="javascript:;">热门推荐</a>
+						</li>
+						<li>
+							<a href="javascript:;">厨房用具</a>
+						</li>
+						<li>
+							<a href="javascript:;">家用电器</a>
+						</li>
+						<li>
+							<a href="javascript:;">家居家装</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tower02_auto_center">
+					<div class="tower02_auto_center_left">
+						<ul class="tower02_auto_center_left_top">
+							<li><img src="img/towerTow/left/001.png"/><a href="">厨房电器</a></li>
+							<li><img src="img/towerTow/left/002.png"/><a href="">烹饪厨具</a></li>
+							<li><img src="img/towerTow/left/003.png"/><a href="">茶壶茶盘</a></li>
+							<li><img src="img/towerTow/left/004.png"/><a href="">家具陈设</a></li>
+						</ul>
+						<ul class="tower02_auto_center_left_bottom">
+							<li><a href="">拒绝雾霾天</a></li>
+							<li><a href="">荣事达</a></li>
+							<li><a href="">锁住新鲜</a></li>
+							<li><a href="">对干燥说“NO”</a></li>
+							<li><a href="">迪士尼</a></li>
+							<li><a href="">温馨舒适拥爱入眠</a></li>
+							<li><a href="">春季重养生</a></li>
+							<li><a href="">艾特巴赫</a></li>
+							<li><a href="">膳魔师</a></li>
+							<li><a href="">自动清扫省心更省力</a></li>
+						</ul>
+					</div>
+					<ul>
+						<li class="tower02_auto_top_nav1">
+							<div class="tower02_auto_center_02">
+								<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-002.jpg"/></a>
+								<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-003.jpg"/></a>
+							</div>
+							<div class="tower02_auto_center_03">
+								<!--轮播图-->
+								<ul class="tower02_auto_center_031">
+									<li>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-004.jpg"/></a>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-005.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-006.jpg"/></a>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-007.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-008.jpg"/></a>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-009.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-010.jpg"/></a>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-011.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-012.jpg"/></a>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-013.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-004.jpg"/></a>
+										<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-005.jpg"/></a>
+									</li>
+								</ul>
+								<!--轮播图下标-->
+								<ul class="tower02_auto_center_032">
+									<li class="active"></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<!--轮播图左右按钮-->
+								<div class="tower02_auto_center_033">
+									<a class="left" href="javascript:;"><</a>
+									<a class="right" href="javascript:;">></a>
+								</div>
+							</div>
+							<div class="tower02_auto_center_04 tower02_auto_center_02">
+								<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-014.jpg" alt="" /></a>
+								<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-015.jpg"/></a>
+							</div>
+							<div class="tower02_auto_center_05 tower02_auto_center_02">
+								<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-016.jpg" alt="" /></a>
+								<a href=""><img src="img/towerTow/02xuanxiangka01/02xuanxiangka1-017.jpg"/></a>
+							</div>
+						</li>
+						<li style='display: none;' class="tower02_auto_top_nav2">
+							<ul>
+								<li>
+									<a href=""><img src="img/towerTow/02xuanxiangka02/02xuanxiangka02-001.jpg"/></a>
+									<a class="txt" href="">常生源 玻璃杯 玲珑茶杯瘦 高硼硅耐热耐高温过滤内胆茶壶</a>
+									<p>￥49.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02xuanxiangka02/02xuanxiangka02-002.jpg"/></a>
+									<a class="txt" href="">蜗品氢POPO高浓度水素水杯 货号121555</a>
+									<p>￥1680.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02xuanxiangka02/02xuanxiangka02-003.jpg"/></a>
+									<a class="txt" href="">景德镇原产地56头骨瓷套装餐具韩式镶边 5A级烹饪生活 送礼福利馈赠亲友</a>
+									<p>￥188.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02xuanxiangka02/02xuanxiangka02-004.jpg"/></a>
+									<a class="txt" href="">金镶玉 喝水尿童茶宠 紫砂茶艺摆件</a>
+									<p>￥49.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02xuanxiangka02/02xuanxiangka02-005.jpg"/></a>
+									<a class="txt" href="">艾特巴赫(ALTENBACH)不锈钢清洗膏护理膏 多功能清洁剂 厨房去污膏</a>
+									<p>￥69.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02xuanxiangka02/02xuanxiangka02-006.jpg"/></a>
+									<a class="txt" href="">盛世雍容珐琅彩餐具70件组 货号121732</a>
+									<p>￥1980.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02xuanxiangka02/02xuanxiangka02-007.jpg"/></a>
+									<a class="txt" href="">金镶玉 绿方圆 紫砂功夫茶具一壶六杯一罐整套</a>
+									<p>￥399.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02xuanxiangka02/02xuanxiangka02-008.jpg"/></a>
+									<a class="txt" href="">金镶玉 福字熏香炉 倒流香香炉 茶道摆件</a>
+									<p>￥39.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02xuanxiangka02/02xuanxiangka02-009.jpg"/></a>
+									<a class="txt" href="">爱乐仕30单柄炒锅 货号112328</a>
+									<p>￥398.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02xuanxiangka02/02xuanxiangka02-010.jpg"/></a>
+									<a class="txt" href="">艾特巴赫(ALTENBACH)砧板菜板 硅胶 安全无毒环保 柔软易弯曲 可高温消毒 绿</a>
+									<p>￥118.00</p>
+								</li>
+							</ul>
+						</li>
+						<li style='display: none;' class="tower02_auto_top_nav2">
+							<ul>
+								<li>
+									<a href=""><img src="img/towerTow/02-03/02-03-001.jpg"/></a>
+									<a class="txt" href="">QUEEN‘S mate 智能破壁料理机 货号119701</a>
+									<p>￥1380.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-03/02-03-002.jpg"/></a>
+									<a class="txt" href="">美苏多功能小N锅1+1超值组 货号119902</a>
+									<p>￥288.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-03/02-03-003.jpg"/></a>
+									<a class="txt" href="">德国Queens‘MATE全自动面条机 货号121788</a>
+									<p>￥698.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-03/02-03-004.jpg"/></a>
+									<a class="txt" href="">SIMELO玻璃电水壶保温焕新套组 货号120872</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-03/02-03-005.jpg"/></a>
+									<a class="txt" href="">玻妞家用全自动擦窗机器人 货号120520</a>
+									<p>￥1980.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-03/02-03-006.jpg"/></a>
+									<a class="txt" href="">莱克碧云泉免安装智能净水器 货号121099</a>
+									<p>￥2999.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-03/02-03-007.jpg"/></a>
+									<a class="txt" href="">德国OIDIRE智能养生壶套组 货号121319</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-03/02-03-008.jpg"/></a>
+									<a class="txt" href="">HYUNDAI现代电压力锅买赠组 货号121720</a>
+									<p>￥399.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-03/02-03-009.jpg"/></a>
+									<a class="txt" href="">金品帝速热水龙头2件特惠组 货号121757</a>
+									<p>￥269.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-03/02-03-010.jpg"/></a>
+									<a class="txt" href="">德国QUEENSmate智能真空破壁机 货号122330</a>
+									<p>￥1980.00</p>
+								</li>
+							</ul>
+						</li>
+						<li style='display: none;' class="tower02_auto_top_nav2">
+							<ul>
+								<li>
+									<a href=""><img src="img/towerTow/02-04/02-04-001.jpg"/></a>
+									<a class="txt" href="">天绚 泰国原浆进口乳胶枕</a>
+									<p>￥198.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-04/02-04-002.jpg"/></a>
+									<a class="txt" href="">康嫂立体魔术墙贴</a>
+									<p>￥29.50</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-04/02-04-003.jpg"/></a>
+									<a class="txt" href="">天绚全棉贡缎提花四件套</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-04/02-04-004.jpg"/></a>
+									<a class="txt" href="">澳莱特斯75mm乳胶床垫独家1.8M 货号121216</a>
+									<p>￥2298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-04/02-04-005.jpg"/></a>
+									<a class="txt" href="">美国POSTURETEMP乳胶枕 货号120863</a>
+									<p>￥599.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-04/02-04-006.jpg"/></a>
+									<a class="txt" href="">澳莱特斯75mm乳胶床垫独家1.5M 货号121215</a>
+									<p>￥1998.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-04/02-04-007.jpg"/></a>
+									<a class="txt" href="">SONAX欧式绣花豪华窗帘套组 货号121950</a>
+									<p>￥1199.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-04/02-04-008.jpg"/></a>
+									<a class="txt" href="">天绚 高档羊毛被200*230cm</a>
+									<p>￥278.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-04/02-04-009.jpg"/></a>
+									<a class="txt" href="">康乐美全棉寝具迎春组 货号122096</a>
+									<p>￥473.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerTow/02-04/02-04-010.jpg"/></a>
+									<a class="txt" href="">天绚全棉斜纹印花四件套</a>
+									<p>￥298.00</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="tower02_auto_bottom">
+					<ul class="tower02_auto_bottom_img">
+						<li><a href=""><img src="img/bottom/02/bottom01.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/02/bottom02.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/02/bottom03.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/02/bottom04.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/02/bottom05.png"/></a></li>
+						<li><a href=""><img src="img/bottom/02/bottom06.png"/></a></li>
+						<li><a href=""><img src="img/bottom/02/bottom07.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/02/bottom08.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/02/bottom09.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/02/bottom10.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--第三层楼-->
+		<div class="tower03 tower">
+			<div class="tower03_auto">
+				<!--上下结构，上部为选项卡导航栏以及楼层号，下部为选项卡布局-->
+				<div class="tower03_auto_top">
+					<p>
+						<span>3F</span>
+						<i>珠宝收藏</i>
+					</p>
+					<ul class="tower03_auto_top_nav">
+						<li class="active">
+							<a href="javascript:;">热门推荐</a>
+						</li>
+						<li>
+							<a href="javascript:;">珠宝首饰</a>
+						</li>
+						<li>
+							<a href="javascript:;">时尚钟表</a>
+						</li>
+						<li>
+							<a href="javascript:;">文化收藏</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tower03_auto_center">
+					<div class="tower03_auto_center_left">
+						<ul class="tower03_auto_center_left_top">
+							<li><img src="img/towerSwn/left/001.png"/><a href="">翡翠玉石</a></li>
+							<li><img src="img/towerSwn/left/002.png"/><a href="">黄金饰品</a></li>
+							<li><img src="img/towerSwn/left/003.png"/><a href="">木手串 &ensp; </a></li>
+							<li><img src="img/towerSwn/left/004.png"/><a href="">器物摆件</a></li>
+						</ul>
+						<ul class="tower03_auto_center_left_bottom">
+							<li><a href="">珍贵钻石</a></li>
+							<li><a href="">芭法娜珠宝</a></li>
+							<li><a href="">懋隆精品</a></li>
+							<li><a href="">臻选银饰</a></li>
+							<li><a href="">珍珠</a></li>
+							<li><a href="">魅力彩宝</a></li>
+							<li><a href="">朵朵贝儿</a></li>
+							<li><a href="">书画票证</a></li>
+							<li><a href="">博雅天下书店</a></li>
+							<li><a href="">翡翠玉石</a></li>
+							<li><a href="">木饰</a></li>
+							<li><a href="">值得收藏</a></li>
+						</ul>
+					</div>
+					<ul>
+						<li class="tower03_auto_top_nav1">
+							<div class="tower03_auto_center_02">
+								<a href=""><img src="img/towerSwn/03-01/03-01-002.jpg"/></a>
+								<a href=""><img src="img/towerSwn/03-01/03-01-003.jpg"/></a>
+							</div>
+							<div class="tower03_auto_center_03">
+								<!--轮播图-->
+								<ul class="tower03_auto_center_031">
+									<li>
+										<a href=""><img src="img/towerSwn/03-01/03-01-004.jpg"/></a>
+										<a href=""><img src="img/towerSwn/03-01/03-01-005.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/towerSwn/03-01/03-01-006.jpg"/></a>
+										<a href=""><img src="img/towerSwn/03-01/03-01-007.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/towerSwn/03-01/03-01-008.jpg"/></a>
+										<a href=""><img src="img/towerSwn/03-01/03-01-009.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/towerSwn/03-01/03-01-010.jpg"/></a>
+										<a href=""><img src="img/towerSwn/03-01/03-01-011.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/towerSwn/03-01/03-01-012.jpg"/></a>
+										<a href=""><img src="img/towerSwn/03-01/03-01-013.jpg"/></a>
+									</li>
+									<li>
+										<a href=""><img src="img/towerSwn/03-01/03-01-004.jpg"/></a>
+										<a href=""><img src="img/towerSwn/03-01/03-01-005.jpg"/></a>
+									</li>
+								</ul>
+								<!--轮播图下标-->
+								<ul class="tower03_auto_center_032">
+									<li class="active"></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<!--轮播图左右按钮-->
+								<div class="tower03_auto_center_033">
+									<a class="left" href="javascript:;"><</a>
+									<a class="right" href="javascript:;">></a>
+								</div>
+							</div>
+							<div class="tower03_auto_center_04 tower03_auto_center_02">
+								<a href=""><img src="img/towerSwn/03-01/03-01-014.jpg" alt="" /></a>
+								<a href=""><img src="img/towerSwn/03-01/03-01-015.jpg"/></a>
+							</div>
+							<div class="tower03_auto_center_05 tower03_auto_center_02">
+								<a href=""><img src="img/towerSwn/03-01/03-01-016.jpg" alt="" /></a>
+								<a href=""><img src="img/towerSwn/03-01/03-01-017.jpg"/></a>
+							</div>
+						</li>
+						<!--选项卡02页-->
+						<li style='display: none;' class="tower03_auto_top_nav2">
+							<ul>
+								<li>
+									<a href=""><img src="img/towerSwn/03-02/03-02-001.jpg"/></a>
+									<a class="txt" href="">翠璨蓝色传说15克拉托帕石戒指 货号120136</a>
+									<p>￥1512.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-02/03-02-002.jpg"/></a>
+									<a class="txt" href="">翠璨“真爱永恒”钻石对戒套组 货号120139</a>
+									<p>￥948.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-02/03-02-003.jpg"/></a>
+									<a class="txt" href="">Aurora网球风格经典耳钉 货号111543</a>
+									<p>￥49.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-02/03-02-004.jpg"/></a>
+									<a class="txt" href="">港翠珠宝天赐鸿福平安吊坠套组 货号121528</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-02/03-02-005.jpg"/></a>
+									<a class="txt" href="">鼎云轩 金镶玉转运珠 金镶玉路路通 和田玉白玉吊坠 玉石玉器吊坠附鉴定证书</a>
+									<p>￥99.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-02/03-02-006.jpg"/></a>
+									<a class="txt" href=""> 芭法娜 虹之美 天然南红玛瑙10mm单圈时尚手链 经典款 纹路清晰</a>
+									<p>￥128.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-02/03-02-007.jpg"/></a>
+									<a class="txt" href=""> 臻汇银 足银999宝宝童镯锁包童镯祥云聚福、龙凤富贵（两款可选）</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-02/03-02-008.jpg"/></a>
+									<a class="txt" href="">臻汇银 足银999银狐狸开口手镯 </a>
+									<p>￥198.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-02/03-02-009.jpg"/></a>
+									<a class="txt" href="">臻汇银 足银kitty猫快乐宝宝童镯锁包套装</a>
+									<p>￥258.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-02/03-02-010.jpg"/></a>
+									<a class="txt" href="">芭法娜 古彩黄娟 鸡油黄玉髓配青金石烧蓝复古手链</a>
+									<p>￥78.00</p>
+								</li>
+							</ul>
+						</li>
+						<!--选项卡03页-->
+						<li style='display: none;' class="tower03_auto_top_nav2">
+							<ul>
+								<li>
+									<a href=""><img src="img/towerSwn/03-03/03-03-001.jpg"/></a>
+									<a class="txt" href="">丹尼尔惠灵顿经典佳人系列腕表 货号121847</a>
+									<p>￥599.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-03/03-03-002.jpg"/></a>
+									<a class="txt" href="">威时途真钻时尚女表套组 货号119045</a>
+									<p>￥498.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-03/03-03-003.jpg"/></a>
+									<a class="txt" href="">海鸥陀飞轮61周年纪念腕表 货号119621</a>
+									<p>￥9999.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-03/03-03-004.jpg"/></a>
+									<a class="txt" href="">三五牌情之所钟欧式机械落地钟 货号120630</a>
+									<p>￥2555.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-03/03-03-005.jpg"/></a>
+									<a class="txt" href="">瑞士进口AM圆形系列石英女表 货号112029</a>
+									<p>￥1039.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-03/03-03-006.jpg"/></a>
+									<a class="txt" href="">三五牌红木跳舞机械落地钟 货号121520</a>
+									<p>￥9555.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-03/03-03-007.jpg"/></a>
+									<a class="txt" href="">BOSSWAY CLUB三眼飞轮真钻腕表 货号120829</a>
+									<p>￥1380.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-03/03-03-008.jpg"/></a>
+									<a class="txt" href="">三五牌樱桃木简约机械落地钟 货号122079</a>
+									<p>￥19800.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-03/03-03-009.jpg"/></a>
+									<a class="txt" href="">Jowissa璀璨钢带晶钻表 货号110229</a>
+									<p>￥2460.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-03/03-03-010.jpg"/></a>
+									<a class="txt" href="">Zuman玻璃手表 货号114454</a>
+									<p>￥1220.00</p>
+								</li>
+							</ul>
+						</li>
+						<!--选项卡04页-->
+						<li style='display: none;' class="tower03_auto_top_nav2">
+							<ul>
+								<li>
+									<a href=""><img src="img/towerSwn/03-04/03-04-001.jpg"/></a>
+									<a class="txt" href="">臻汇银足银S999镀金平安银碗金色高档投资收藏商务送礼</a>
+									<p>￥399.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-04/03-04-002.jpg"/></a>
+									<a class="txt" href="">《纳福臻祥图》国画典藏组 货号118367</a>
+									<p>￥2980.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-04/03-04-003.jpg"/></a>
+									<a class="txt" href="">《家和福顺》玉雕画四斗方 货号119626</a>
+									<p>￥3980.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-04/03-04-004.jpg"/></a>
+									<a class="txt" href="">东方瑞兽招财貔貅摆件 货号119730</a>
+									<p>￥998.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-04/03-04-005.jpg"/></a>
+									<a class="txt" href="">金猫银猫CSmall 足银天目盏功夫茶杯 梅花型金鱼莲花杯 商务送礼</a>
+									<p>￥199.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-04/03-04-006.jpg"/></a>
+									<a class="txt" href="">鸿荣堂祥瑞四圣紫铜壶 货号120836</a>
+									<p>￥1980.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-04/03-04-007.jpg"/></a>
+									<a class="txt" href="">《时运亨通》吉祥花鸟图 货号121176</a>
+									<p>￥1980.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-04/03-04-008.jpg"/></a>
+									<a class="txt" href="">《鸟语花香》国画精品斗方 货号120416</a>
+									<p>￥1580.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-04/03-04-009.jpg"/></a>
+									<a class="txt" href="">国画大师张惠文泰山旭日图 货号120174</a>
+									<p>￥3506.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerSwn/03-04/03-04-010.jpg"/></a>
+									<a class="txt" href="">中国硬币流通金属币品鉴大全 货号120930</a>
+									<p>￥2980.00</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="tower03_auto_bottom">
+					<ul class="tower03_auto_bottom_img">
+						<li><a href=""><img src="img/bottom/03/bottom01.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/03/bottom02.png"/></a></li>
+						<li><a href=""><img src="img/bottom/03/bottom03.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/03/bottom04.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/03/bottom05.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/03/bottom06.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/03/bottom07.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/03/bottom08.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/03/bottom09.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/03/bottom10.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--第四层楼-->
+		<div class="tower04 tower">
+			<div class="tower04_auto">
+				<div class="tower04_auto_top">
+					<p>
+						<span>4F</span>
+						<i>个护化妆</i>
+					</p>
+					<ul class="tower04_auto_top_nav">
+						<li class="active">
+							<a href="javascript:;">热门推荐</a>
+						</li>
+						<li>
+							<a href="javascript:;">面部护理</a>
+						</li>
+						<li>
+							<a href="javascript:;">洗发护发</a>
+						</li>
+						<li>
+							<a href="javascript:;">香水彩妆</a>
+						</li>
+						<li>
+							<a href="javascript:;">清洁用品</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tower04_auto_center">
+					<div class="tower04_auto_center_left">
+						<ul class="tower04_auto_center_left_top">
+							<li><img src="img/towerFour/left/001.png"/><a href="">清洁用品</a></li>
+							<li><img src="img/towerFour/left/002.png"/><a href="">面部护理</a></li>
+							<li><img src="img/towerFour/left/003.png"/><a href="">身体护理</a></li>
+							<li><img src="img/towerFour/left/004.png"/><a href="">口腔护理</a></li>
+							<li><img src="img/towerFour/left/003.png"/><a href="">香水彩妆</a></li>
+							<li><img src="img/towerFour/left/004.png"/><a href="">洗发护发</a></li>
+						</ul>
+						<ul class="tower04_auto_center_left_bottom">
+							<li><a href="">花王蒸汽眼罩</a></li>
+							<li><a href="">资生堂</a></li>
+							<li><a href="">女神爱新妆</a></li>
+							<li><a href="">水嫩肌肤抵御初春干燥</a></li>
+							<li><a href="">眼部护理</a></li>
+							<li><a href="">洗护润养</a></li>
+							<li><a href="">魅力女人香气随身动</a></li>
+							<li><a href="">呵护口腔健康</a></li>
+							<li><a href="">手工香皂</a></li>
+							<li><a href="">家居清洁好帮手</a></li>
+							<li><a href="">爱上香氛爱上嘉媚乐</a></li>
+							<li><a href="">海外尖货</a></li>
+							<li><a href="">为秀发加点颜色</a></li>
+							<li><a href="">随时随地的美甲大师</a></li>
+							<li><a href="">足贴</a></li>
+							<li><a href="">春日里的完美裸妆</a></li>
+							<li><a href="">给肌肤喝饱水</a></li>
+						</ul>
+					</div>
+					<ul class="tower04_auto_top_nav_xuan">
+						<!--选项卡01页-->
+						<li class="tower04_auto_top_nav1">
+							<div class="one">
+								<!--轮播图边界-->
+								<div class="lbMargin">
+									<!--轮播图-->
+									<ul class="shuffling">
+										<li>
+											<a href=""><img src="img/towerFour/04-01/04-01-001.jpg"/></a>
+										</li>
+										<li>
+											<a href=""><img src="img/towerFour/04-01/04-01-002.jpg"/></a>
+										</li>
+										<li>
+											<a href=""><img src="img/towerFour/04-01/04-01-003.jpg"/></a>
+										</li>
+										<li>
+											<a href=""><img src="img/towerFour/04-01/04-01-004.jpg"/></a>
+										</li>
+										<li>
+											<a href=""><img src="img/towerFour/04-01/04-01-005.jpg"/></a>
+										</li>
+										<li>
+											<a href=""><img src="img/towerFour/04-01/04-01-001.jpg"/></a>
+										</li>
+									</ul>
+									<!--下标-->
+									<ul class="index">
+										<li class="active"></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+									<!--左右按钮-->
+									<ul class="click">
+										<li><a class="right" href="javascript:;"><</a></li>
+										<li><a class="left" href="javascript:;">></a></li>
+									</ul>
+								</div>
+								<ul>
+									<li><a href=""><img src="img/towerFour/04-01/04-01-006.jpg"/></a></li>
+									<li><a href=""><img src="img/towerFour/04-01/04-01-007.jpg"/></a></li>
+									<li><a href=""><img src="img/towerFour/04-01/04-01-008.jpg"/></a></li>
+									<li><a href=""><img src="img/towerFour/04-01/04-01-009.jpg"/></a></li>
+								</ul>
+							</div>
+							<div class="tow">
+								<a href=""><img src="img/towerFour/04-01/04-01-010.jpg"/></a>
+								<a href=""><img src="img/towerFour/04-01/04-01-011.jpg"/></a>
+								<a href=""><img src="img/towerFour/04-01/04-01-012.jpg"/></a>
+								<a href=""><img src="img/towerFour/04-01/04-01-013.jpg"/></a>
+							</div>
+						</li>
+						<!--选项卡02页-->
+						<li class="tower04_auto_top_nav2" style='display: none;'>
+							<ul>
+								<li>
+									<a href=""><img src="img/towerFour/04-02/04-02-001.jpg"/></a>
+									<a class="txt" href="">TT羊胎素紧致双耳挂提拉面膜 货号121268</a>
+									<p>￥268.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-02/04-02-002.jpg"/></a>
+									<a class="txt" href="">TT复活草爆水双耳挂拉提面膜组 货号121618</a>
+									<p>￥268.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-02/04-02-003.jpg"/></a>
+									<a class="txt" href="">韩束夏季升级版咕噜水组合 货号120447</a>
+									<p>￥278.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-02/04-02-004.jpg"/></a>
+									<a class="txt" href="">（买一送一，正装）嘉媚乐（CAMENAE）玫瑰水感系列护肤</a>
+									<p>￥240.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-02/04-02-005.jpg"/></a>
+									<a class="txt" href="">法雅姿 无S补水靓润洁面乳50g 洁面实力派温和清洁控油防伪查询男女洗面奶</a>
+									<p>￥98.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-02/04-02-006.jpg"/></a>
+									<a class="txt" href="">可贝尔珍珠焕采眼纹消套组 货号121408</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-02/04-02-007.jpg"/></a>
+									<a class="txt" href="">一叶子玻尿酸幼肌还原组 货号120716</a>
+									<p>￥299.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-02/04-02-008.jpg"/></a>
+									<a class="txt" href="">韩束雪白肌焕白清爽奢华组 货号120776</a>
+									<p>￥399.00</p>
+								</li>
+							</ul>
+						</li>
+						<!--选项卡03页-->
+						<li class="tower04_auto_top_nav2" style='display: none;'>
+							<ul>
+								<li>
+									<a href=""><img src="img/towerFour/04-03/04-03-001.jpg"/></a>
+									<a class="txt" href="">雅菲诗防脱育发精华洗护组 货号120163</a>
+									<p>￥399.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-03/04-03-002.jpg"/></a>
+									<a class="txt" href="">韩愢生态鲜花泡泡染发组 货号121206</a>
+									<p>￥268.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-03/04-03-003.jpg"/></a>
+									<a class="txt" href="">雷瓦蒸汽自动卷发神器特惠组 货号119993</a>
+									<p>￥258.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-03/04-03-004.jpg"/></a>
+									<a class="txt" href="">日本熊野马油洗护二合一</a>
+									<p>￥60.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-03/04-03-005.jpg"/></a>
+									<a class="txt" href="">熊野马油护发素</a>
+									<p>￥59.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-03/04-03-006.jpg"/></a>
+									<a class="txt" href="">名匠香根鸢尾蜗牛染护套组 货号121349</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-03/04-03-007.jpg"/></a>
+									<a class="txt" href="">润膏YUNGO洗发护发素二合一</a>
+									<p>￥56.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-03/04-03-008.jpg"/></a>
+									<a class="txt" href="">熊野马油洗发水</a>
+									<p>￥59.00</p>
+								</li>
+							</ul>
+						</li>
+						<!--选项卡04页-->
+						<li class="tower04_auto_top_nav2" style='display: none;'>
+							<ul>
+								<li>
+									<a href=""><img src="img/towerFour/04-04/04-04-001.jpg"/></a>
+									<a class="txt" href="">朗金国色添香香水尊享套组 货号119782</a>
+									<p>￥268.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-04/04-04-002.jpg"/></a>
+									<a class="txt" href="">巧迪尚惠眉笔持久俏眉自动眉笔 带眉刷眉卡防水不易脱妆防汗一字眉</a>
+									<p>￥28.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-04/04-04-003.jpg"/></a>
+									<a class="txt" href="">巧迪尚惠 晶钻立炫四色眼影盒百搭韩色 眼影膏大地色系裸妆彩妆防水持久</a>
+									<p>￥39.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-04/04-04-004.jpg"/></a>
+									<a class="txt" href="">巧迪尚惠 绝色公主彩妆套盒套装全套5件初学者化妆品套装组合眼妆</a>
+									<p>￥178.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-04/04-04-005.jpg"/></a>
+									<a class="txt" href="">2017春季限购特惠新品Bocklin春季款</a>
+									<p>￥59.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-04/04-04-006.jpg"/></a>
+									<a class="txt" href="">Hiface蔷薇小姐变色炫彩组 货号121488</a>
+									<p>￥239.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-04/04-04-007.jpg"/></a>
+									<a class="txt" href="">巧迪尚惠浮雕艺术花瓣烤粉腮红</a>
+									<p>￥29.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-04/04-04-008.jpg"/></a>
+									<a class="txt" href="">Bocklin17岁丨星光闪耀款丨纯甲油贴20片装</a>
+									<p>￥59.00</p>
+								</li>
+							</ul>
+						</li>
+						<!--选项卡05页-->
+						<li class="tower04_auto_top_nav2" style='display: none;'>
+							<ul>
+								<li>
+									<a href=""><img src="img/towerFour/04-05/04-05-001.jpg"/></a>
+									<a class="txt" href="">迪美旺洗脱一体拖把秒杀组 货号119908</a>
+									<p>￥268.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-05/04-05-002.jpg"/></a>
+									<a class="txt" href="">索能厨卫能量泡泡清洁套组 货号122177</a>
+									<p>￥245.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-05/04-05-003.jpg"/></a>
+									<a class="txt" href="">圣洁康 洗衣机清洗剂 滚筒洗衣机槽清洁剂家用全自动内筒去污清洁粉 2盒8袋装</a>
+									<p>￥19.90</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-05/04-05-004.jpg"/></a>
+									<a class="txt" href="">爱家能手持电动拖地机 货号122321</a>
+									<p>￥299.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-05/04-05-005.jpg"/></a>
+									<a class="txt" href="">韶能原色时代竹纤维生活用纸 货号122289</a>
+									<p>￥199.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-05/04-05-006.jpg"/></a>
+									<a class="txt" href="">宝家洁轻巧免手洗拖把1+1套组 货号121941</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-05/04-05-007.jpg"/></a>
+									<a class="txt" href="">圣洁康 小白鞋擦鞋神器多功能清洁膏皮具皮鞋去污膏沙发清洗剂3盒</a>
+									<p>￥32.90</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFour/04-05/04-05-008.jpg"/></a>
+									<a class="txt" href="">LEPIRE无线电动清洁机 货号122171</a>
+									<p>￥298.00</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="tower04_auto_bottom">
+					<ul class="tower04_auto_bottom_img">
+						<li><a href=""><img src="img/bottom/04/bottom01.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/04/bottom02.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/04/bottom03.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/04/bottom04.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/04/bottom05.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/04/bottom06.gif"/></a></li>
+						<li><a href=""><img src="img/bottom/04/bottom07.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/04/bottom08.png"/></a></li>
+						<li><a href=""><img src="img/bottom/04/bottom09.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/04/bottom10.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--第五层楼-->
+		<div class="tower05 tower">
+			<div class="tower05_auto">
+				<div class="tower05_auto_top">
+					<p>
+						<span>5F</span>
+						<i>服装配饰</i>
+					</p>
+					<ul class="tower05_auto_top_nav">
+						<li class="active">
+							<a href="javascript:;">热门推荐</a>
+						</li>
+						<li>
+							<a href="javascript:;">国际女装</a>
+						</li>
+						<li>
+							<a href="javascript:;">流行鞋靴</a>
+						</li>
+						<li>
+							<a href="javascript:;">户外运动</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tower05_auto_center">
+					<div class="tower05_auto_center_left">
+						<ul class="tower05_auto_center_left_top">
+							<li><img src="img/towerFive/left/001.png"/><a href="">时尚钟表</a></li>
+							<li><img src="img/towerFive/left/002.png"/><a href="">国际女装</a></li>
+							<li><img src="img/towerFive/left/003.png"/><a href="">功能箱包</a></li>
+							<li><img src="img/towerFive/left/004.png"/><a href="">服饰配件</a></li>
+							<li><img src="img/towerFive/left/003.png"/><a href="">流行鞋靴</a></li>
+							<li><img src="img/towerFive/left/004.png"/><a href="">内衣背心</a></li>
+						</ul>
+						<ul class="tower05_auto_center_left_bottom">
+							<li><a href="">轻奢系列 给你想要的</a></li>
+							<li><a href="">精美腕表</a></li>
+							<li><a href="">J.K时装show</a></li>
+							<li><a href="">LV经典爆款等你抢</a></li>
+							<li><a href="">你的衣橱该换新啦</a></li>
+							<li><a href="">舒适内衣</a></li>
+							<li><a href="">说走就走的旅行</a></li>
+							<li><a href="">TianaB美国品牌</a></li>
+							<li><a href="">精美女包</a></li>
+							<li><a href="">达芙妮官方旗舰店</a></li>
+							<li><a href="">SWISSWIN</a></li>
+							<li><a href="">圈住点滴美好</a></li>
+							<li><a href="">男鞋</a></li>
+							<li><a href="">寻找属于你的新视界</a></li>
+							<li><a href="">Anabelle包包</a></li>
+							<li><a href="">品质男装</a></li>
+							<li><a href="">外交官旅行必备拉杆箱</a></li>
+						</ul>
+					</div>
+					<ul class="tower05_auto_top_nav_xuan">
+						<!--选项卡01页-->
+						<li class="tower05_auto_top_nav1">
+							<div class="one">
+								<!--轮播图边界-->
+								<div class="lbMargin">
+									<!--轮播图-->
+									<ul class="shuffling">
+										<li>
+											<a href=""><img src="img/towerFive/05-01/05-01-001.jpg"/></a>
+										</li>
+										<li>
+											<a href=""><img src="img/towerFive/05-01/05-01-002.jpg"/></a>
+										</li>
+										<li>
+											<a href=""><img src="img/towerFive/05-01/05-01-003.jpg"/></a>
+										</li>
+										<li>
+											<a href=""><img src="img/towerFive/05-01/05-01-004.jpg"/></a>
+										</li>
+										<li>
+											<a href=""><img src="img/towerFive/05-01/05-01-005.jpg"/></a>
+										</li>
+										<li>
+											<a href=""><img src="img/towerFive/05-01/05-01-001.jpg"/></a>
+										</li>
+									</ul>
+									<!--下标-->
+									<ul class="index">
+										<li class="active"></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+									<!--左右按钮-->
+									<ul class="click">
+										<li><a class="right" href="javascript:;"><</a></li>
+										<li><a class="left" href="javascript:;">></a></li>
+									</ul>
+								</div>
+								<ul>
+									<li><a href=""><img src="img/towerFive/05-01/05-01-006.jpg"/></a></li>
+									<li><a href=""><img src="img/towerFive/05-01/05-01-007.jpg"/></a></li>
+									<li><a href=""><img src="img/towerFive/05-01/05-01-008.jpg"/></a></li>
+									<li><a href=""><img src="img/towerFive/05-01/05-01-009.jpg"/></a></li>
+								</ul>
+							</div>
+							<div class="tow">
+								<a href=""><img src="img/towerFive/05-01/05-01-010.jpg"/></a>
+								<a href=""><img src="img/towerFive/05-01/05-01-011.jpg"/></a>
+								<a href=""><img src="img/towerFive/05-01/05-01-012.jpg"/></a>
+								<a href=""><img src="img/towerFive/05-01/05-01-013.jpg"/></a>
+							</div>
+						</li>
+						<!--选项卡02页-->
+						<li class="tower05_auto_top_nav2" style='display: none;'>
+							<ul>
+								<li>
+									<a href=""><img src="img/towerFive/05-02/05-02-001.jpg"/></a>
+									<a class="txt" href="">N.L环形褶皱打结连衣裙 货号106356</a>
+									<p>￥99.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-02/05-02-002.jpg"/></a>
+									<a class="txt" href="">N.L针织提花罗马布瘦腿裤 货号112163</a>
+									<p>￥59.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-02/05-02-003.jpg"/></a>
+									<a class="txt" href="">N.L毛衣金银丝线围巾两件套 货号116118</a>
+									<p>￥99.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-02/05-02-004.jpg"/></a>
+									<a class="txt" href="">J.K毛呢拉链装饰大衣 货号112754</a>
+									<p>￥99.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-02/05-02-005.jpg"/></a>
+									<a class="txt" href="">J.KV领印花连衣裙 货号110150</a>
+									<p>￥468.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-02/05-02-006.jpg"/></a>
+									<a class="txt" href="">Barbie热能裤2+4+2套组 货号121410</a>
+									<p>￥298.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-02/05-02-007.jpg"/></a>
+									<a class="txt" href="">N.L针织拼块连衣裙 货号115688</a>
+									<p>￥69.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-02/05-02-008.jpg"/></a>
+									<a class="txt" href="">N.L3/4袖素色针织衫 货号112613</a>
+									<p>￥69.00</p>
+								</li>
+							</ul>
+						</li>
+						<!--选项卡03页-->
+						<li class="tower05_auto_top_nav2" style='display: none;'>
+							<ul>
+								<li>
+									<a href=""><img src="img/towerFive/05-03/05-03-001.jpg"/></a>
+									<a class="txt" href="">KL&VK冬季真皮羊毛女靴套组 货号120905</a>
+									<p>￥358.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-03/05-03-002.jpg"/></a>
+									<a class="txt" href="">爱柔仕（AEROSOLES）缤纷马卡龙色牛皮休闲平底乐福女鞋</a>
+									<p>￥299.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-03/05-03-003.jpg"/></a>
+									<a class="txt" href="">bussola进口亚科灵工艺短靴 货号121897</a>
+									<p>￥798.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-03/05-03-004.jpg"/></a>
+									<a class="txt" href="">金舵老船长男士休闲鞋超值组 货号122026</a>
+									<p>￥378.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-03/05-03-005.jpg"/></a>
+									<a class="txt" href="">达芙妮（DAPHNE）羊皮方扣方跟低跟女单鞋1016404015</a>
+									<p>￥239.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-03/05-03-006.jpg"/></a>
+									<a class="txt" href="">达芙妮（DAPHNE）时尚金属圆扣饰浅口牛皮女鞋1017101015</a>
+									<p>￥309.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-03/05-03-007.jpg"/></a>
+									<a class="txt" href="">达芙妮（DAPHNE）舒适加绒简约圆头扣饰粗跟真皮短靴</a>
+									<p>￥499.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-03/05-03-008.jpg"/></a>
+									<a class="txt" href="">达芙妮（DAPHNE）冬季新款舒适百搭花边牛皮绒面雪地靴</a>
+									<p>￥299.00</p>
+								</li>
+							</ul>
+						</li>
+						<!--选项卡04页-->
+						<li class="tower05_auto_top_nav2" style='display: none;'>
+							<ul>
+								<li>
+									<a href=""><img src="img/towerFive/05-04/05-04-001.jpg"/></a>
+									<a class="txt" href="">海斯曼多功能跑步机 货号120266</a>
+									<p>￥2115.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-04/05-04-002.jpg"/></a>
+									<a class="txt" href="">J.K收褶天鹅绒套装 货号112293</a>
+									<p>￥587.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-04/05-04-003.jpg"/></a>
+									<a class="txt" href="">NEED&CO远红外智能发热背心 货号122180</a>
+									<p>￥398.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-04/05-04-004.jpg"/></a>
+									<a class="txt" href="">J.K腰部收褶口袋毛圈套装 货号112294</a>
+									<p>￥534.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-04/05-04-005.jpg"/></a>
+									<a class="txt" href="">3M 带阀防颗粒物9001V口罩耳带式 9002V头戴式 3只装 白</a>
+									<p>￥26.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-04/05-04-006.jpg"/></a>
+									<a class="txt" href="">3M 带阀防霾9001V口罩耳带式3只装*3包 白</a>
+									<p>￥75.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-04/05-04-007.jpg"/></a>
+									<a class="txt" href="">J.K侧口袋法国毛圈套装 货号112158</a>
+									<p>￥568.00</p>
+								</li>
+								<li>
+									<a href=""><img src="img/towerFive/05-04/05-04-008.jpg"/></a>
+									<a class="txt" href="">海斯曼家用款电动跑步机折叠静音免安装【HSM-T09D1】</a>
+									<p>￥1996.00</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="tower05_auto_bottom">
+					<ul class="tower05_auto_bottom_img">
+						<li><a href=""><img src="img/bottom/05/bottom01.png"/></a></li>
+						<li><a href=""><img src="img/bottom/05/bottom02.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/05/bottom03.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/05/bottom04.png"/></a></li>
+						<li><a href=""><img src="img/bottom/05/bottom05.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/05/bottom06.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/05/bottom07.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/05/bottom08.gif"/></a></li>
+						<li><a href=""><img src="img/bottom/05/bottom09.jpg"/></a></li>
+						<li><a href=""><img src="img/bottom/05/bottom10.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--vip-->
+		<div class="vip tower">
+			<div class="auto">
+				<div class="vip_header">
+					<p>
+						<i></i>
+						<span>会员专享</span>
+					</p>
+					<ul>
+						<li>
+							<img src="img/vip001.png"/>
+							<a href="">会员活动</a>
+						</li>
+						<li>
+							<img src="img/vip002.png"/>
+							<a href="">会员权益</a>
+						</li>
+						<li>
+							<img src="img/vip003.png"/>
+							<a href="">物流查询</a>
+						</li>
+					</ul>
+				</div>
+				<div class="content">
+					<ul>
+						<li>
+							<a href=""><img src="img/vip004.jpg" alt="" /></a>
+							<p>天兴天池古椴雪蜜团购组 货号120167</p>
+						</li>
+						<li>
+							<a href=""><img src="img/vip005.jpg" alt="" /></a>
+							<p>贡牌龙井-明前茶套组 货号120221</p>
+						</li>
+						<li>
+							<a href=""><img src="img/vip006.jpg" alt="" /></a>
+							<p>八马茶业安溪铁观音特惠组 货号120344</p>
+						</li>
+						<li>
+							<a href=""><img src="img/vip007.jpg" alt="" /></a>
+							<p>红塔带鱼罐头套组 货号119954</p>
+						</li>
+						<li>
+							<a href=""><img src="img/vip008.jpg" alt="" /></a>
+							<p>方家铺子海味干贝超值组 货号120238</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--ccti-->
+		<div class="ccti">
+			<div class="auto">
+				<div class="ceil">
+					<i class="ceil_01"></i>
+					<i class="ceil_02"></i>
+					<i class="ceil_03"></i>
+					<i class="ceil_04"></i>
+				</div>
+				<div class="floor">
+					<ul class="left">
+						<li>公告</li>
+						<li><a href="">【公告】央广购物“衣物捐赠”公益活动甘肃站圆满收官</a></li>
+						<li><a href="">【公告】关于春节期间物流配送事宜</a></li>
+						<li><a href="">【公告】央广购物幸福团受邀参与天津老年春晚</a></li>
+						<li><a href="">【公告】电视购物平台的破局与创新</a></li>
+					</ul>
+					<ul class="one">
+						<li>购物指南</li>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">购物流程</a></li>
+						<li><a href="">用户注册协议</a></li>
+						<li><a href="">电子发票</a></li>
+					</ul>
+					<ul>
+						<li>商家服务</li>
+						<li><a href="">招商标准</a></li>
+						<li><a href="">平台总则</a></li>
+						<li><a href="">入驻注意事项</a></li>
+						<li><a href="">招商资质标准</a></li>
+					</ul>
+					<ul>
+						<li>支付配送</li>
+						<li><a href="">支付方式</a></li>
+						<li><a href="">配送范围</a></li>
+						<li><a href="">配送时间</a></li>
+						<li><a href="">购物卡</a></li>
+					</ul>
+					<ul>
+						<li>会员中心 </li>
+						<li><a href="">会员等级</a></li>
+						<li><a href="">会员权益</a></li>
+						<li><a href="">购物金</a></li>
+						<li><a href="">找回密码</a></li>
+					</ul>
+					<ul>
+						<li>售后服务  </li>
+						<li><a href="">售后服务政策</a></li>
+						<li><a href="">特色服务</a></li>
+						<li><a href="">无忧购物</a></li>
+						<li><a href="">权威监督</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="footer">
+			<div class="auto">
+				<ul class="callMy">
+					<li><a href="">首页</a></li>
+					<li><a href="">招商合作</a></li>
+					<li><a href="">关于央广购物</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">成为供应商</a></li>
+					<li><a href="">招贤纳士</a></li>
+				</ul>
+				<ul class="beian">
+					<li>
+						<i></i>
+						<span>京公网安备：11011502002190</span>
+					</li>
+					<li><a href="">京ICP备10038858号</a></li>
+					<li><a href="">食品流通许可证编号：SP1101151210063489</a></li>
+					<li><a href="">信息网络传播视听节目许可证 0102002号</a></li>
+				</ul>
+				<p>Copyright©2010-2017&ensp;&ensp;&ensp;cnrmall.com&ensp;&ensp;All&ensp;&ensp;Rights Reserved<i>服务热线：4008-518-518</i></p>
+				<ul class="friendlink">
+					<li class="friendlink01"><a href=""></a></li>
+					<li class="friendlink02"><a href=""></a></li>
+					<li class="friendlink03"><a href=""></a></li>
+					<li class="friendlink04"><a href=""></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--侧边固定栏-->
+		<div class="service">
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe8c8;</i>
+					<span>商城会员</span>
+				</a>
+			</li>
+			<li class="_goushop">
+				<a href="shettlement.html">
+					<i class="iconfont">&#xe887;<u>22</u></i>
+					<span>购物车</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe8c3;</i>
+					<span>我的收藏</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe8c4;</i>
+					<span>我的足迹</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe616;</i>
+					<span>我的消息</span>
+				</a>
+			</li>
+			<li class="toTop"><a class="iconfont" href="javascript:;">&#xe608;</a></li>
+		</div>
+		<!--左侧楼层-->
+		<ul class="towerRight">
+			<!--<li><a href="javascript:;"></a></li>-->
+			<li class="active">
+				<a href="javascript:;">
+					<i class="iconfont">&#xe640;</i>
+					<span>食品酒水</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe620;</i>
+					<span>家居家电</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe64e;</i>
+					<span>珠宝收藏</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe63f;</i>
+					<span>个护美妆</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe60b;</i>
+					<span>服装配饰</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe692;</i>
+					<span>会员专享</span>
+				</a>
+			</li>
+			<li>
+				<a class="iconfont" href="javascript:;">&#xe608;</a>
+			</li>
+		</ul>
+	</body>
+</html>
+<script type="text/javascript">
+	
+</script>

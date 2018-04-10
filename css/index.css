@@ -1,0 +1,1701 @@
+@charset "UTF-8";
+/**logo栏**/
+.logolist {
+  width: 100%;
+  height: 149px;
+  border-bottom: 1px solid #f15c18; }
+  .logolist .logolist_auto {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    .logolist .logolist_auto .logolist_auto_top {
+      width: 100%;
+      height: 109px; }
+      .logolist .logolist_auto .logolist_auto_top .logo {
+        float: left;
+        margin-top: 22px; }
+      .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center {
+        float: left;
+        padding-left: 118px; }
+        .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_top {
+          margin-top: 24px;
+          width: 546px;
+          height: 36px;
+          border: 2px solid #f15c18; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_top .txt_left {
+            float: left;
+            width: 68px;
+            height: 36px;
+            border-right: 1px solid #cecece;
+            background: #f8f8f8; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_top .txt_left a {
+              display: block;
+              width: 68px;
+              height: 36px;
+              background: #f8f8f8;
+              text-align: center;
+              line-height: 36px;
+              color: #333; }
+              .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_top .txt_left a span {
+                display: inline-block;
+                width: 8px;
+                height: 5px;
+                margin: 0 0 3px 10px; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_top .txt_left a.beibi span {
+              background: url(../img/top_bg.png) -80px 0; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_top .txt_left a.dianpu {
+              display: none; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_top .txt_left:hover a.dianpu {
+            display: block;
+            width: 67px;
+            height: 37px;
+            border: 1px solid #cecece;
+            border-top: 0; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_top > input {
+            float: left; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_top > .txt {
+            width: 365px;
+            height: 36px;
+            border: 0;
+            padding-left: 14px;
+            color: #8f8d8d; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_top > .sub {
+            width: 98px;
+            height: 36px;
+            background: #f15c18;
+            border: 0;
+            color: #fff;
+            font-weight: 900; }
+        .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_bottom {
+          position: relative; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_bottom li {
+            float: left;
+            padding-top: 8px; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_bottom li a {
+              padding: 0 9px 0 8px;
+              border-left: 1px solid #999;
+              color: #999; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_center > .logolist_auto_top_center_bottom li:first-child a {
+            padding-left: 0;
+            border: 0; }
+      .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right {
+        float: right;
+        position: relative;
+        z-index: 3; }
+        .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right > div {
+          float: left; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right > div > a {
+            display: block;
+            width: 113px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border: 1px solid #f0f0f0;
+            margin-top: 24px; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right > div > a span:first-child {
+              width: 18px;
+              height: 16px;
+              float: left;
+              margin: 12px 0 0 11px; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right > div > a span:last-child {
+              display: inline-block;
+              width: 3px;
+              height: 5px;
+              background: url(../img/top_bg.png) -197px -30px;
+              margin-bottom: 2px; }
+        .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall {
+          margin-right: 11px;
+          background: #fff; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall > a span:first-child {
+            background: url(../img/yangguang.png) -7px -6px; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall .mall_hadden {
+            width: 270px;
+            height: 160px;
+            border: 1px solid #f0f0f0;
+            position: absolute;
+            top: 64px;
+            left: -157px;
+            background: #fff;
+            display: none;
+            z-index: -1; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall .mall_hadden .mall_hadden_denglu {
+              width: 270px;
+              height: 69px;
+              border-bottom: 1px dashed #e6e6e6; }
+              .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall .mall_hadden .mall_hadden_denglu img {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                float: left;
+                margin: 10px 0 0 10px; }
+              .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall .mall_hadden .mall_hadden_denglu a.denglu {
+                float: left;
+                height: 30px;
+                width: 100px;
+                border: 1px solid #ccc;
+                line-height: 30px;
+                text-align: center;
+                margin: 19px 0 0 10px;
+                border-radius: 5px;
+                background: #F0F0F0; }
+              .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall .mall_hadden .mall_hadden_denglu a.denglu1 {
+                border: 0;
+                background: #fff; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall .mall_hadden .mall_hadden_xiaoxi ul {
+              float: left; }
+              .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall .mall_hadden .mall_hadden_xiaoxi ul li {
+                height: 30px;
+                line-height: 30px; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall .mall_hadden .mall_hadden_xiaoxi ul:last-child {
+              margin-left: 100px; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall .mall_hadden .mall_hadden_xiaoxi ul:first-child {
+              margin-left: 20px; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall .mall_hadden .mall_hadden_xiaoxi ul li:hover a {
+              color: red; }
+        .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall:hover a {
+          border-bottom: 0;
+          z-index: 10; }
+        .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .mall:hover .mall_hadden {
+          display: block; }
+        .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping {
+          background: #fff; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping > a span:first-child {
+            background: url(../img/yangguang.png) -32px -6px; }
+          .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping .shopping_hadden {
+            display: none;
+            width: 350px;
+            border: 1px solid #f0f0f0;
+            position: absolute;
+            top: 65px;
+            left: -111px;
+            background: #fff;
+            z-index: -1; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping .shopping_hadden > p {
+              height: 43px;
+              line-height: 43px;
+              padding-left: 8px;
+              border-bottom: 1px solid #ddd;
+              color: #796666;
+              font-weight: 900; }
+            .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping .shopping_hadden .shopping_hadden_shoplist .shoplist > .shop {
+              width: 341px;
+              height: 67px;
+              background: #fff;
+              margin-left: 5px;
+              border-bottom: 1px dashed #eee; }
+              .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping .shopping_hadden .shopping_hadden_shoplist .shoplist > .shop > .left {
+                float: left;
+                margin: 9px 3px 0 0; }
+                .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping .shopping_hadden .shopping_hadden_shoplist .shoplist > .shop > .left img {
+                  width: 48px;
+                  height: 48px; }
+              .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping .shopping_hadden .shopping_hadden_shoplist .shoplist > .shop > .center {
+                float: left;
+                width: 210px;
+                height: 48px;
+                margin: 9px 3px 0 0;
+                overflow: hidden; }
+              .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping .shopping_hadden .shopping_hadden_shoplist .shoplist > .shop > .right {
+                float: left;
+                height: 48px;
+                width: 70px;
+                margin: 9px 3px 0 3px; }
+                .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping .shopping_hadden .shopping_hadden_shoplist .shoplist > .shop > .right > .price {
+                  float: right; }
+                .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping .shopping_hadden .shopping_hadden_shoplist .shoplist > .shop > .right > .del {
+                  float: right;
+                  margin: 10px 0 0 20px;
+                  cursor: pointer;
+                  color: blue; }
+        .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping:hover a {
+          margin-bottom: 1px;
+          border-bottom: 0;
+          z-index: 10; }
+        .logolist .logolist_auto .logolist_auto_top .logolist_auto_top_right .shopping:hover .shopping_hadden {
+          display: block; }
+    .logolist .logolist_auto .logolist_auto_bottom ul li {
+      float: left; }
+      .logolist .logolist_auto .logolist_auto_bottom ul li a {
+        display: block;
+        height: 40px;
+        text-align: center;
+        line-height: 40px; }
+    .logolist .logolist_auto .logolist_auto_bottom ul li:first-child a {
+      width: 172px;
+      background: #f15c18;
+      color: #fff;
+      font-weight: 900; }
+    .logolist .logolist_auto .logolist_auto_bottom ul li:nth-child(2) a {
+      width: 77px;
+      font-weight: 900;
+      color: #f15c18; }
+    .logolist .logolist_auto .logolist_auto_bottom ul li:nth-child(3):hover a {
+      color: #f15c18; }
+
+/**轮播图栏**/
+.shuffling {
+  width: 100%;
+  height: 480px; }
+  .shuffling .shuffling_auto {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    background: #ccc;
+    position: relative; }
+    .shuffling .shuffling_auto .shuffling_auto_left {
+      float: left;
+      width: 172px;
+      height: 471px;
+      padding-top: 9px;
+      background: #343a3a; }
+      .shuffling .shuffling_auto .shuffling_auto_left > li {
+        width: 144px;
+        height: 45px;
+        padding: 0 18px 0 10px;
+        border-bottom: 1px dashed #4b6060;
+        line-height: 45px; }
+        .shuffling .shuffling_auto .shuffling_auto_left > li a {
+          color: #fff;
+          font-weight: 900; }
+        .shuffling .shuffling_auto .shuffling_auto_left > li > .shuffling_auto_hidden {
+          display: none;
+          width: 788px;
+          height: 480px;
+          position: absolute;
+          background: #fff;
+          top: 0;
+          left: 172px;
+          z-index: 5; }
+          .shuffling .shuffling_auto .shuffling_auto_left > li > .shuffling_auto_hidden > ul {
+            float: left;
+            width: 789px;
+            background: #fff; }
+            .shuffling .shuffling_auto .shuffling_auto_left > li > .shuffling_auto_hidden > ul > p {
+              float: left;
+              font-weight: 900;
+              margin-right: 15px;
+              width: 109px;
+              text-align: right;
+              height: 34px;
+              line-height: 34px; }
+              .shuffling .shuffling_auto .shuffling_auto_left > li > .shuffling_auto_hidden > ul > p span {
+                display: inline-block;
+                width: 3px;
+                height: 5px;
+                background: url(../img/top_bg.png) -197px -30px;
+                margin: 0 0 2px 13px; }
+            .shuffling .shuffling_auto .shuffling_auto_left > li > .shuffling_auto_hidden > ul > li {
+              border-bottom: 1px solid #e7e7e7;
+              float: left;
+              height: 34px;
+              line-height: 34px;
+              text-align: center;
+              margin-top: 10px; }
+              .shuffling .shuffling_auto .shuffling_auto_left > li > .shuffling_auto_hidden > ul > li > a {
+                padding: 0 10px;
+                border-left: 1px solid #e7e7e7;
+                color: #7c7171; }
+      .shuffling .shuffling_auto .shuffling_auto_left li:last-child {
+        border-bottom: 0; }
+      .shuffling .shuffling_auto .shuffling_auto_left > li:hover {
+        background: #fff; }
+        .shuffling .shuffling_auto .shuffling_auto_left > li:hover > a {
+          color: #343a3a; }
+        .shuffling .shuffling_auto .shuffling_auto_left > li:hover > a:hover {
+          color: red; }
+    .shuffling .shuffling_auto .shuffling_auto_center {
+      float: left;
+      width: 1028px;
+      height: 480px;
+      position: relative; }
+      .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_top {
+        width: 100%;
+        height: 79px;
+        background: #fff; }
+        .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_top > a {
+          float: left;
+          margin: 5px 12px 0 14px; }
+        .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_top > .shuffling_auto_center_top_center {
+          float: left;
+          width: 408px;
+          height: 69px;
+          border: 1px solid #e4e4e4;
+          margin-top: 5px; }
+          .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_top > .shuffling_auto_center_top_center > i {
+            float: left;
+            width: 55px;
+            height: 53px;
+            background: url(../img/live.png) -125px -3px;
+            margin: 8px 0 0 30px; }
+          .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_top > .shuffling_auto_center_top_center > img {
+            float: left;
+            width: 60px;
+            height: 60px;
+            margin: 4px 0 0 49px; }
+          .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_top > .shuffling_auto_center_top_center > ul {
+            float: left;
+            height: 69px; }
+            .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_top > .shuffling_auto_center_top_center > ul li {
+              margin-left: 9px; }
+            .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_top > .shuffling_auto_center_top_center > ul li:first-child {
+              margin-top: 12px; }
+            .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_top > .shuffling_auto_center_top_center > ul li:last-child {
+              font-size: 16px;
+              margin-top: 10px; }
+              .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_top > .shuffling_auto_center_top_center > ul li:last-child a {
+                color: #f15c18;
+                font-weight: 900; }
+        .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_top > img {
+          width: 165px;
+          height: 79px;
+          float: left;
+          margin-left: 17px; }
+      .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_bottom {
+        width: 785px;
+        height: 400px;
+        position: relative; }
+        .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_bottom li {
+          position: absolute;
+          top: 0;
+          left: 0; }
+      .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_bottom_active {
+        position: absolute;
+        top: 450px;
+        left: 370px;
+        z-index: 3; }
+        .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_bottom_active li {
+          background: #3e3e3e;
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          margin-left: 10px;
+          float: left;
+          text-align: center;
+          line-height: 20px; }
+        .shuffling .shuffling_auto .shuffling_auto_center .shuffling_auto_center_bottom_active > .active {
+          background: #f15c18; }
+    .shuffling .shuffling_auto .shuffling_auto_right {
+      position: absolute;
+      top: 79px;
+      width: 243px;
+      right: 0;
+      height: 401px;
+      background: #f7f2e7; }
+      .shuffling .shuffling_auto .shuffling_auto_right > p {
+        font-size: 16px;
+        font-weight: 900;
+        width: 100%;
+        height: 54px;
+        line-height: 54px;
+        text-align: center; }
+      .shuffling .shuffling_auto .shuffling_auto_right > a {
+        display: block;
+        width: 191px;
+        height: 252px;
+        margin-left: 27px; }
+      .shuffling .shuffling_auto .shuffling_auto_right > i {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 6px;
+        font-weight: 900; }
+      .shuffling .shuffling_auto .shuffling_auto_right span {
+        display: block;
+        margin: 15px 30px 0 30px;
+        line-height: 20px;
+        text-align: center; }
+
+/**轮播图下面的品牌栏**/
+.brand {
+  width: 100%;
+  height: 181px;
+  background: #f2f2f2; }
+  .brand .brand_auto {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto; }
+    .brand .brand_auto > ul > li {
+      float: left;
+      width: 302px;
+      height: 150px;
+      margin-top: 15px;
+      background: #fff url(../img/brand_bg.jpg) no-repeat right center; }
+      .brand .brand_auto > ul > li > p {
+        float: left;
+        margin: 29px 25px 0 15px; }
+        .brand .brand_auto > ul > li > p > a {
+          display: block;
+          font-size: 16px;
+          font-weight: 900;
+          color: #444; }
+        .brand .brand_auto > ul > li > p > A:hover {
+          color: red; }
+        .brand .brand_auto > ul > li > p > span {
+          display: block;
+          color: #888;
+          margin-top: 9px; }
+      .brand .brand_auto > ul > li > img {
+        float: left; }
+    .brand .brand_auto > ul > li:last-child {
+      background: #fff;
+      /*为了去掉最后一个li的背景图边框*/ }
+
+/**第一层楼**/
+.tower01 {
+  width: 100%;
+  height: 590px;
+  background: #f2f2f2; }
+  .tower01 .tower01_auto {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    /**上下结构，上部为选项卡导航栏以及楼层号样式，下部为选项卡布局样式**/ }
+    .tower01 .tower01_auto .tower01_auto_top {
+      width: 100%;
+      height: 34px;
+      border-bottom: 2px solid #fe5621; }
+      .tower01 .tower01_auto .tower01_auto_top > p {
+        float: left;
+        height: 34px; }
+        .tower01 .tower01_auto .tower01_auto_top > p > span {
+          float: left;
+          margin: 2px 5px 0 0;
+          width: 35px;
+          height: 24px;
+          background: #feaa90 url(../img/floor_mt_h2.png) 0 -3px;
+          line-height: 24px; }
+        .tower01 .tower01_auto .tower01_auto_top > p > i {
+          float: left;
+          font-size: 20px;
+          color: #333;
+          font-weight: 600; }
+      .tower01 .tower01_auto .tower01_auto_top .tower01_auto_top_nav {
+        float: right;
+        height: 34px;
+        border-bottom: 0;
+        /*选项卡对应的class名的样式*/ }
+        .tower01 .tower01_auto .tower01_auto_top .tower01_auto_top_nav > li {
+          float: left; }
+          .tower01 .tower01_auto .tower01_auto_top .tower01_auto_top_nav > li > a {
+            display: block;
+            height: 34px;
+            line-height: 34px;
+            padding: 0 18px 0 17px;
+            color: #333;
+            border-bottom: 2px solid #fe5621; }
+        .tower01 .tower01_auto .tower01_auto_top .tower01_auto_top_nav > li.active > a {
+          height: 33px;
+          background: #fff;
+          line-height: 30px;
+          display: block;
+          color: #feaa90;
+          padding: 0 7px 0 16px;
+          border-left: 1px solid #fe5621;
+          border-right: 1px solid #fe5621;
+          border-top: 3px solid #fe5621;
+          border-bottom: 0; }
+    .tower01 .tower01_auto .tower01_auto_center {
+      width: 100%;
+      height: 474px;
+      position: relative; }
+      .tower01 .tower01_auto .tower01_auto_center .tower01_auto_center_left {
+        width: 210px;
+        height: 474px;
+        float: left;
+        background: url(../img/tower01.jpg); }
+        .tower01 .tower01_auto .tower01_auto_center .tower01_auto_center_left > ul.tower01_auto_center_left_top {
+          float: left;
+          width: 210px;
+          height: 84px;
+          background: rgba(200, 200, 200, 0.5);
+          /**rgba会连盒子内字体也给透明了，rgba可以解决这个问题**/
+          margin-top: 238px; }
+          .tower01 .tower01_auto .tower01_auto_center .tower01_auto_center_left > ul.tower01_auto_center_left_top > li {
+            float: left;
+            width: 105px;
+            height: 41px;
+            line-height: 41px; }
+            .tower01 .tower01_auto .tower01_auto_center .tower01_auto_center_left > ul.tower01_auto_center_left_top > li > img {
+              margin: 8px 7px 0 10px;
+              float: left;
+              width: 24px;
+              height: 24px; }
+            .tower01 .tower01_auto .tower01_auto_center .tower01_auto_center_left > ul.tower01_auto_center_left_top > li > a {
+              float: left; }
+        .tower01 .tower01_auto .tower01_auto_center .tower01_auto_center_left > ul.tower01_auto_center_left_bottom {
+          float: left;
+          width: 158px;
+          height: 137px;
+          border-right: 1px solid #eee;
+          background: rgba(246, 246, 246, 0.5);
+          padding: 15px 26px 0 26px; }
+          .tower01 .tower01_auto .tower01_auto_center .tower01_auto_center_left > ul.tower01_auto_center_left_bottom > li {
+            float: left;
+            margin-right: 11px; }
+      .tower01 .tower01_auto .tower01_auto_center > ul > li {
+        width: 1000px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 474px; }
+      .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_02 {
+        width: 219px;
+        float: left;
+        border-right: 1px solid #eee; }
+        .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_02 img {
+          border-bottom: 1px solid #eee; }
+      .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_03 {
+        width: 339px;
+        height: 474px;
+        float: left;
+        border-right: 1px solid #eee;
+        position: relative;
+        overflow: hidden; }
+        .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_03 .tower01_auto_center_031 {
+          position: absolute;
+          width: 2034px;
+          height: 100%;
+          background: red;
+          top: 0;
+          left: 0; }
+          .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_03 .tower01_auto_center_031 > li {
+            float: left; }
+            .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_03 .tower01_auto_center_031 > li a:first-child img {
+              border-bottom: 1px dashed #fff; }
+            .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_03 .tower01_auto_center_031 > li a:last-child img {
+              border-bottom: 1px solid #eee; }
+        .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_03 .tower01_auto_center_032 {
+          z-index: 6;
+          height: 9px;
+          top: 445px;
+          left: 135px;
+          position: absolute; }
+          .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_03 .tower01_auto_center_032 > li {
+            width: 9px;
+            height: 9px;
+            float: left;
+            background: #3e3e3e;
+            border-radius: 50%;
+            margin-left: 6px; }
+          .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_03 .tower01_auto_center_032 li.active {
+            background: #f15c18; }
+        .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_03 .tower01_auto_center_033 {
+          position: absolute;
+          top: 204px;
+          left: 0;
+          display: none; }
+          .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_03 .tower01_auto_center_033 > a {
+            display: block;
+            float: left;
+            background: rgba(200, 200, 200, 0.8);
+            width: 28px;
+            height: 62px;
+            text-align: center;
+            line-height: 62px;
+            font-size: 20px;
+            color: #fff; }
+          .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav1 .tower01_auto_center_03 .tower01_auto_center_033 > a.right {
+            margin-left: 283px; }
+      .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav2 {
+        background: #fff; }
+        .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav2 > ul > li {
+          opacity: 0.3;
+          float: left;
+          width: 199px;
+          height: 236px;
+          border-bottom: 1px solid #efefef;
+          border-right: 1px solid #efefef; }
+          .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav2 > ul > li img {
+            width: 130px;
+            height: 130px;
+            margin: 21px 0 0 34px; }
+          .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav2 > ul > li > a.txt {
+            display: block;
+            height: 35px;
+            margin-top: 15px;
+            padding: 0 17px;
+            line-height: 18px;
+            color: #333;
+            overflow: hidden; }
+          .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav2 > ul > li > a.txt:hover {
+            color: red; }
+          .tower01 .tower01_auto .tower01_auto_center > ul > .tower01_auto_top_nav2 > ul > li > p {
+            font-size: 14px;
+            color: red;
+            padding: 6px 0 0 17px; }
+    .tower01 .tower01_auto .tower01_auto_bottom {
+      width: 1210px;
+      height: 63px;
+      background: #fff; }
+      .tower01 .tower01_auto .tower01_auto_bottom .tower01_auto_bottom_img > li {
+        width: 120px;
+        height: 33px;
+        border-left: 1px dashed #ccc;
+        margin-top: 15px;
+        float: left; }
+        .tower01 .tower01_auto .tower01_auto_bottom .tower01_auto_bottom_img > li img {
+          margin: 0 11px 0 10px;
+          width: 99px;
+          height: 33px; }
+      .tower01 .tower01_auto .tower01_auto_bottom .tower01_auto_bottom_img > li:first-child {
+        border: 0; }
+
+/**第二层楼**/
+.tower02 {
+  width: 100%;
+  height: 590px;
+  background: #f2f2f2; }
+  .tower02 .tower02_auto {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    /**上下结构，上部为选项卡导航栏以及楼层号样式，下部为选项卡布局样式**/ }
+    .tower02 .tower02_auto .tower02_auto_top {
+      width: 100%;
+      height: 34px;
+      border-bottom: 2px solid #fe5621; }
+      .tower02 .tower02_auto .tower02_auto_top > p {
+        float: left;
+        height: 34px; }
+        .tower02 .tower02_auto .tower02_auto_top > p > span {
+          float: left;
+          margin: 2px 5px 0 0;
+          width: 35px;
+          height: 24px;
+          background: #feaa90 url(../img/floor_mt_h2.png) 0 -3px;
+          line-height: 24px; }
+        .tower02 .tower02_auto .tower02_auto_top > p > i {
+          float: left;
+          font-size: 20px;
+          color: #333;
+          font-weight: 600; }
+      .tower02 .tower02_auto .tower02_auto_top .tower02_auto_top_nav {
+        float: right;
+        height: 34px;
+        border-bottom: 0;
+        /*选项卡对应的class名的样式*/ }
+        .tower02 .tower02_auto .tower02_auto_top .tower02_auto_top_nav > li {
+          float: left; }
+          .tower02 .tower02_auto .tower02_auto_top .tower02_auto_top_nav > li > a {
+            display: block;
+            height: 34px;
+            line-height: 34px;
+            padding: 0 18px 0 17px;
+            color: #333;
+            border-bottom: 2px solid #fe5621; }
+        .tower02 .tower02_auto .tower02_auto_top .tower02_auto_top_nav > li.active > a {
+          height: 33px;
+          background: #fff;
+          line-height: 30px;
+          display: block;
+          color: #feaa90;
+          padding: 0 7px 0 16px;
+          border-left: 1px solid #fe5621;
+          border-right: 1px solid #fe5621;
+          border-top: 3px solid #fe5621;
+          border-bottom: 0; }
+    .tower02 .tower02_auto .tower02_auto_center {
+      width: 100%;
+      height: 474px;
+      position: relative; }
+      .tower02 .tower02_auto .tower02_auto_center .tower02_auto_center_left {
+        width: 210px;
+        height: 474px;
+        float: left;
+        background: url(../img/towerTow/02xuanxiangka01/02xuanxiangka1-001.jpg); }
+        .tower02 .tower02_auto .tower02_auto_center .tower02_auto_center_left > ul.tower02_auto_center_left_top {
+          float: left;
+          width: 210px;
+          height: 84px;
+          background: rgba(200, 200, 200, 0.5);
+          /**rgba会连盒子内字体也给透明了，rgba可以解决这个问题**/
+          margin-top: 238px; }
+          .tower02 .tower02_auto .tower02_auto_center .tower02_auto_center_left > ul.tower02_auto_center_left_top > li {
+            float: left;
+            width: 105px;
+            height: 41px;
+            line-height: 41px; }
+            .tower02 .tower02_auto .tower02_auto_center .tower02_auto_center_left > ul.tower02_auto_center_left_top > li > img {
+              margin: 8px 7px 0 10px;
+              float: left;
+              width: 24px;
+              height: 24px; }
+            .tower02 .tower02_auto .tower02_auto_center .tower02_auto_center_left > ul.tower02_auto_center_left_top > li > a {
+              float: left; }
+        .tower02 .tower02_auto .tower02_auto_center .tower02_auto_center_left > ul.tower02_auto_center_left_bottom {
+          float: left;
+          width: 158px;
+          height: 137px;
+          border-right: 1px solid #eee;
+          background: rgba(246, 246, 246, 0.5);
+          padding: 15px 26px 0 26px; }
+          .tower02 .tower02_auto .tower02_auto_center .tower02_auto_center_left > ul.tower02_auto_center_left_bottom > li {
+            float: left;
+            margin-right: 11px; }
+      .tower02 .tower02_auto .tower02_auto_center > ul > li {
+        width: 1000px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 474px; }
+      .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_02 {
+        width: 219px;
+        float: left;
+        border-right: 1px solid #eee; }
+        .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_02 img {
+          border-bottom: 1px solid #eee; }
+      .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_03 {
+        width: 339px;
+        height: 474px;
+        float: left;
+        border-right: 1px solid #eee;
+        position: relative;
+        overflow: hidden; }
+        .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_03 .tower02_auto_center_031 {
+          position: absolute;
+          width: 2034px;
+          height: 100%;
+          background: red;
+          top: 0;
+          left: 0; }
+          .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_03 .tower02_auto_center_031 > li {
+            float: left; }
+            .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_03 .tower02_auto_center_031 > li a:first-child img {
+              border-bottom: 1px dashed #fff; }
+            .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_03 .tower02_auto_center_031 > li a:last-child img {
+              border-bottom: 1px solid #eee; }
+        .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_03 .tower02_auto_center_032 {
+          z-index: 6;
+          height: 9px;
+          top: 445px;
+          left: 135px;
+          position: absolute; }
+          .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_03 .tower02_auto_center_032 > li {
+            width: 9px;
+            height: 9px;
+            float: left;
+            background: #3e3e3e;
+            border-radius: 50%;
+            margin-left: 6px; }
+          .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_03 .tower02_auto_center_032 li.active {
+            background: #f15c18; }
+        .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_03 .tower02_auto_center_033 {
+          position: absolute;
+          top: 204px;
+          left: 0;
+          display: none; }
+          .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_03 .tower02_auto_center_033 > a {
+            display: block;
+            float: left;
+            background: rgba(200, 200, 200, 0.8);
+            width: 28px;
+            height: 62px;
+            text-align: center;
+            line-height: 62px;
+            font-size: 20px;
+            color: #fff; }
+          .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav1 .tower02_auto_center_03 .tower02_auto_center_033 > a.right {
+            margin-left: 283px; }
+      .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav2 {
+        background: #fff; }
+        .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav2 > ul > li {
+          opacity: 0.3;
+          float: left;
+          width: 199px;
+          height: 236px;
+          border-bottom: 1px solid #efefef;
+          border-right: 1px solid #efefef; }
+          .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav2 > ul > li img {
+            width: 130px;
+            height: 130px;
+            margin: 21px 0 0 34px; }
+          .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav2 > ul > li > a.txt {
+            display: block;
+            height: 35px;
+            margin-top: 15px;
+            padding: 0 17px;
+            line-height: 18px;
+            color: #333;
+            overflow: hidden; }
+          .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav2 > ul > li > a.txt:hover {
+            color: red; }
+          .tower02 .tower02_auto .tower02_auto_center > ul > .tower02_auto_top_nav2 > ul > li > p {
+            font-size: 14px;
+            color: red;
+            padding: 6px 0 0 17px; }
+    .tower02 .tower02_auto .tower02_auto_bottom {
+      width: 1210px;
+      height: 63px;
+      background: #fff; }
+      .tower02 .tower02_auto .tower02_auto_bottom .tower02_auto_bottom_img > li {
+        width: 120px;
+        height: 33px;
+        border-left: 1px dashed #ccc;
+        margin-top: 15px;
+        float: left; }
+        .tower02 .tower02_auto .tower02_auto_bottom .tower02_auto_bottom_img > li img {
+          margin: 0 11px 0 10px;
+          width: 99px;
+          height: 33px; }
+      .tower02 .tower02_auto .tower02_auto_bottom .tower02_auto_bottom_img > li:first-child {
+        border: 0; }
+
+/**第三层楼**/
+.tower03 {
+  width: 100%;
+  height: 590px;
+  background: #f2f2f2; }
+  .tower03 .tower03_auto {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    /**上下结构，上部为选项卡导航栏以及楼层号样式，下部为选项卡布局样式**/ }
+    .tower03 .tower03_auto .tower03_auto_top {
+      width: 100%;
+      height: 34px;
+      border-bottom: 2px solid #fe5621; }
+      .tower03 .tower03_auto .tower03_auto_top > p {
+        float: left;
+        height: 34px; }
+        .tower03 .tower03_auto .tower03_auto_top > p > span {
+          float: left;
+          margin: 2px 5px 0 0;
+          width: 35px;
+          height: 24px;
+          background: #feaa90 url(../img/floor_mt_h2.png) 0 -3px;
+          line-height: 24px; }
+        .tower03 .tower03_auto .tower03_auto_top > p > i {
+          float: left;
+          font-size: 20px;
+          color: #333;
+          font-weight: 600; }
+      .tower03 .tower03_auto .tower03_auto_top .tower03_auto_top_nav {
+        float: right;
+        height: 34px;
+        border-bottom: 0;
+        /*选项卡对应的class名的样式*/ }
+        .tower03 .tower03_auto .tower03_auto_top .tower03_auto_top_nav > li {
+          float: left; }
+          .tower03 .tower03_auto .tower03_auto_top .tower03_auto_top_nav > li > a {
+            display: block;
+            height: 34px;
+            line-height: 34px;
+            padding: 0 18px 0 17px;
+            color: #333;
+            border-bottom: 2px solid #fe5621; }
+        .tower03 .tower03_auto .tower03_auto_top .tower03_auto_top_nav > li.active > a {
+          height: 33px;
+          background: #fff;
+          line-height: 30px;
+          display: block;
+          color: #feaa90;
+          padding: 0 7px 0 16px;
+          border-left: 1px solid #fe5621;
+          border-right: 1px solid #fe5621;
+          border-top: 3px solid #fe5621;
+          border-bottom: 0; }
+    .tower03 .tower03_auto .tower03_auto_center {
+      width: 100%;
+      height: 474px;
+      position: relative; }
+      .tower03 .tower03_auto .tower03_auto_center .tower03_auto_center_left {
+        width: 210px;
+        height: 474px;
+        float: left;
+        background: url(../img/towerSwn/03-01/03-01-001.jpg); }
+        .tower03 .tower03_auto .tower03_auto_center .tower03_auto_center_left > ul.tower03_auto_center_left_top {
+          float: left;
+          width: 210px;
+          height: 84px;
+          background: rgba(200, 200, 200, 0.5);
+          /**rgba会连盒子内字体也给透明了，rgba可以解决这个问题**/
+          margin-top: 238px; }
+          .tower03 .tower03_auto .tower03_auto_center .tower03_auto_center_left > ul.tower03_auto_center_left_top > li {
+            float: left;
+            width: 105px;
+            height: 41px;
+            line-height: 41px; }
+            .tower03 .tower03_auto .tower03_auto_center .tower03_auto_center_left > ul.tower03_auto_center_left_top > li > img {
+              margin: 8px 7px 0 10px;
+              float: left;
+              width: 24px;
+              height: 24px; }
+            .tower03 .tower03_auto .tower03_auto_center .tower03_auto_center_left > ul.tower03_auto_center_left_top > li > a {
+              float: left; }
+        .tower03 .tower03_auto .tower03_auto_center .tower03_auto_center_left > ul.tower03_auto_center_left_bottom {
+          float: left;
+          width: 158px;
+          height: 137px;
+          border-right: 1px solid #eee;
+          background: rgba(246, 246, 246, 0.5);
+          padding: 15px 26px 0 26px; }
+          .tower03 .tower03_auto .tower03_auto_center .tower03_auto_center_left > ul.tower03_auto_center_left_bottom > li {
+            float: left;
+            margin-right: 11px; }
+      .tower03 .tower03_auto .tower03_auto_center > ul > li {
+        width: 1000px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 474px; }
+      .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_02 {
+        width: 219px;
+        float: left;
+        border-right: 1px solid #eee; }
+        .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_02 img {
+          border-bottom: 1px solid #eee; }
+      .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_03 {
+        width: 339px;
+        height: 474px;
+        float: left;
+        border-right: 1px solid #eee;
+        position: relative;
+        overflow: hidden; }
+        .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_03 .tower03_auto_center_031 {
+          position: absolute;
+          width: 2034px;
+          height: 100%;
+          background: red;
+          top: 0;
+          left: 0; }
+          .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_03 .tower03_auto_center_031 > li {
+            float: left; }
+            .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_03 .tower03_auto_center_031 > li a:first-child img {
+              border-bottom: 1px dashed #fff; }
+            .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_03 .tower03_auto_center_031 > li a:last-child img {
+              border-bottom: 1px solid #eee; }
+        .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_03 .tower03_auto_center_032 {
+          z-index: 6;
+          height: 9px;
+          top: 445px;
+          left: 135px;
+          position: absolute; }
+          .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_03 .tower03_auto_center_032 > li {
+            width: 9px;
+            height: 9px;
+            float: left;
+            background: #3e3e3e;
+            border-radius: 50%;
+            margin-left: 6px; }
+          .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_03 .tower03_auto_center_032 li.active {
+            background: #f15c18; }
+        .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_03 .tower03_auto_center_033 {
+          position: absolute;
+          top: 204px;
+          left: 0;
+          display: none; }
+          .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_03 .tower03_auto_center_033 > a {
+            display: block;
+            float: left;
+            background: rgba(200, 200, 200, 0.8);
+            width: 28px;
+            height: 62px;
+            text-align: center;
+            line-height: 62px;
+            font-size: 20px;
+            color: #fff; }
+          .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav1 .tower03_auto_center_03 .tower03_auto_center_033 > a.right {
+            margin-left: 283px; }
+      .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav2 {
+        background: #fff; }
+        .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav2 > ul > li {
+          opacity: 0.3;
+          float: left;
+          width: 199px;
+          height: 236px;
+          border-bottom: 1px solid #efefef;
+          border-right: 1px solid #efefef; }
+          .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav2 > ul > li img {
+            width: 130px;
+            height: 130px;
+            margin: 21px 0 0 34px; }
+          .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav2 > ul > li > a.txt {
+            display: block;
+            height: 35px;
+            margin-top: 15px;
+            padding: 0 17px;
+            line-height: 18px;
+            color: #333;
+            overflow: hidden; }
+          .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav2 > ul > li > a.txt:hover {
+            color: red; }
+          .tower03 .tower03_auto .tower03_auto_center > ul > .tower03_auto_top_nav2 > ul > li > p {
+            font-size: 14px;
+            color: red;
+            padding: 6px 0 0 17px; }
+    .tower03 .tower03_auto .tower03_auto_bottom {
+      width: 1210px;
+      height: 63px;
+      background: #fff; }
+      .tower03 .tower03_auto .tower03_auto_bottom .tower03_auto_bottom_img > li {
+        width: 120px;
+        height: 33px;
+        border-left: 1px dashed #ccc;
+        margin-top: 15px;
+        float: left; }
+        .tower03 .tower03_auto .tower03_auto_bottom .tower03_auto_bottom_img > li img {
+          margin: 0 11px 0 10px;
+          width: 99px;
+          height: 33px; }
+      .tower03 .tower03_auto .tower03_auto_bottom .tower03_auto_bottom_img > li:first-child {
+        border: 0; }
+
+/**一层、二层以及三层样式的简化操作（以后）**/
+/**第四层楼**/
+.tower04 {
+  width: 100%;
+  height: 590px;
+  background: #f2f2f2; }
+  .tower04 .tower04_auto {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    /**上下结构，上部为选项卡导航栏以及楼层号样式，下部为选项卡布局样式**/ }
+    .tower04 .tower04_auto .tower04_auto_top {
+      width: 100%;
+      height: 34px;
+      border-bottom: 2px solid #fe5621; }
+      .tower04 .tower04_auto .tower04_auto_top > p {
+        float: left;
+        height: 34px; }
+        .tower04 .tower04_auto .tower04_auto_top > p > span {
+          float: left;
+          margin: 2px 5px 0 0;
+          width: 35px;
+          height: 24px;
+          background: #feaa90 url(../img/floor_mt_h2.png) 0 -3px;
+          line-height: 24px; }
+        .tower04 .tower04_auto .tower04_auto_top > p > i {
+          float: left;
+          font-size: 20px;
+          color: #333;
+          font-weight: 600; }
+      .tower04 .tower04_auto .tower04_auto_top .tower04_auto_top_nav {
+        float: right;
+        height: 34px;
+        border-bottom: 0;
+        /*选项卡对应的class名的样式*/ }
+        .tower04 .tower04_auto .tower04_auto_top .tower04_auto_top_nav > li {
+          float: left; }
+          .tower04 .tower04_auto .tower04_auto_top .tower04_auto_top_nav > li > a {
+            display: block;
+            height: 34px;
+            line-height: 34px;
+            padding: 0 18px 0 17px;
+            color: #333;
+            border-bottom: 2px solid #fe5621; }
+        .tower04 .tower04_auto .tower04_auto_top .tower04_auto_top_nav > li.active > a {
+          height: 33px;
+          background: #fff;
+          line-height: 30px;
+          display: block;
+          color: #feaa90;
+          padding: 0 7px 0 16px;
+          border-left: 1px solid #fe5621;
+          border-right: 1px solid #fe5621;
+          border-top: 3px solid #fe5621;
+          border-bottom: 0; }
+    .tower04 .tower04_auto .tower04_auto_center {
+      width: 100%;
+      height: 474px;
+      position: relative; }
+      .tower04 .tower04_auto .tower04_auto_center .tower04_auto_center_left {
+        width: 330px;
+        height: 474px;
+        float: left;
+        background: url(../img/towerFour/left/01.jpg); }
+        .tower04 .tower04_auto .tower04_auto_center .tower04_auto_center_left > ul.tower04_auto_center_left_top {
+          float: left;
+          width: 330px;
+          height: 84px;
+          background: rgba(200, 200, 200, 0.5);
+          /**会连盒子内字体也给透明了，rgba可以解决这个问题**/
+          margin-top: 238px; }
+          .tower04 .tower04_auto .tower04_auto_center .tower04_auto_center_left > ul.tower04_auto_center_left_top > li {
+            float: left;
+            width: 105px;
+            height: 41px;
+            line-height: 41px; }
+            .tower04 .tower04_auto .tower04_auto_center .tower04_auto_center_left > ul.tower04_auto_center_left_top > li > img {
+              margin: 8px 7px 0 10px;
+              float: left;
+              width: 24px;
+              height: 24px; }
+            .tower04 .tower04_auto .tower04_auto_center .tower04_auto_center_left > ul.tower04_auto_center_left_top > li > a {
+              float: left; }
+        .tower04 .tower04_auto .tower04_auto_center .tower04_auto_center_left > ul.tower04_auto_center_left_bottom {
+          float: left;
+          width: 298px;
+          height: 137px;
+          border-right: 1px solid #eee;
+          background: rgba(246, 246, 246, 0.5);
+          padding: 15px 26px 0 26px; }
+          .tower04 .tower04_auto .tower04_auto_center .tower04_auto_center_left > ul.tower04_auto_center_left_bottom > li {
+            float: left;
+            margin-right: 11px; }
+      .tower04 .tower04_auto .tower04_auto_center > ul > li {
+        width: 880px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 474px;
+        background: #fff; }
+      .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one {
+        width: 880px;
+        height: 236px; }
+        .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > div.lbMargin {
+          float: left;
+          width: 440px;
+          height: 236px;
+          overflow: hidden;
+          position: relative; }
+          .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > div.lbMargin > ul.shuffling {
+            position: absolute;
+            top: 0;
+            left: 0;
+            float: left;
+            height: 236px;
+            width: 2634px; }
+            .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > div.lbMargin > ul.shuffling img {
+              float: left;
+              width: 439px;
+              height: 239px; }
+          .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > div.lbMargin > ul.index {
+            height: 9px;
+            position: absolute;
+            top: 208px;
+            left: 184px; }
+            .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > div.lbMargin > ul.index > li {
+              width: 9px;
+              height: 9px;
+              float: left;
+              border-radius: 50%;
+              background: #3e3e3e;
+              margin-right: 6px; }
+            .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > div.lbMargin > ul.index > li.active {
+              background: #f15c18; }
+          .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > div.lbMargin ul.click {
+            width: 439px;
+            height: 62px;
+            position: absolute;
+            top: 87px;
+            left: 0; }
+            .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > div.lbMargin ul.click a {
+              width: 28px;
+              height: 62px;
+              background: rgba(250, 250, 250, 0.8);
+              text-align: center;
+              line-height: 62px;
+              color: #000;
+              font-size: 20px; }
+            .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > div.lbMargin ul.click li:first-child a {
+              float: left; }
+            .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > div.lbMargin ul.click li:last-child a {
+              float: right; }
+        .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > ul {
+          width: 440px;
+          height: 235px;
+          float: left; }
+          .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .one > ul img {
+            float: left;
+            width: 219px;
+            height: 117px;
+            border-bottom: 1px solid #eee;
+            border-right: 1px solid #eee; }
+      .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .tow {
+        width: 880px;
+        height: 237px; }
+        .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav1 > .tow img {
+          float: left;
+          width: 219px;
+          height: 236px;
+          border-bottom: 1px solid #eee;
+          border-right: 1px solid #eee; }
+      .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav2 > ul > li {
+        float: left;
+        width: 219px;
+        opacity: 0.2;
+        height: 236px;
+        border-bottom: 1px solid #eee;
+        border-right: 1px solid #eee; }
+        .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav2 > ul > li img {
+          width: 130px;
+          height: 130px;
+          margin: 21px 0 15px 44px; }
+        .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav2 > ul > li > a.txt {
+          display: block;
+          height: 35px;
+          margin-top: 15px;
+          padding: 0 17px;
+          line-height: 18px;
+          color: #333;
+          overflow: hidden; }
+        .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav2 > ul > li > a.txt:hover {
+          color: red; }
+        .tower04 .tower04_auto .tower04_auto_center > ul > .tower04_auto_top_nav2 > ul > li > p {
+          font-size: 14px;
+          color: red;
+          padding: 6px 0 0 17px; }
+    .tower04 .tower04_auto .tower04_auto_bottom {
+      width: 1210px;
+      height: 63px;
+      background: #fff; }
+      .tower04 .tower04_auto .tower04_auto_bottom .tower04_auto_bottom_img > li {
+        width: 120px;
+        height: 33px;
+        border-left: 1px dashed #ccc;
+        margin-top: 15px;
+        float: left; }
+        .tower04 .tower04_auto .tower04_auto_bottom .tower04_auto_bottom_img > li img {
+          margin: 0 11px 0 10px;
+          width: 99px;
+          height: 33px; }
+      .tower04 .tower04_auto .tower04_auto_bottom .tower04_auto_bottom_img > li:first-child {
+        border: 0; }
+
+/**第五层楼**/
+.tower05 {
+  width: 100%;
+  height: 590px;
+  background: #f2f2f2; }
+  .tower05 .tower05_auto {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    /**上下结构，上部为选项卡导航栏以及楼层号样式，下部为选项卡布局样式**/ }
+    .tower05 .tower05_auto .tower05_auto_top {
+      width: 100%;
+      height: 34px;
+      border-bottom: 2px solid #fe5621; }
+      .tower05 .tower05_auto .tower05_auto_top > p {
+        float: left;
+        height: 34px; }
+        .tower05 .tower05_auto .tower05_auto_top > p > span {
+          float: left;
+          margin: 2px 5px 0 0;
+          width: 35px;
+          height: 24px;
+          background: #feaa90 url(../img/floor_mt_h2.png) 0 -3px;
+          line-height: 24px; }
+        .tower05 .tower05_auto .tower05_auto_top > p > i {
+          float: left;
+          font-size: 20px;
+          color: #333;
+          font-weight: 600; }
+      .tower05 .tower05_auto .tower05_auto_top .tower05_auto_top_nav {
+        float: right;
+        height: 34px;
+        border-bottom: 0;
+        /*选项卡对应的class名的样式*/ }
+        .tower05 .tower05_auto .tower05_auto_top .tower05_auto_top_nav > li {
+          float: left; }
+          .tower05 .tower05_auto .tower05_auto_top .tower05_auto_top_nav > li > a {
+            display: block;
+            height: 34px;
+            line-height: 34px;
+            padding: 0 18px 0 17px;
+            color: #333;
+            border-bottom: 2px solid #fe5621; }
+        .tower05 .tower05_auto .tower05_auto_top .tower05_auto_top_nav > li.active > a {
+          height: 33px;
+          background: #fff;
+          line-height: 30px;
+          display: block;
+          color: #feaa90;
+          padding: 0 7px 0 16px;
+          border-left: 1px solid #fe5621;
+          border-right: 1px solid #fe5621;
+          border-top: 3px solid #fe5621;
+          border-bottom: 0; }
+    .tower05 .tower05_auto .tower05_auto_center {
+      width: 100%;
+      height: 474px;
+      position: relative; }
+      .tower05 .tower05_auto .tower05_auto_center .tower05_auto_center_left {
+        width: 330px;
+        height: 474px;
+        float: left;
+        background: url(../img/towerFive/left/01.jpg); }
+        .tower05 .tower05_auto .tower05_auto_center .tower05_auto_center_left > ul.tower05_auto_center_left_top {
+          float: left;
+          width: 330px;
+          height: 84px;
+          background: rgba(200, 200, 200, 0.5);
+          /**rgba会连盒子内字体也给透明了，rgba可以解决这个问题**/
+          margin-top: 238px; }
+          .tower05 .tower05_auto .tower05_auto_center .tower05_auto_center_left > ul.tower05_auto_center_left_top > li {
+            float: left;
+            width: 105px;
+            height: 41px;
+            line-height: 41px; }
+            .tower05 .tower05_auto .tower05_auto_center .tower05_auto_center_left > ul.tower05_auto_center_left_top > li > img {
+              margin: 8px 7px 0 10px;
+              float: left;
+              width: 24px;
+              height: 24px; }
+            .tower05 .tower05_auto .tower05_auto_center .tower05_auto_center_left > ul.tower05_auto_center_left_top > li > a {
+              float: left; }
+        .tower05 .tower05_auto .tower05_auto_center .tower05_auto_center_left > ul.tower05_auto_center_left_bottom {
+          float: left;
+          width: 298px;
+          height: 137px;
+          border-right: 1px solid #eee;
+          background: rgba(246, 246, 246, 0.5);
+          padding: 15px 26px 0 26px; }
+          .tower05 .tower05_auto .tower05_auto_center .tower05_auto_center_left > ul.tower05_auto_center_left_bottom > li {
+            float: left;
+            margin-right: 11px; }
+      .tower05 .tower05_auto .tower05_auto_center > ul > li {
+        width: 880px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 474px;
+        background: #fff; }
+      .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one {
+        width: 880px;
+        height: 236px; }
+        .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > div.lbMargin {
+          float: left;
+          width: 440px;
+          height: 236px;
+          overflow: hidden;
+          position: relative; }
+          .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > div.lbMargin > ul.shuffling {
+            position: absolute;
+            top: 0;
+            left: 0;
+            float: left;
+            height: 236px;
+            width: 2634px; }
+            .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > div.lbMargin > ul.shuffling img {
+              float: left;
+              width: 439px;
+              height: 239px; }
+          .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > div.lbMargin > ul.index {
+            height: 9px;
+            position: absolute;
+            top: 208px;
+            left: 184px; }
+            .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > div.lbMargin > ul.index > li {
+              width: 9px;
+              height: 9px;
+              float: left;
+              border-radius: 50%;
+              background: #3e3e3e;
+              margin-right: 6px; }
+            .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > div.lbMargin > ul.index > li.active {
+              background: #f15c18; }
+          .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > div.lbMargin ul.click {
+            width: 439px;
+            height: 62px;
+            position: absolute;
+            top: 87px;
+            left: 0; }
+            .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > div.lbMargin ul.click a {
+              width: 28px;
+              height: 62px;
+              background: rgba(250, 250, 250, 0.8);
+              text-align: center;
+              line-height: 62px;
+              color: #000;
+              font-size: 20px; }
+            .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > div.lbMargin ul.click li:first-child a {
+              float: left; }
+            .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > div.lbMargin ul.click li:last-child a {
+              float: right; }
+        .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > ul {
+          width: 440px;
+          height: 235px;
+          float: left; }
+          .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .one > ul img {
+            float: left;
+            width: 219px;
+            height: 117px;
+            border-bottom: 1px solid #eee;
+            border-right: 1px solid #eee; }
+      .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .tow {
+        width: 880px;
+        height: 237px; }
+        .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav1 > .tow img {
+          float: left;
+          width: 219px;
+          height: 236px;
+          border-bottom: 1px solid #eee;
+          border-right: 1px solid #eee; }
+      .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav2 > ul > li {
+        float: left;
+        width: 219px;
+        opacity: 0.2;
+        height: 236px;
+        border-bottom: 1px solid #eee;
+        border-right: 1px solid #eee; }
+        .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav2 > ul > li img {
+          width: 130px;
+          height: 130px;
+          margin: 21px 0 15px 44px; }
+        .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav2 > ul > li > a.txt {
+          display: block;
+          height: 35px;
+          margin-top: 15px;
+          padding: 0 17px;
+          line-height: 18px;
+          color: #333;
+          overflow: hidden; }
+        .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav2 > ul > li > a.txt:hover {
+          color: red; }
+        .tower05 .tower05_auto .tower05_auto_center > ul > .tower05_auto_top_nav2 > ul > li > p {
+          font-size: 14px;
+          color: red;
+          padding: 6px 0 0 17px; }
+    .tower05 .tower05_auto .tower05_auto_bottom {
+      width: 1210px;
+      height: 63px;
+      background: #fff; }
+      .tower05 .tower05_auto .tower05_auto_bottom .tower05_auto_bottom_img > li {
+        width: 120px;
+        height: 33px;
+        border-left: 1px dashed #ccc;
+        margin-top: 15px;
+        float: left; }
+        .tower05 .tower05_auto .tower05_auto_bottom .tower05_auto_bottom_img > li img {
+          margin: 0 11px 0 10px;
+          width: 99px;
+          height: 33px; }
+      .tower05 .tower05_auto .tower05_auto_bottom .tower05_auto_bottom_img > li:first-child {
+        border: 0; }
+
+/**vip层**/
+.vip {
+  width: 100%;
+  height: 366px;
+  background: #f2f2f2;
+  border-bottom: 1px solid #e3e3e3; }
+  .vip .auto {
+    width: 1208px;
+    height: 346px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #f15e1b;
+    border-top: 3px solid #f15e1b; }
+    .vip .auto .vip_header {
+      width: 100%;
+      height: 49px;
+      background: #f2f2f2;
+      border-bottom: 1px solid #e1e1e1; }
+      .vip .auto .vip_header > p {
+        width: 140px;
+        height: 49px;
+        float: left;
+        line-height: 49px;
+        text-align: right; }
+        .vip .auto .vip_header > p > span {
+          font-size: 20px;
+          color: #f15e1b;
+          float: right; }
+        .vip .auto .vip_header > p > i {
+          float: left;
+          width: 26px;
+          height: 26px;
+          background: url(../img/vip.png);
+          margin: 10px 0 0 23px; }
+      .vip .auto .vip_header > ul {
+        float: right;
+        width: 420px;
+        height: 49px;
+        font-size: 16px;
+        line-height: 49px; }
+        .vip .auto .vip_header > ul > li {
+          float: left;
+          width: 95px;
+          height: 49px;
+          margin-right: 45px; }
+          .vip .auto .vip_header > ul > li a {
+            color: #f15e1b;
+            float: right; }
+          .vip .auto .vip_header > ul > li > img {
+            float: left;
+            width: 24px;
+            height: 24px;
+            margin-top: 13px; }
+    .vip .auto .content {
+      width: 100%;
+      height: 296px; }
+      .vip .auto .content > ul {
+        width: 100%;
+        height: 100%; }
+        .vip .auto .content > ul > li {
+          float: left;
+          width: 240px;
+          height: 296px;
+          border-right: 1px solid #ebebeb; }
+          .vip .auto .content > ul > li img {
+            width: 206px;
+            height: 206px;
+            padding: 20px 0 0 18px; }
+          .vip .auto .content > ul > li > p {
+            margin-top: 15px;
+            width: 206px;
+            height: 48px;
+            padding: 0 18px;
+            overflow: hidden; }
+        .vip .auto .content > ul > li:last-child {
+          border: 0; }
+
+/**ccti**/
+.ccti {
+  width: 100%;
+  height: 271px;
+  background: #fff; }
+  .ccti .auto {
+    width: 1210px;
+    height: 271px;
+    margin: 0 auto; }
+    .ccti .auto .ceil {
+      width: 1210px;
+      height: 86px;
+      border-bottom: 1px solid #e3e3e3; }
+      .ccti .auto .ceil > i {
+        width: 250px;
+        height: 86px;
+        float: left;
+        margin-top: 18px; }
+      .ccti .auto .ceil > i.ceil_01 {
+        background: url(../img/ceil/cti.png) -51px -18px;
+        margin-left: 156px; }
+      .ccti .auto .ceil > i.ceil_02 {
+        background: url(../img/ceil/cti.png) -301px -18px; }
+      .ccti .auto .ceil > i.ceil_03 {
+        background: url(../img/ceil/cti.png) -551px -18px; }
+      .ccti .auto .ceil > i.ceil_04 {
+        background: url(../img/ceil/cti.png) -801px -18px; }
+    .ccti .auto .floor {
+      width: 1210px;
+      height: 184px; }
+      .ccti .auto .floor > ul {
+        width: 164px;
+        height: 136px;
+        float: left;
+        margin-top: 25px; }
+        .ccti .auto .floor > ul > li {
+          line-height: 24px; }
+          .ccti .auto .floor > ul > li > a {
+            color: #999; }
+        .ccti .auto .floor > ul > li:first-child {
+          font-size: 16px;
+          margin-bottom: 5px; }
+      .ccti .auto .floor > ul.one {
+        margin-left: 55px; }
+      .ccti .auto .floor > ul.left {
+        border-right: 1px solid #eaeaea;
+        width: 280px;
+        height: 133px;
+        margin: 25px 0 0 50px; }
+        .ccti .auto .floor > ul.left > li {
+          width: 234px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        .ccti .auto .floor > ul.left > li:first-child {
+          font-size: 16px;
+          padding-left: 5px;
+          margin-bottom: 5px; }
+
+/**右侧固定栏**/
+.service {
+  width: 36px;
+  height: 220px;
+  position: fixed;
+  top: 200px;
+  right: 0; }
+  .service > ._goushop i {
+    position: relative; }
+    .service > ._goushop i > u {
+      color: #fff;
+      font-size: 12px;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: #000;
+      top: -10px;
+      left: 3px; }
+  .service > li {
+    width: 97px;
+    height: 36px;
+    margin-top: 2px;
+    line-height: 36px;
+    position: relative; }
+    .service > li i {
+      font-size: 20px;
+      text-align: center;
+      width: 36px;
+      height: 36px;
+      background: #312a27;
+      color: #fff;
+      border-radius: 3px;
+      float: left; }
+    .service > li i:hover {
+      background: #fe5621; }
+    .service > li span {
+      position: absolute;
+      border-radius: 3px;
+      background: #fe5621;
+      float: left;
+      width: 60px;
+      text-align: center;
+      top: 0;
+      z-index: -1; }
+  .service li.toTop {
+    width: 36px;
+    height: 36px;
+    position: fixed;
+    bottom: 0;
+    right: 0; }
+    .service li.toTop > a {
+      display: block;
+      width: 36px;
+      height: 36px;
+      font-size: 20px;
+      background: #312a27;
+      color: #fff;
+      text-align: center;
+      line-height: 36px; }
+
+/**左侧楼层**/
+.towerRight {
+  border: 1px solid #ccc;
+  width: 80px;
+  height: 245px;
+  position: fixed;
+  background: #fff;
+  left: 0px;
+  top: 220px;
+  display: none;
+  z-index: 99; }
+  .towerRight li {
+    width: 74px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #fff;
+    margin: 1px 3px;
+    border-bottom: 1px dashed #ccc; }
+    .towerRight li a {
+      color: #000;
+      display: block;
+      width: 100%;
+      height: 100%; }
+    .towerRight li a:hover {
+      color: #fff; }
+  .towerRight li:hover {
+    background: #fe5621; }
+  .towerRight li.active {
+    background: #fe5621; }
+    .towerRight li.active a {
+      color: #fff; }
+  .towerRight li:last-child {
+    height: 20px;
+    line-height: 20px;
+    border: 0; }
+
+/*# sourceMappingURL=index.css.map */

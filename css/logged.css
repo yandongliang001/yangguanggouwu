@@ -1,0 +1,375 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend, input {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+.clearFix:after {
+  content: ".";
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  display: block; }
+
+/*********************************************************/
+/**logo栏**/
+.logo {
+  width: 100%;
+  height: 80px;
+  border-bottom: 2px solid #f5f5f5;
+  border-top: 5px solid #f5f5f5;
+  background: #fff; }
+  .logo > .auto {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto; }
+    .logo > .auto > a {
+      float: left; }
+      .logo > .auto > a > img {
+        float: left;
+        margin: 12px 0 0 108px; }
+    .logo > .auto > div.right {
+      float: right;
+      width: 413px;
+      height: 80px; }
+      .logo > .auto > div.right > img {
+        float: left;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 30px 10px 0 0; }
+      .logo > .auto > div.right > p {
+        float: left;
+        margin-top: 33px; }
+        .logo > .auto > div.right > p > a {
+          color: #0066cc;
+          font-weight: 900; }
+        .logo > .auto > div.right > p > a:hover {
+          color: #e91207; }
+
+/**登陆栏**/
+.logged {
+  width: 100%;
+  height: 640px;
+  background: #fafafa; }
+  .logged > .auto {
+    width: 1210px;
+    height: 640px;
+    margin: 0 auto;
+    background: #fafafa; }
+    .logged > .auto > .logged_left {
+      width: 626px;
+      height: 640px;
+      float: left; }
+      .logged > .auto > .logged_left > img {
+        width: 450px;
+        height: 350px;
+        margin: 48px 71px 0 100px; }
+    .logged > .auto > .logged_right {
+      width: 584px;
+      height: 640px;
+      float: right; }
+      .logged > .auto > .logged_right > .box {
+        width: 478px;
+        float: left;
+        margin-top: 21px;
+        background: #fff;
+        border: 1px solid #e6e6e6;
+        border-radius: 5px; }
+        .logged > .auto > .logged_right > .box > .top {
+          width: 440px;
+          height: 58px;
+          margin: 7px 0 29px 19px;
+          border-bottom: 1px solid #e6e6e6; }
+          .logged > .auto > .logged_right > .box > .top > a {
+            line-height: 58px;
+            color: #a29999;
+            float: left;
+            width: 220px;
+            height: 58px;
+            text-align: center;
+            font-size: 16px; }
+          .logged > .auto > .logged_right > .box > .top > a.active {
+            color: #ff500b;
+            height: 56px;
+            line-height: 56px;
+            border-bottom: 3px solid #ff500b; }
+        .logged > .auto > .logged_right > .box > .conter {
+          width: 352px;
+          height: 253px;
+          margin-left: 59px; }
+          .logged > .auto > .logged_right > .box > .conter > p {
+            width: 352px;
+            height: 52px;
+            border: 1px solid #e6e6e6;
+            border-bottom: 0; }
+            .logged > .auto > .logged_right > .box > .conter > p > span {
+              float: left;
+              width: 108px;
+              height: 52px;
+              line-height: 52px;
+              text-align: center;
+              color: #666; }
+            .logged > .auto > .logged_right > .box > .conter > p > input {
+              width: 243px;
+              height: 52px;
+              border: 0;
+              color: #b6b6b6; }
+          .logged > .auto > .logged_right > .box > .conter > p.yzm {
+            position: relative;
+            border-bottom: 1px solid #e6e6e6; }
+            .logged > .auto > .logged_right > .box > .conter > p.yzm > input {
+              width: 135px;
+              border-right: 1px solid #e6e6e6; }
+            .logged > .auto > .logged_right > .box > .conter > p.yzm > i {
+              width: 109px;
+              height: 52px;
+              top: 0;
+              right: 0;
+              position: absolute; }
+              .logged > .auto > .logged_right > .box > .conter > p.yzm > i > em {
+                width: 100%;
+                height: 100%;
+                display: block;
+                text-align: center;
+                line-height: 52px;
+                font-size: 20px;
+                letter-spacing: 3px;
+                background: #eee; }
+              .logged > .auto > .logged_right > .box > .conter > p.yzm > i > a {
+                width: 100%;
+                height: 100%;
+                display: block;
+                text-align: center;
+                line-height: 52px;
+                background: rgba(0, 0, 0, 0.4);
+                position: absolute;
+                top: 0;
+                left: 0;
+                color: #fff;
+                display: none; }
+          .logged > .auto > .logged_right > .box > .conter .check {
+            border: 0; }
+            .logged > .auto > .logged_right > .box > .conter .check > input {
+              float: left;
+              width: 13px;
+              height: 13px;
+              margin-top: 21px;
+              margin-right: 3px; }
+            .logged > .auto > .logged_right > .box > .conter .check > i {
+              float: left;
+              margin-top: 19px;
+              color: #999; }
+            .logged > .auto > .logged_right > .box > .conter .check > a {
+              float: right;
+              margin-top: 19px;
+              color: #0066d7; }
+          .logged > .auto > .logged_right > .box > .conter > .goushop {
+            float: left;
+            width: 348px;
+            height: 42px;
+            background: #ff500b;
+            border-radius: 4px;
+            text-align: center;
+            line-height: 42px;
+            font-size: 14px;
+            font-weight: 900;
+            color: #fff; }
+        .logged > .auto > .logged_right > .box > .centerCall {
+          width: 440px;
+          height: 309px;
+          margin-left: 59px; }
+          .logged > .auto > .logged_right > .box > .centerCall > p {
+            width: 352px;
+            height: 52px;
+            border: 1px solid #e6e6e6;
+            border-bottom: 0; }
+            .logged > .auto > .logged_right > .box > .centerCall > p > span {
+              float: left;
+              width: 108px;
+              height: 52px;
+              line-height: 52px;
+              text-align: center;
+              color: #666; }
+            .logged > .auto > .logged_right > .box > .centerCall > p > input {
+              width: 243px;
+              height: 52px;
+              border: 0;
+              color: #b6b6b6; }
+          .logged > .auto > .logged_right > .box > .centerCall > p.yzm {
+            position: relative;
+            border-bottom: 1px solid #e6e6e6; }
+            .logged > .auto > .logged_right > .box > .centerCall > p.yzm > input {
+              width: 135px;
+              border-right: 1px solid #e6e6e6; }
+            .logged > .auto > .logged_right > .box > .centerCall > p.yzm > i {
+              width: 109px;
+              height: 52px;
+              top: 0;
+              right: 0;
+              position: absolute; }
+              .logged > .auto > .logged_right > .box > .centerCall > p.yzm > i > em {
+                width: 100%;
+                height: 100%;
+                display: block;
+                text-align: center;
+                line-height: 52px;
+                font-size: 20px;
+                letter-spacing: 3px;
+                background: #eee; }
+              .logged > .auto > .logged_right > .box > .centerCall > p.yzm > i > a {
+                width: 100%;
+                height: 100%;
+                display: block;
+                text-align: center;
+                line-height: 52px;
+                background: rgba(0, 0, 0, 0.4);
+                position: absolute;
+                top: 0;
+                left: 0;
+                color: #fff;
+                display: none; }
+          .logged > .auto > .logged_right > .box > .centerCall > p.callyzm {
+            width: 352px;
+            height: 40px;
+            border: 0;
+            line-height: 22px;
+            padding: 17px 0 15px 0; }
+            .logged > .auto > .logged_right > .box > .centerCall > p.callyzm > a {
+              background: #21b384; }
+          .logged > .auto > .logged_right > .box > .centerCall > p.dtm {
+            border: 1px solid #e6e6e6; }
+          .logged > .auto > .logged_right > .box > .centerCall > .goushop {
+            float: left;
+            width: 348px;
+            height: 42px;
+            background: #ff500b;
+            border-radius: 4px;
+            text-align: center;
+            line-height: 42px;
+            font-size: 14px;
+            font-weight: 900;
+            color: #fff;
+            margin-top: 25px; }
+        .logged > .auto > .logged_right > .box > .bottom {
+          width: 100%;
+          height: 60px;
+          margin-left: 69px; }
+          .logged > .auto > .logged_right > .box > .bottom > p {
+            margin-top: 20px;
+            color: #000000;
+            font-weight: 900; }
+          .logged > .auto > .logged_right > .box > .bottom > a {
+            display: block;
+            height: 50px;
+            margin-top: 14px; }
+            .logged > .auto > .logged_right > .box > .bottom > a > i {
+              float: left;
+              width: 32px;
+              height: 32px;
+              background: url(../img/login/login_pic.png) -160px 0;
+              margin-bottom: 20px;
+              margin-right: 7px;
+              border-radius: 50%; }
+            .logged > .auto > .logged_right > .box > .bottom > a > span {
+              float: left;
+              height: 32px;
+              line-height: 32px;
+              color: #c3c3c3; }
+
+/**底部**/
+.footer {
+  width: 100%;
+  height: 170px;
+  background: #343a3a; }
+  .footer > .auto {
+    width: 1210px;
+    height: 170px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .footer > .auto > ul {
+      display: inline-block;
+      width: 100%;
+      margin-top: 19px; }
+    .footer > .auto > ul.callMy {
+      padding-left: 370px; }
+      .footer > .auto > ul.callMy > li {
+        float: left;
+        padding: 0 15px;
+        border-left: 1px solid #fff; }
+        .footer > .auto > ul.callMy > li > a {
+          color: #fff; }
+      .footer > .auto > ul.callMy > li:first-child {
+        border: 0; }
+      .footer > .auto > ul.callMy > li > a:hover {
+        text-decoration: underline; }
+    .footer > .auto > ul.beian {
+      padding-left: 190px; }
+      .footer > .auto > ul.beian > li {
+        float: left;
+        padding-right: 36px;
+        color: #fff; }
+        .footer > .auto > ul.beian > li > a {
+          color: #fff; }
+        .footer > .auto > ul.beian > li > i {
+          width: 18px;
+          height: 20px;
+          float: left;
+          background: url(../img/gh.png);
+          margin-right: 3px; }
+        .footer > .auto > ul.beian > li > span {
+          float: left; }
+      .footer > .auto > ul.beian > li > a:hover {
+        text-decoration: underline; }
+    .footer > .auto > p {
+      margin: 10px 0 0 337px;
+      color: #fff; }
+      .footer > .auto > p > i {
+        display: inline-block;
+        margin-left: 70px; }
+    .footer > .auto > ul.friendlink {
+      width: 100%;
+      margin-left: 360px; }
+      .footer > .auto > ul.friendlink > li {
+        float: left; }
+        .footer > .auto > ul.friendlink > li > a {
+          width: 108px;
+          height: 40px;
+          background: red;
+          display: block;
+          margin-right: 20px; }
+      .footer > .auto > ul.friendlink > li.friendlink01 a {
+        background: url(../img/yangguang-footer.png); }
+      .footer > .auto > ul.friendlink > li.friendlink02 a {
+        background: url(../img/yangguang-footer.png) -244px 0; }
+      .footer > .auto > ul.friendlink > li.friendlink03 a {
+        background: url(../img/yangguang-footer.png) -366px 0; }
+      .footer > .auto > ul.friendlink > li.friendlink04 a {
+        background: url(../img/yangguang-footer.png) -488px 0; }
+
+/*# sourceMappingURL=logged.css.map */

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>列表页</title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/list.css"/>
+		<link rel="stylesheet" type="text/css" href="font/index/iconfont.css"/>
+		<script type="text/javascript" src="js/jquery-1.11.1.js" ></script>
+		<script type="text/javascript" src="js/myCookie.js" ></script>
+		<script type="text/javascript" src="js/public.js" ></script>
+		<script type="text/javascript" src="js/list.js" ></script>
+	</head>
+	<body>
+		<!--头部的导航栏-->
+		<div class="header_nav">
+			<div class="header_nav_auto">
+				<ul class="header_nav_auto_nav">
+					<li class="xiala">
+						<a href="">我的订单<span class="rotate"></span></a>
+						<ul>
+							<li><a href="">待付款订单</a></li>
+							<li><a href="">待确认收货</a></li>
+							<li><a href="">待评价交易</a></li>
+						</ul>
+					</li>
+					<li class="xiala">
+						<a href="">我的收藏<span class="rotate"></span></a>
+						<ul>
+							<li><a href="">商品收藏</a></li>
+							<li><a href="">店铺收藏</a></li>
+						</ul>
+					</li>
+					<li class="xiala">
+						<a href="">客户服务<span class="rotate"></span></a>
+						<ul>
+							<li><a href="">购物指南</a></li>
+							<li><a href="">售后服务</a></li>
+							<li><a href="">商家服务</a></li>
+						</ul>
+					</li>
+					<li class="gys"><a href=""><img src="img/on2.png"/>成为供应商</a></li>
+				</ul>
+				<ul class="header_nav_auto_dz">
+					<li class="enter"><a href="logged.html">您好，请登录</a></li>
+					<li class="zc"><a href="login01.html">免费注册</a></li>
+				</ul>
+				<ul class="header_nav_auto_dl">
+					<li class="tuicu name"><a href="">xxxxx</a></li>
+					<li><a href="">欢迎光临</a></li>
+					<li class="tuicu yggw"><a href="">央广购物</a></li>
+					<li class="tuicu" id="tuichu">[<a href="javascript:;">退出</a>]</li>
+				</ul>
+			</div>
+		</div>
+		<!--logo栏-->
+		<div class="logolist">
+			<div class="logolist_auto">
+				<div class="logolist_auto_top">
+					<a href="index.html"><img class="logo" src="img/logo.png"/></a>
+					<div class="logolist_auto_top_center">
+						<div class="logolist_auto_top_center_top">
+							<div class="txt_left">
+								<a class="beibi" href="javascript:;">宝贝<span></span></a>
+								<a class="dianpu" href="javascript:;">店铺<span></span></a>
+							</div>
+							<input type="text" name="" id="" placeholder="请输入您要搜索的商品关键字" class="txt"/>
+							<input type="submit" name="" id="" value="搜索" class="sub"/>
+						</div>
+						<ul class="logolist_auto_top_center_bottom">
+							<li><a href="">桥沙地瓜</a></li>
+							<li><a href="">娣归中华红橙</a></li>
+							<li><a href="">黄金皮蛋</a></li>
+							<li><a href="">海参</a></li>
+							<li><a href="">青藏高原野花蜜</a></li>
+							<li><a href="">西琳</a></li>
+							<li><a href="">破壁料理机</a></li>
+							<li><a href="">全球卖场</a></li>
+						</ul>
+					</div>
+					<div class="logolist_auto_top_right">
+						<div class="mall">
+							<a href="">
+								<span></span>
+								我的商城
+								<span></span>
+							</a>
+							<div class="mall_hadden">
+								<div class="mall_hadden_denglu">
+									<img src="img/denglu.png"/>
+									<a href="" class="denglu">您好，请登录！</a>
+								</div>
+								<div class="mall_hadden_xiaoxi">
+									<ul>
+										<li><a href="">站内消息</a></li>
+										<li><a href="">资讯回复</a></li>
+										<li><a href="">我的足迹</a></li>
+									</ul>
+									<ul>
+										<li><a href="">我的订单</a></li>
+										<li><a href="">我的收藏</a></li>
+										<li><a href="">我的积分</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="shopping">
+							<a href="">
+								<span></span>
+								购物车结算
+								<span></span>
+							</a>
+							<div class="shopping_hadden">
+								<p>最新加入的商品</p>
+								<div class="shopping_hadden_shoplist">
+									<div class="shoplist">
+										您的购物车中暂无商品，赶快选择心爱的商品吧！
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="logolist_auto_bottom">
+					<ul>
+						<li><a href="javascript:;">所有商品分类</a>
+							<ul class='shuffling_auto_left' id="shuffling_auto_left">
+								<li data-name="食品">
+									<a href="list.html?uid=食品饮料">食品 </a>/ <a href="list.html?uid=中外名酒">酒类 </a>/<a href="list.html?uid=饮料冲调"> 饮料</a>
+									<div class="shuffling_auto_hidden">
+									<!-----以下是ajax请求数据对饮的结构------->
+										<!--<ul>
+											<p>健身器材<span></span></p>
+											<li><a href="">运动户外</a></li>
+										</ul>
+										<ul>
+											<p>健身器材<span></span></p>
+											<li><a href="">运动户外</a></li>
+										</ul>-->
+									</div>
+								</li>
+								<li data-name="家用电器">
+									<a href="list.html?uid=家用电器">家用电器 </a>/<a href="list.html?uid=厨房用具"> 厨房用具</a>
+									<div class="shuffling_auto_hidden"></div>
+								</li>
+								<li data-name="珠宝首饰">
+									<a href="list.html?uid=珠宝首饰">珠宝首饰</a> /<a href="list.html?uid=时尚钟表"> 时尚钟表</a>
+									<div class="shuffling_auto_hidden"></div>
+								</li>
+								<li data-name="个护美妆">
+									<a href="list.html?uid=个护化妆">个护美妆 </a>/<a href="javascript:;"> 奢侈品</a> /<a href="list.html?uid=礼品箱包"> 箱包</a>
+									<div class="shuffling_auto_hidden"></div>
+								</li>
+								<li data-name="服饰内衣">
+									<a href="list.html?uid=服饰内衣">服饰内衣 </a>/<a href="list.html?uid=流行鞋靴"> 流行鞋靴</a>
+									<div class="shuffling_auto_hidden"></div>
+								</li>
+								<li data-name="家居家装">
+									<a href="list.html?uid=家居家装">家居家装 </a>/<a href="list.html?uid=家具陈设"> 家居陈设</a>
+									<div class="shuffling_auto_hidden"></div>
+								</li>
+								<li data-name="文化收藏">
+									<a href="list.html?uid=文化收藏">文化收藏 </a>/<a href="list.html?uid=书画票证"> 书画 </a>/<a href="javascript:;"> 器物</a>
+									<div class="shuffling_auto_hidden"></div>
+								</li>
+								<li data-name="手机">
+									<a href="list.html?uid=手机通讯">手机 </a>/<a href="list.html?uid=摄影数码"> 摄影数码</a> /<a href="list.html?uid=电脑办公"> 电脑</a>
+									<div class="shuffling_auto_hidden"></div>
+								</li>
+								<li data-name="营养滋补">
+									<a href="list.html?uid=营养护理">营养滋补 </a>/<a href="list.html?uid=养生器具"> 养生护理</a>
+									<div class="shuffling_auto_hidden"></div>
+								</li>
+								<li data-name="运动户外">
+									<a href="list.html?uid=运动户外">运动户外 </a>/<a href="list.html?uid=健身训练"> 健身器材</a>
+									<div class="shuffling_auto_hidden"></div>
+								</li>
+							</ul>
+						</li>
+						<li><a href="">首页</a></li>
+						<li><a href="">TV直播</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--小导航栏-->
+		<div class="min">
+			<div class="auto">
+				<div class="nav">
+					<a href="javascript:;">中外名酒<span></span></a>
+					<ul>
+						<li><a href="list.html?uid=食品饮料">食品饮料</a></li>
+						<li><a href="list.html?uid=中外名酒">中外名酒</a></li>
+						<li><a href="list.html?uid=营养护理">营养护理</a></li>
+						<li><a href="list.html?uid=珠宝首饰">珠宝首饰</a></li>
+						<li><a href="list.html?uid=厨房用具">厨房用具</a></li>
+						<li><a href="list.html?uid=家用电器">家用电器</a></li>
+						<li><a href="list.html?uid=个护化妆">个护化妆</a></li>
+						<li><a href="list.html?uid=服饰内衣">服饰内衣</a></li>
+						<li><a href="list.html?uid=礼品箱包">礼品箱包</a></li>
+						<li><a href="list.html?uid=文化收藏">文化收藏</a></li>
+						<li><a href="list.html?uid=时尚钟表">时尚钟表</a></li>
+						<li><a href="list.html?uid=流行鞋靴">流行鞋靴</a></li>
+						<li><a href="list.html?uid=运动户外">运动户外</a></li>
+						<li><a href="list.html?uid=家居家装">家居家装</a></li>
+						<li><a href="list.html?uid=家具陈设">家具陈设</a></li>
+						<li><a href="list.html?uid=手机通讯">手机通讯</a></li>
+						<li><a href="list.html?uid=摄影数码">摄影数码</a></li>
+						<li><a href="list.html?uid=电脑办公">电脑办公</a></li>
+						<li><a href="javascript:;">汽车用品</a></li>
+					</ul>
+				</div>
+				<div class="conter">
+					<p class="fenlei">分类 - <span style='color:red;font-weight: 900;'></span>&ensp;&ensp;筛选结果</p>
+					<div class="nav_min">
+						<i>包括分类 : </i>
+						<ul class="contains">
+							<!--<li><a href="">烟酒</a></li>
+							<li><a href="">烟酒</a></li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--默认排序-->
+		<div class="paixu">	
+			<div class="auto">
+				<div class="bottom">
+					<ul class="options">
+						<li class="active"><a href="">默认排序</a></li>
+						<li><a href="">成交量</a></li>
+						<li><a href="">价格</a></li>
+						<li><a href="">评论</a></li>
+						<li class="price">
+							<input type="text" name="" id="" placeholder="￥最低价" /> --
+							<input type="text" name="" id="" placeholder="￥最高价" />
+						</li>
+						<li class="hover">
+							<a href="">经营类型</a><span></span>
+							<ul>
+								<li><a href="">平台自营</a></li>
+								<li><a href="">三方店铺</a></li>
+							</ul>
+						</li>
+						<li class="hover">
+							<a href="">促销活动</a><span></span>
+							<ul>
+								<li><a href="">限时折扣</a></li>
+								<li><a href="">全款预售</a></li>
+								<li><a href="">定金预售</a></li>
+							</ul>
+						</li>
+						<li class="gifts">
+							<input type="checkbox" name="" id="" value="" />
+							<a href="">赠品</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--列表-->
+		<div class="list">
+			<div class="auto">
+				<ul class="page clearFix" id="page">
+					<!--列表对应的结构-->
+					<!--<li>
+						图片
+						<a href=""><img src="img/list/drink/list01.jpg"/></a>
+						价格
+						<div class="price">￥238.00</div>
+						货号
+						<div class="huohao">哈哈哈哈奥或或或或或或或或或或或或或或或或或或</div>
+						<div class="yongtu">哈哈哈哈或或或或或或或或或或或或或或或或或或或或或</div>
+						<p>央广购物<span>自营</span></p>
+						加入购物车
+						<div class="goushop">
+							<a href="" class="jia_shop"><i></i><span>加入购物车</span></a>
+							<a href="" class="collection"><i></i><span>收藏</span></a>
+						</div>
+					</li>-->
+				</ul>
+			</div>
+		</div>
+		<!--ccti-->
+		<div class="ccti">
+			<div class="auto">
+				<div class="ceil">
+					<i class="ceil_01"></i>
+					<i class="ceil_02"></i>
+					<i class="ceil_03"></i>
+					<i class="ceil_04"></i>
+				</div>
+				<div class="floor">
+					<ul class="left">
+						<li>公告</li>
+						<li><a href="">【公告】央广购物“衣物捐赠”公益活动甘肃站圆满收官</a></li>
+						<li><a href="">【公告】关于春节期间物流配送事宜</a></li>
+						<li><a href="">【公告】央广购物幸福团受邀参与天津老年春晚</a></li>
+						<li><a href="">【公告】电视购物平台的破局与创新</a></li>
+					</ul>
+					<ul class="one">
+						<li>购物指南</li>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">购物流程</a></li>
+						<li><a href="">用户注册协议</a></li>
+						<li><a href="">电子发票</a></li>
+					</ul>
+					<ul>
+						<li>商家服务</li>
+						<li><a href="">招商标准</a></li>
+						<li><a href="">平台总则</a></li>
+						<li><a href="">入驻注意事项</a></li>
+						<li><a href="">招商资质标准</a></li>
+					</ul>
+					<ul>
+						<li>支付配送</li>
+						<li><a href="">支付方式</a></li>
+						<li><a href="">配送范围</a></li>
+						<li><a href="">配送时间</a></li>
+						<li><a href="">购物卡</a></li>
+					</ul>
+					<ul>
+						<li>会员中心 </li>
+						<li><a href="">会员等级</a></li>
+						<li><a href="">会员权益</a></li>
+						<li><a href="">购物金</a></li>
+						<li><a href="">找回密码</a></li>
+					</ul>
+					<ul>
+						<li>售后服务  </li>
+						<li><a href="">售后服务政策</a></li>
+						<li><a href="">特色服务</a></li>
+						<li><a href="">无忧购物</a></li>
+						<li><a href="">权威监督</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="footer">
+			<div class="auto">
+				<ul class="callMy">
+					<li><a href="">首页</a></li>
+					<li><a href="">招商合作</a></li>
+					<li><a href="">关于央广购物</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">成为供应商</a></li>
+					<li><a href="">招贤纳士</a></li>
+				</ul>
+				<ul class="beian">
+					<li>
+						<i></i>
+						<span>京公网安备：11011502002190</span>
+					</li>
+					<li><a href="">京ICP备10038858号</a></li>
+					<li><a href="">食品流通许可证编号：SP1101151210063489</a></li>
+					<li><a href="">信息网络传播视听节目许可证 0102002号</a></li>
+				</ul>
+				<p>Copyright©2010-2017&ensp;&ensp;&ensp;cnrmall.com&ensp;&ensp;All&ensp;&ensp;Rights Reserved<i>服务热线：4008-518-518</i></p>
+				<ul class="friendlink">
+					<li class="friendlink01"><a href=""></a></li>
+					<li class="friendlink02"><a href=""></a></li>
+					<li class="friendlink03"><a href=""></a></li>
+					<li class="friendlink04"><a href=""></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--侧边固定栏-->
+		<ul class="service">
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe8c8;</i>
+					<span>商城会员</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe887;</i>
+					<span>购物车</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe8c3;</i>
+					<span>我的收藏</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe8c4;</i>
+					<span>我的足迹</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="iconfont">&#xe616;</i>
+					<span>我的消息</span>
+				</a>
+			</li>
+			<li class="toTop"><a class="iconfont" href="javascript:;">&#xe608;</a></li>
+		</ul>
+		<!--遮罩层-->
+		<div class="confirm"></div>
+		<div class="abc">
+			<div class="top">
+				<span>请选择订购数量</span>
+				<a href="javascript:;" id="gb">×</a>
+			</div>
+			<div class="uane">
+				<!--<div class="left"><img src="img/119730_0.jpg@60w_60h.jpg" alt="" /></div>
+				<div class="txt">
+					<span>法国波尔多原瓶进口巴图波尔多干红葡萄酒高档礼盒套装</span>
+					<span>法国法定产区波尔多酿制、原瓶原装进口、AOC等级、佳节送礼</span>
+				</div>
+				<div class="page">
+					<div>分类属列</div>
+					<span>单价(元)</span>
+					<i>可售数量(个)</i>
+					<u>购买数量(个)</u>
+				</div>
+				<div class="num">
+					<div>酒酒酒酒</div>
+					<span>1828.00</span>
+					<i>9999</i>
+					<div class="number numberlist" >
+						<a href="javascript:;" class="left" data-fh="-1" data-id='hh'>-</a>
+						<input type="text" value="1" class="content"/>
+						<a data-fh="1" href="javascript:;" class="right">+</a>
+					</div>
+				</div>
+				<div class="number">
+					<div>数量总计：<span style="color: red;">2</span>个</div>
+					<div>商品金额总计：<span style="color: red;font-weight: 900;">11111111</span>元</div>
+				</div>
+				<div class="for">
+					<div class="fq">放弃操作</div>
+					<div class="qr">确认提交</div>
+				</div>-->
+			</div>
+		</div>
+	</body>
+</html>

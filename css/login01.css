@@ -1,0 +1,278 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend, input {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a, u {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+/*********************************************************/
+/**logo栏**/
+.logo {
+  width: 100%;
+  height: 80px;
+  border-bottom: 2px solid #f5f5f5;
+  border-top: 5px solid #f5f5f5;
+  background: #fff; }
+  .logo .auto {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto; }
+    .logo .auto img {
+      float: left;
+      margin: 15px 0 0 108px; }
+    .logo .auto p {
+      float: right;
+      color: #aaa;
+      margin: 57px 104px 0 0; }
+      .logo .auto p a {
+        color: #0066cc;
+        display: inline-block;
+        margin-left: 3px; }
+
+.login {
+  width: 100%;
+  height: 680px;
+  background: url(../img/login/register_bg.png); }
+  .login .auto {
+    width: 1210px;
+    height: 680px;
+    margin: 0 auto; }
+    .login .auto .moedo_login {
+      width: 858px;
+      height: 558px;
+      float: left;
+      background: #fff;
+      border: 8px solid #d5d5d5;
+      margin: 60px 0 0 166px; }
+      .login .auto .moedo_login .left {
+        width: 580px;
+        height: 519px;
+        float: left;
+        padding-right: 20px;
+        margin: 20px 0 20px 20px;
+        border-right: 1px solid #ccc; }
+        .login .auto .moedo_login .left .call {
+          width: 470px;
+          height: 38px;
+          display: block;
+          font-size: 16px;
+          padding-left: 110px;
+          border-bottom: 1px solid #ccc; }
+        .login .auto .moedo_login .left > p {
+          width: 398px;
+          height: 52px;
+          border: 1px solid #ccc;
+          margin-left: 100px;
+          position: relative; }
+          .login .auto .moedo_login .left > p > u {
+            display: block;
+            width: 130px;
+            height: 52px;
+            line-height: 52px;
+            background: #fff5d9;
+            position: absolute;
+            top: 0px;
+            left: 390px;
+            z-index: 30;
+            padding-left: 20px;
+            display: none; }
+          .login .auto .moedo_login .left > p i {
+            float: left;
+            width: 108px;
+            height: 52px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 52px; }
+          .login .auto .moedo_login .left > p input {
+            width: 285px;
+            height: 52px;
+            float: left;
+            border: 0; }
+        .login .auto .moedo_login .left p:nth-child(2) {
+          margin: 49px 0 0 100px;
+          border-bottom: 0; }
+        .login .auto .moedo_login .left p:nth-child(3) input {
+          width: 170px; }
+        .login .auto .moedo_login .left p:nth-child(3) span {
+          float: left;
+          width: 119px;
+          height: 52px;
+          border-left: 1px solid #ccc;
+          background: #eee;
+          position: relative; }
+          .login .auto .moedo_login .left p:nth-child(3) span > a {
+            position: absolute;
+            width: 119px;
+            height: 52px;
+            background: rgba(0, 0, 0, 0.3);
+            top: 0;
+            left: 0;
+            display: none;
+            text-align: center;
+            line-height: 52px;
+            color: #fff; }
+          .login .auto .moedo_login .left p:nth-child(3) span > em {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center;
+            line-height: 52px;
+            font-size: 20px;
+            letter-spacing: 5px;
+            font-weight: 900; }
+        .login .auto .moedo_login .left p:nth-child(4) {
+          border: 0; }
+          .login .auto .moedo_login .left p:nth-child(4) > input {
+            width: 13px;
+            height: 13px;
+            margin-top: 26px; }
+          .login .auto .moedo_login .left p:nth-child(4) > span {
+            display: inline-block;
+            margin: 24px 0 0 15px; }
+            .login .auto .moedo_login .left p:nth-child(4) > span a {
+              color: #1f66d7; }
+        .login .auto .moedo_login .left #next {
+          width: 398px;
+          height: 40px;
+          background: #ff500b;
+          display: block;
+          border-radius: 8px;
+          margin-left: 100px;
+          text-align: center;
+          line-height: 40px;
+          font-size: 16px;
+          color: #fff;
+          font-weight: 900; }
+      .login .auto .moedo_login .right {
+        width: 237px;
+        height: 519px;
+        float: left;
+        margin: 20px 0; }
+        .login .auto .moedo_login .right > ul {
+          width: 237px;
+          height: 519px;
+          float: left;
+          margin: 24px 0 0 19px; }
+          .login .auto .moedo_login .right > ul > li {
+            color: #999;
+            height: 25px;
+            line-height: 25px;
+            margin-top: 10px; }
+            .login .auto .moedo_login .right > ul > li > span {
+              float: left;
+              width: 24px;
+              height: 24px;
+              margin-right: 5px; }
+            .login .auto .moedo_login .right > ul > li > i {
+              float: left; }
+          .login .auto .moedo_login .right > ul > li:first-child {
+            font-size: 14px;
+            color: #000; }
+          .login .auto .moedo_login .right > ul > li.right01 span {
+            background: url(../img/login/login_pic.png) 0 -76px; }
+          .login .auto .moedo_login .right > ul > li.right02 span {
+            background: url(../img/login/login_pic.png) -30px -76px; }
+          .login .auto .moedo_login .right > ul > li.right03 span {
+            background: url(../img/login/login_pic.png) -60px -76px; }
+          .login .auto .moedo_login .right > ul > li.right04 span {
+            background: url(../img/login/login_pic.png) -90px -76px; }
+          .login .auto .moedo_login .right > ul > li.right05 span {
+            background: url(../img/login/login_pic.png) -120px -76px; }
+
+/**底部**/
+.footer {
+  width: 100%;
+  height: 170px;
+  background: #343a3a; }
+  .footer .auto {
+    width: 1210px;
+    height: 170px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .footer .auto > ul {
+      display: inline-block;
+      width: 100%;
+      margin-top: 19px; }
+    .footer .auto > ul.callMy {
+      padding-left: 370px; }
+      .footer .auto > ul.callMy > li {
+        float: left;
+        padding: 0 15px;
+        border-left: 1px solid #fff; }
+        .footer .auto > ul.callMy > li > a {
+          color: #fff; }
+      .footer .auto > ul.callMy > li:first-child {
+        border: 0; }
+      .footer .auto > ul.callMy > li > a:hover {
+        text-decoration: underline; }
+    .footer .auto > ul.beian {
+      padding-left: 190px; }
+      .footer .auto > ul.beian > li {
+        float: left;
+        padding-right: 36px;
+        color: #fff; }
+        .footer .auto > ul.beian > li > a {
+          color: #fff; }
+        .footer .auto > ul.beian > li > i {
+          width: 18px;
+          height: 20px;
+          float: left;
+          background: url(../img/gh.png);
+          margin-right: 3px; }
+        .footer .auto > ul.beian > li > span {
+          float: left; }
+      .footer .auto > ul.beian > li > a:hover {
+        text-decoration: underline; }
+    .footer .auto > p {
+      margin: 10px 0 0 337px;
+      color: #fff; }
+      .footer .auto > p > i {
+        display: inline-block;
+        margin-left: 70px; }
+    .footer .auto > ul.friendlink {
+      width: 100%;
+      margin-left: 360px; }
+      .footer .auto > ul.friendlink > li {
+        float: left; }
+        .footer .auto > ul.friendlink > li > a {
+          width: 108px;
+          height: 40px;
+          background: red;
+          display: block;
+          margin-right: 20px; }
+      .footer .auto > ul.friendlink > li.friendlink01 a {
+        background: url(../img/yangguang-footer.png); }
+      .footer .auto > ul.friendlink > li.friendlink02 a {
+        background: url(../img/yangguang-footer.png) -244px 0; }
+      .footer .auto > ul.friendlink > li.friendlink03 a {
+        background: url(../img/yangguang-footer.png) -366px 0; }
+      .footer .auto > ul.friendlink > li.friendlink04 a {
+        background: url(../img/yangguang-footer.png) -488px 0; }
+
+/*# sourceMappingURL=login01.css.map */

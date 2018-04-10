@@ -1,0 +1,2062 @@
+@charset "utf-8";
+/**logo栏**/
+.logolist{
+    width:100%;
+    height:149px;
+    border-bottom:1px solid #f15c18;
+    .logolist_auto{
+        width:1200px;
+        height:100%;
+        margin:0 auto;
+        .logolist_auto_top{
+            width:100%;
+            height:109px;
+            .logo{
+                float: left;
+                margin-top:22px;
+            }
+            .logolist_auto_top_center{
+                float:left;
+                padding-left:118px;
+                >.logolist_auto_top_center_top{
+                    margin-top:24px;
+                    width:546px;
+                    height:36px;
+                    border:2px solid #f15c18;
+                    .txt_left{
+                        float: left;
+                        width:68px;
+                        height:36px;
+                        border-right:1px solid #cecece;
+                        background:#f8f8f8;
+                        a{
+                            display: block;
+                            width:68px;
+                            height:36px;
+                            background: #f8f8f8;
+                            text-align: center;
+                            line-height: 36px;
+                            color:#333;
+                            span{
+                                display: inline-block;
+                                width:8px;
+                                height:5px;
+                                margin:0 0 3px 10px;
+                            }
+                        }
+                        a.beibi span{
+                            background:url(../img/top_bg.png) -80px 0;
+                        }
+                        a.dianpu{display: none;}
+                    }
+                    .txt_left:hover{//做的有问题,有时间改一下
+                        a.dianpu{
+                            display: block;
+                            width:67px;
+                            height:37px;
+                            border:1px solid #cecece;
+                            border-top:0;
+                        }
+                    }
+                    >input{float: left;}
+                    >.txt{
+                        width:365px;
+                        height:36px;
+                        border:0;
+                        padding-left:14px;
+                        color:#8f8d8d;
+                    }
+                    >.sub{
+                        width:98px;
+                        height:36px;
+                        background:#f15c18;
+                        border:0;
+                        color:#fff;
+                        font-weight: 900;
+                    }
+                }
+                >.logolist_auto_top_center_bottom{
+                    position: relative;
+                    li{
+                        float: left;
+                        padding-top:8px;
+                        a{
+                            padding:0 9px 0 8px;
+                            border-left:1px solid #999;
+                            color:#999;
+                        }
+                    }
+                    li:first-child a{
+                        padding-left:0;
+                        border:0;
+                    }
+                }
+            }
+            .logolist_auto_top_right{
+                float: right;
+                position: relative;//为调整层级方便，如果直接加到父元素身上，层级会乱
+                z-index:3;
+                >div{
+                    float: left;
+                    >a{
+                        display: block;
+                        width:113px;
+                        height:40px;
+                        line-height: 40px;
+                        text-align: center;
+                        border:1px solid #f0f0f0;
+                        margin-top:24px;
+                        span:first-child{
+                            width:18px;
+                            height:16px;
+                            float: left;
+                            margin:12px 0 0 11px;
+                        }
+                        span:last-child{
+                            display: inline-block;
+                            width:3px;
+                            height:5px;
+                            background: url(../img/top_bg.png) -197px -30px;
+                            margin-bottom: 2px;
+                        }
+                    }
+                }
+                .mall{
+                    margin-right:11px;
+                    background: #fff;
+                    >a span:first-child{background:url(../img/yangguang.png) -7px -6px;}
+                    .mall_hadden{
+                        width:270px;
+                        height:160px;
+                        border:1px solid #f0f0f0;
+                        position: absolute;
+                        top:64px;
+                        left:-157px;
+                        background:#fff;
+                        display: none;
+                        z-index: -1;
+                        .mall_hadden_denglu{
+                            width:270px;
+                            height:69px;
+                            border-bottom: 1px dashed #e6e6e6;
+                            img{
+                                width:48px;
+                                height:48px;
+                                border-radius:50%;
+                                float: left;
+                                margin:10px 0 0 10px;
+                            }
+                            a.denglu{
+                               float: left;
+                               height:30px;
+                               width:100px;
+                               border:1px solid #ccc;
+                               line-height: 30px;
+                               text-align: center;
+                               margin:19px 0 0 10px;
+                               border-radius:5px;
+                               background:#F0F0F0;
+                            }
+                            a.denglu1{
+                                border:0;
+                                background:#fff;
+                            }
+                        }
+                        .mall_hadden_xiaoxi ul{
+                            float: left;
+                            li{
+                                height:30px;
+                                line-height: 30px;
+                            }
+                        }
+                        .mall_hadden_xiaoxi ul:last-child{margin-left:100px;}
+                        .mall_hadden_xiaoxi ul:first-child{margin-left:20px;}
+                        .mall_hadden_xiaoxi ul li:hover a{color:red;}
+                    }
+                }
+                .mall:hover{
+                    a{
+                        border-bottom:0;
+                        z-index: 10;
+                    }
+                    .mall_hadden{
+                        display: block;
+                    }
+                }
+                .shopping{
+                    background: #fff;
+                    >a span:first-child{background:url(../img/yangguang.png) -32px -6px;}
+                    .shopping_hadden{
+                        display: none;
+                        width:350px;
+                        border:1px solid #f0f0f0;
+                        position: absolute;
+                        top:65px;
+                        left:-111px;
+                        background:#fff;
+                        z-index: -1;
+                        >p{
+                            height:43px;
+                            line-height: 43px;
+                            padding-left:8px;
+                            border-bottom:1px solid #ddd;
+                            color:#796666;
+                            font-weight:900;
+                        }
+                        .shopping_hadden_shoplist{
+                            .shoplist{
+                                >.shop{
+                                    width:341px;
+                                    height:67px;
+                                    background:#fff;
+                                    margin-left:5px;
+                                    border-bottom:1px dashed #eee;
+                                    >.left{
+                                        float:left;
+                                        margin:9px 3px 0 0;
+                                        img{
+                                            width:48px;
+                                            height:48px;
+                                        }
+                                    }
+                                    >.center{
+                                        float:left;
+                                        width:210px;
+                                        height:48px;
+                                        margin:9px 3px 0 0;
+                                        overflow: hidden;
+                                    }
+                                    >.right{
+                                        float:left;
+                                        height:48px;
+                                        width:70px;
+                                        margin:9px 3px 0 3px;
+                                        >.price{
+                                            float:right;
+                                        }
+                                        >.del{
+                                           float:right;
+                                           margin:10px 0 0 20px; 
+                                           cursor: pointer;
+                                           color:blue;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .shopping:hover{
+                    a{
+                        margin-bottom:1px;
+                        border-bottom:0;
+                        z-index: 10;
+                    }
+                    .shopping_hadden{
+                        display: block;
+                    }
+                }
+            }
+        }
+        .logolist_auto_bottom{
+            ul{
+                li{
+                    float:left;
+                    a{
+                        display: block;
+                        height:40px;
+                        text-align: center;
+                        line-height: 40px;
+                    }
+                }
+                li:first-child a{
+                    width:172px;
+                    background:#f15c18;
+                    color:#fff;
+                    font-weight: 900;
+                }
+                li:nth-child(2) a{
+                    width:77px;
+                    font-weight: 900;
+                    color:#f15c18;
+                }
+                li:nth-child(3):hover a{color:#f15c18;}
+            }
+        }
+    }
+}
+/**轮播图栏**/
+.shuffling{
+    width:100%;
+    height:480px;
+    .shuffling_auto{
+        margin:0 auto;
+        width:1200px;
+        height:100%;
+        background:#ccc;
+        position: relative;
+        .shuffling_auto_left{
+            float: left;
+            width:172px;
+            height:471px;
+            padding-top:9px;
+            background:#343a3a;
+            >li{
+                width:144px;
+                height:45px;
+                padding:0 18px 0 10px;
+                border-bottom:1px dashed #4b6060;
+                line-height:45px;
+                a{
+                    color:#fff;
+                    font-weight: 900;
+                }
+                //ajax请求数据对应的样式
+                >.shuffling_auto_hidden{
+                    display: none;
+                    width:788px;
+                    height:480px;
+                    position: absolute;
+                    background:#fff;
+                    top:0;
+                    left:172px;
+                    z-index:5;
+                    >ul{
+                        float:left;
+                        width:789px;
+                        background:#fff;
+                        >p{
+                            float: left;
+                            font-weight: 900;
+                            margin-right:15px;
+                            width:109px;
+                            text-align: right;
+                            height:34px;
+                            line-height: 34px;
+                            span{
+                                display: inline-block;
+                                width:3px;
+                                height:5px;
+                                background: url(../img/top_bg.png) -197px -30px;
+                                margin:0 0 2px 13px;
+                                
+                            }
+                        }
+                        >li{
+                            border-bottom:1px solid #e7e7e7;
+                            float: left;
+                            height:34px;
+                            line-height: 34px;
+                            text-align: center;
+                            margin-top:10px;
+                            >a{
+                                padding:0 10px;
+                                border-left:1px solid #e7e7e7;
+                                color:#7c7171;
+                            }
+                        }
+                    }
+                }
+            }
+            li:last-child{
+                border-bottom:0;
+            }
+            >li:hover{
+                background:#fff;
+                >a{
+                    color:#343a3a;
+                }
+                >a:hover{
+                    color:red;
+                }
+            }
+        }
+        .shuffling_auto_center{
+            float: left;
+            width:1028px;
+            height:480px;
+            position: relative;
+            .shuffling_auto_center_top{
+                width:100%;
+                height:79px;
+                background:#fff;
+                >a{
+                    float:left;
+                    margin:5px 12px 0 14px;
+                }
+                >.shuffling_auto_center_top_center{
+                    float: left;
+                    width:408px;
+                    height:69px;
+                    border:1px solid #e4e4e4;
+                    margin-top:5px;
+                    >i{
+                        float: left;
+                        width:55px;
+                        height:53px;
+                        background:url(../img/live.png) -125px -3px;
+                        margin:8px 0 0 30px;
+                    }
+                    >img{
+                         float: left;
+                         width:60px;
+                         height:60px;
+                         margin:4px 0 0 49px;
+                    }
+                    >ul{
+                        float: left;
+                        height:69px;
+                        li{margin-left:9px;}
+                        li:first-child{
+                            margin-top:12px;
+                        }
+                        li:last-child{
+                            font-size:16px;
+                            margin-top:10px;
+                            a{ color:#f15c18;font-weight: 900;}
+                        }
+                    }
+                    
+                }
+                >img{
+                    width:165px;
+                    height:79px;
+                    float: left;
+                    margin-left:17px;
+                }
+            }
+            //轮播图
+            .shuffling_auto_center_bottom{
+                width:785px;
+                height:400px;
+                position: relative;
+                li{
+                    position: absolute;
+                    top:0;
+                    left:0;
+                }
+            }
+            //l轮播图下标
+            .shuffling_auto_center_bottom_active{
+                position:absolute;
+                top:450px;
+                left:370px;
+                z-index:3;
+                li{
+                    background:#3e3e3e;
+                    height:20px;
+                    width:20px;
+                    border-radius:50%;
+                    margin-left:10px;
+                    float: left;
+                    text-align: center;
+                    line-height: 20px;
+                }
+                >.active{
+                    background:#f15c18;
+                }
+            }
+        }
+        .shuffling_auto_right{
+            position: absolute;
+            top:79px;
+            width:243px;
+            right:0;
+            height:401px;
+            background:#f7f2e7;
+            >p{
+                font-size:16px;
+                font-weight: 900;
+                width:100%;
+                height:54px;
+                line-height: 54px;
+                text-align: center;
+            }
+            >a{
+                display: block;
+                width:191px;
+                height:252px;
+                margin-left:27px;
+            }
+            >i{
+                display:block;
+                width:100%;
+                text-align: center;
+                margin-top:6px;
+                font-weight: 900;
+            }
+            span{
+                display: block;
+                margin:15px 30px 0 30px;
+                line-height: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
+/**轮播图下面的品牌栏**/
+.brand{
+    width:100%;
+    height:181px;
+    background:#f2f2f2;
+    .brand_auto{
+        width:1210px;
+        height:100%;
+        margin:0 auto;
+        >ul{
+            >li{
+                float: left;
+                width:302px;
+                height:150px;
+                margin-top:15px;
+                background: #fff url(../img/brand_bg.jpg) no-repeat right center;
+                >p{
+                    float:left;
+                    margin:29px 25px 0 15px;
+                    >a{
+                        display: block;
+                        font-size:16px;
+                        font-weight: 900;
+                        color:#444;
+                    }
+                    >A:hover{
+                        color:red;
+                    }
+                    >span{
+                        display: block;
+                        color:#888;
+                        margin-top:9px;
+                    }
+                }
+                >img{
+                    float:left;
+                }
+            }
+            >li:last-child{background: #fff;/*为了去掉最后一个li的背景图边框*/}
+        }
+    }
+}
+/**第一层楼**/
+.tower01{
+    width:100%;
+    height:590px;
+    background:#f2f2f2;
+    .tower01_auto,{
+        width:1210px;
+        height:100%;
+        margin:0 auto;
+        /**上下结构，上部为选项卡导航栏以及楼层号样式，下部为选项卡布局样式**/
+        .tower01_auto_top{
+            width:100%;
+            height:34px;
+            border-bottom:2px solid #fe5621;
+            >p{
+                float:left;
+                height:34px;
+                >span{
+                    float:left;
+                    margin:2px 5px 0 0;
+                    width:35px;
+                    height:24px;
+                    background:#feaa90 url(../img/floor_mt_h2.png) 0 -3px;
+                    line-height: 24px;
+                }
+                >i{
+                    float: left;
+                    font-size:20px;
+                    color:#333;
+                    font-weight:600;
+                }
+            }
+            .tower01_auto_top_nav{
+                float:right;
+                height:34px;
+                border-bottom:0;
+                >li{
+                    float: left;
+                    >a{
+                        display: block;
+                        height:34px;
+                        line-height:34px;
+                        padding:0 18px 0 17px;
+                        color:#333; 
+                        border-bottom:2px solid #fe5621;
+                    }
+                }
+                /*选项卡对应的class名的样式*/
+                >li.active{
+                    >a{
+                        height:33px;
+                        background:#fff;
+                        line-height:30px;
+                        display: block;
+                        color:#feaa90;
+                        padding:0 7px 0 16px;
+                        border-left:1px solid #fe5621;
+                        border-right:1px solid #fe5621;
+                        border-top:3px solid #fe5621;
+                        border-bottom:0;
+                    }
+                }
+            }
+        }
+        .tower01_auto_center{
+            width:100%;
+            height:474px;
+            position: relative;
+            .tower01_auto_center_left{
+                width:210px;
+                height:474px;
+                float: left;
+                background: url(../img/tower01.jpg);
+                >ul.tower01_auto_center_left_top{
+                    float: left;
+                    width:210px;
+                    height:84px;
+                    background:rgba(200,200,200,0.5);/**rgba会连盒子内字体也给透明了，rgba可以解决这个问题**/
+                    margin-top:238px;
+                    >li{
+                        float: left;
+                        width:105px;
+                        height:41px;
+                        line-height: 41px;
+                        >img{
+                            margin:8px 7px 0 10px;
+                            float:left;
+                            width:24px;
+                            height:24px;
+                        }
+                        >a{
+                            float:left;  
+                        }
+                    }
+                }
+                >ul.tower01_auto_center_left_bottom{
+                    float: left;
+                    width:158px;
+                    height:137px;
+                    border-right:1px solid #eee;
+                    background:rgba(246,246,246,0.5);
+                    padding:15px 26px 0 26px;
+                    >li{
+                        float: left;
+                        margin-right:11px;
+                    }
+                }
+            }
+            >ul{
+                >li{
+                    width:1000px;
+                    position: absolute;
+                    top:0;
+                    right:0;
+                    height:474px;
+                }
+                >.tower01_auto_top_nav1{
+                    .tower01_auto_center_02{
+                        width:219px;
+                        float:left;
+                        border-right:1px solid #eee;
+                        img{border-bottom:1px solid #eee;}
+                    }
+                    .tower01_auto_center_03{
+                        width:339px;
+                        height:474px;
+                        float: left;
+                        border-right:1px solid #eee;
+                        position: relative;
+                        overflow: hidden;
+                        //轮播图
+                        .tower01_auto_center_031{
+                            position: absolute;
+                            width:339px*6;
+                            height:100%;
+                            background:red;
+                            top:0;
+                            left:0;
+                            >li{
+                                float: left;
+                                a:first-child img{border-bottom:1px dashed #fff;}
+                                a:last-child img{border-bottom:1px solid #eee;}
+                            }
+                        }
+                        //轮播图下标
+                        .tower01_auto_center_032{
+                            z-index: 6;
+                            height:9px;
+                            top:445px;
+                            left:135px;
+                            position: absolute;
+                            >li{
+                                width:9px;
+                                height:9px;
+                                float:left;
+                                background:#3e3e3e;
+                                border-radius: 50%;
+                                margin-left:6px;
+                            }
+                            li.active{background:#f15c18;}
+                        }
+                        //轮播图左右按钮
+                        .tower01_auto_center_033{
+                            position: absolute;
+                            top:204px;
+                            left:0;
+                            display: none;
+                            >a{
+                                display: block;
+                                float:left;
+                                background:rgba(200,200,200,0.8);
+                                width:28px;
+                                height:62px;
+                                text-align: center;
+                                line-height: 62px;
+                                font-size:20px;
+                                color:#fff;
+                            }
+                            >a.right{
+                                margin-left:283px;
+                            }
+                        }
+                    }
+                }
+                >.tower01_auto_top_nav2{
+                   background:#fff;
+                   >ul>li{
+                       opacity: 0.3;
+                       float: left;
+                       width:199px;
+                       height:236px;
+                       border-bottom:1px solid #efefef;
+                       border-right:1px solid #efefef;
+                       img{
+                           width:130px;
+                           height:130px;
+                           margin:21px 0 0 34px;
+                       }
+                       >a.txt{
+                           display: block;
+                           height:35px;
+                           margin-top:15px;
+                           padding:0 17px;
+                           line-height:18px;
+                           color:#333;
+                           overflow: hidden;
+                       }
+                       >a.txt:hover{
+                           color:red;
+                       }
+                       >p{
+                           font-size:14px;
+                           color:red;
+                           padding:6px 0 0 17px;
+                       }
+                   }
+                }
+            }
+        }
+        .tower01_auto_bottom{
+            width:1210px;
+            height:63px;
+            background:#fff;
+            .tower01_auto_bottom_img{
+                >li{
+                    width:120px;
+                    height:33px;
+                    border-left:1px dashed #ccc;
+                    margin-top:15px;
+                    float: left;
+                    img{
+                        margin:0 11px 0 10px;
+                        width:99px;
+                        height:33px;
+                    }
+                }
+                >li:first-child{border:0;}
+            }
+        }
+    }
+}
+/**第二层楼**/
+.tower02{
+    width:100%;
+    height:590px;
+    background:#f2f2f2;
+    .tower02_auto{
+        width:1210px;
+        height:100%;
+        margin:0 auto;
+        /**上下结构，上部为选项卡导航栏以及楼层号样式，下部为选项卡布局样式**/
+        .tower02_auto_top{
+            width:100%;
+            height:34px;
+            border-bottom:2px solid #fe5621;
+            >p{
+                float:left;
+                height:34px;
+                >span{
+                    float:left;
+                    margin:2px 5px 0 0;
+                    width:35px;
+                    height:24px;
+                    background:#feaa90 url(../img/floor_mt_h2.png) 0 -3px;
+                    line-height: 24px;
+                }
+                >i{
+                    float: left;
+                    font-size:20px;
+                    color:#333;
+                    font-weight:600;
+                }
+            }
+            .tower02_auto_top_nav{
+                float:right;
+                height:34px;
+                border-bottom:0;
+                >li{
+                    float: left;
+                    >a{
+                        display: block;
+                        height:34px;
+                        line-height:34px;
+                        padding:0 18px 0 17px;
+                        color:#333; 
+                        border-bottom:2px solid #fe5621;
+                    }
+                }
+                /*选项卡对应的class名的样式*/
+                >li.active{
+                    >a{
+                        height:33px;
+                        background:#fff;
+                        line-height:30px;
+                        display: block;
+                        color:#feaa90;
+                        padding:0 7px 0 16px;
+                        border-left:1px solid #fe5621;
+                        border-right:1px solid #fe5621;
+                        border-top:3px solid #fe5621;
+                        border-bottom:0;
+                    }
+                }
+            }
+        }
+        .tower02_auto_center{
+            width:100%;
+            height:474px;
+            position: relative;
+            .tower02_auto_center_left{
+                width:210px;
+                height:474px;
+                float: left;
+                background: url(../img/towerTow/02xuanxiangka01/02xuanxiangka1-001.jpg);
+                >ul.tower02_auto_center_left_top{
+                    float: left;
+                    width:210px;
+                    height:84px;
+                    background:rgba(200,200,200,0.5);/**rgba会连盒子内字体也给透明了，rgba可以解决这个问题**/
+                    margin-top:238px;
+                    >li{
+                        float: left;
+                        width:105px;
+                        height:41px;
+                        line-height: 41px;
+                        >img{
+                            margin:8px 7px 0 10px;
+                            float:left;
+                            width:24px;
+                            height:24px;
+                        }
+                        >a{
+                            float:left;  
+                        }
+                    }
+                }
+                >ul.tower02_auto_center_left_bottom{
+                    float: left;
+                    width:158px;
+                    height:137px;
+                    border-right:1px solid #eee;
+                    background:rgba(246,246,246,0.5);
+                    padding:15px 26px 0 26px;
+                    >li{
+                        float: left;
+                        margin-right:11px;
+                    }
+                }
+            }
+            >ul{
+                >li{
+                    width:1000px;
+                    position: absolute;
+                    top:0;
+                    right:0;
+                    height:474px;
+                }
+                >.tower02_auto_top_nav1{
+                    .tower02_auto_center_02{
+                        width:219px;
+                        float:left;
+                        border-right:1px solid #eee;
+                        img{border-bottom:1px solid #eee;}
+                    }
+                    .tower02_auto_center_03{
+                        width:339px;
+                        height:474px;
+                        float: left;
+                        border-right:1px solid #eee;
+                        position: relative;
+                        overflow: hidden;
+                        //轮播图
+                        .tower02_auto_center_031{
+                            position: absolute;
+                            width:339px*6;
+                            height:100%;
+                            background:red;
+                            top:0;
+                            left:0;
+                            >li{
+                                float: left;
+                                a:first-child img{border-bottom:1px dashed #fff;}
+                                a:last-child img{border-bottom:1px solid #eee;}
+                            }
+                        }
+                        //轮播图下标
+                        .tower02_auto_center_032{
+                            z-index: 6;
+                            height:9px;
+                            top:445px;
+                            left:135px;
+                            position: absolute;
+                            >li{
+                                width:9px;
+                                height:9px;
+                                float:left;
+                                background:#3e3e3e;
+                                border-radius: 50%;
+                                margin-left:6px;
+                            }
+                            li.active{background:#f15c18;}
+                        }
+                        //轮播图左右按钮
+                        .tower02_auto_center_033{
+                            position: absolute;
+                            top:204px;
+                            left:0;
+                            display: none;
+                            >a{
+                                display: block;
+                                float:left;
+                                background:rgba(200,200,200,0.8);
+                                width:28px;
+                                height:62px;
+                                text-align: center;
+                                line-height: 62px;
+                                font-size:20px;
+                                color:#fff;
+                            }
+                            >a.right{
+                                margin-left:283px;
+                            }
+                        }
+                    }
+                }
+                >.tower02_auto_top_nav2{
+                   background:#fff;
+                   >ul>li{
+                       opacity: 0.3;
+                       float: left;
+                       width:199px;
+                       height:236px;
+                       border-bottom:1px solid #efefef;
+                       border-right:1px solid #efefef;
+                       img{
+                           width:130px;
+                           height:130px;
+                           margin:21px 0 0 34px;
+                       }
+                       >a.txt{
+                           display: block;
+                           height:35px;
+                           margin-top:15px;
+                           padding:0 17px;
+                           line-height:18px;
+                           color:#333;
+                           overflow: hidden;
+                       }
+                       >a.txt:hover{
+                           color:red;
+                       }
+                       >p{
+                           font-size:14px;
+                           color:red;
+                           padding:6px 0 0 17px;
+                       }
+                   }
+                }
+            }
+        }
+        .tower02_auto_bottom{
+            width:1210px;
+            height:63px;
+            background:#fff;
+            .tower02_auto_bottom_img{
+                >li{
+                    width:120px;
+                    height:33px;
+                    border-left:1px dashed #ccc;
+                    margin-top:15px;
+                    float: left;
+                    img{
+                        margin:0 11px 0 10px;
+                        width:99px;
+                        height:33px;
+                    }
+                }
+                >li:first-child{border:0;}
+            }
+        }
+    }
+}
+/**第三层楼**/
+.tower03{
+    width:100%;
+    height:590px;
+    background:#f2f2f2;
+    .tower03_auto{
+        width:1210px;
+        height:100%;
+        margin:0 auto;
+        /**上下结构，上部为选项卡导航栏以及楼层号样式，下部为选项卡布局样式**/
+        .tower03_auto_top{
+            width:100%;
+            height:34px;
+            border-bottom:2px solid #fe5621;
+            >p{
+                float:left;
+                height:34px;
+                >span{
+                    float:left;
+                    margin:2px 5px 0 0;
+                    width:35px;
+                    height:24px;
+                    background:#feaa90 url(../img/floor_mt_h2.png) 0 -3px;
+                    line-height: 24px;
+                }
+                >i{
+                    float: left;
+                    font-size:20px;
+                    color:#333;
+                    font-weight:600;
+                }
+            }
+            .tower03_auto_top_nav{
+                float:right;
+                height:34px;
+                border-bottom:0;
+                >li{
+                    float: left;
+                    >a{
+                        display: block;
+                        height:34px;
+                        line-height:34px;
+                        padding:0 18px 0 17px;
+                        color:#333; 
+                        border-bottom:2px solid #fe5621;
+                    }
+                }
+                /*选项卡对应的class名的样式*/
+                >li.active{
+                    >a{
+                        height:33px;
+                        background:#fff;
+                        line-height:30px;
+                        display: block;
+                        color:#feaa90;
+                        padding:0 7px 0 16px;
+                        border-left:1px solid #fe5621;
+                        border-right:1px solid #fe5621;
+                        border-top:3px solid #fe5621;
+                        border-bottom:0;
+                    }
+                }
+            }
+        }
+        .tower03_auto_center{
+            width:100%;
+            height:474px;
+            position: relative;
+            .tower03_auto_center_left{
+                width:210px;
+                height:474px;
+                float: left;
+                background: url(../img/towerSwn/03-01/03-01-001.jpg);
+                >ul.tower03_auto_center_left_top{
+                    float: left;
+                    width:210px;
+                    height:84px;
+                    background:rgba(200,200,200,0.5);/**rgba会连盒子内字体也给透明了，rgba可以解决这个问题**/
+                    margin-top:238px;
+                    >li{
+                        float: left;
+                        width:105px;
+                        height:41px;
+                        line-height: 41px;
+                        >img{
+                            margin:8px 7px 0 10px;
+                            float:left;
+                            width:24px;
+                            height:24px;
+                        }
+                        >a{
+                            float:left;  
+                        }
+                    }
+                }
+                >ul.tower03_auto_center_left_bottom{
+                    float: left;
+                    width:158px;
+                    height:137px;
+                    border-right:1px solid #eee;
+                    background:rgba(246,246,246,0.5);
+                    padding:15px 26px 0 26px;
+                    >li{
+                        float: left;
+                        margin-right:11px;
+                    }
+                }
+            }
+            >ul{
+                >li{
+                    width:1000px;
+                    position: absolute;
+                    top:0;
+                    right:0;
+                    height:474px;
+                }
+                >.tower03_auto_top_nav1{
+                    .tower03_auto_center_02{
+                        width:219px;
+                        float:left;
+                        border-right:1px solid #eee;
+                        img{border-bottom:1px solid #eee;}
+                    }
+                    .tower03_auto_center_03{
+                        width:339px;
+                        height:474px;
+                        float: left;
+                        border-right:1px solid #eee;
+                        position: relative;
+                        overflow: hidden;
+                        //轮播图
+                        .tower03_auto_center_031{
+                            position: absolute;
+                            width:339px*6;
+                            height:100%;
+                            background:red;
+                            top:0;
+                            left:0;
+                            >li{
+                                float: left;
+                                a:first-child img{border-bottom:1px dashed #fff;}
+                                a:last-child img{border-bottom:1px solid #eee;}
+                            }
+                        }
+                        //轮播图下标
+                        .tower03_auto_center_032{
+                            z-index: 6;
+                            height:9px;
+                            top:445px;
+                            left:135px;
+                            position: absolute;
+                            >li{
+                                width:9px;
+                                height:9px;
+                                float:left;
+                                background:#3e3e3e;
+                                border-radius: 50%;
+                                margin-left:6px;
+                            }
+                            li.active{background:#f15c18;}
+                        }
+                        //轮播图左右按钮
+                        .tower03_auto_center_033{
+                            position: absolute;
+                            top:204px;
+                            left:0;
+                            display: none;
+                            >a{
+                                display: block;
+                                float:left;
+                                background:rgba(200,200,200,0.8);
+                                width:28px;
+                                height:62px;
+                                text-align: center;
+                                line-height: 62px;
+                                font-size:20px;
+                                color:#fff;
+                            }
+                            >a.right{
+                                margin-left:283px;
+                            }
+                        }
+                    }
+                }
+                >.tower03_auto_top_nav2{
+                   background:#fff;
+                   >ul>li{
+                       opacity: 0.3;
+                       float: left;
+                       width:199px;
+                       height:236px;
+                       border-bottom:1px solid #efefef;
+                       border-right:1px solid #efefef;
+                       img{
+                           width:130px;
+                           height:130px;
+                           margin:21px 0 0 34px;
+                       }
+                       >a.txt{
+                           display: block;
+                           height:35px;
+                           margin-top:15px;
+                           padding:0 17px;
+                           line-height:18px;
+                           color:#333;
+                           overflow: hidden;
+                       }
+                       >a.txt:hover{
+                           color:red;
+                       }
+                       >p{
+                           font-size:14px;
+                           color:red;
+                           padding:6px 0 0 17px;
+                       }
+                   }
+                }
+            }
+        }
+        .tower03_auto_bottom{
+            width:1210px;
+            height:63px;
+            background:#fff;
+            .tower03_auto_bottom_img{
+                >li{
+                    width:120px;
+                    height:33px;
+                    border-left:1px dashed #ccc;
+                    margin-top:15px;
+                    float: left;
+                    img{
+                        margin:0 11px 0 10px;
+                        width:99px;
+                        height:33px;
+                    }
+                }
+                >li:first-child{border:0;}
+            }
+        }
+    }
+}
+/**一层、二层以及三层样式的简化操作（以后）**/
+/**第四层楼**/
+.tower04{
+    width:100%;
+    height:590px;
+    background:#f2f2f2;
+    .tower04_auto{
+        width:1210px;
+        height:100%;
+        margin:0 auto;
+        /**上下结构，上部为选项卡导航栏以及楼层号样式，下部为选项卡布局样式**/
+        .tower04_auto_top{
+            width:100%;
+            height:34px;
+            border-bottom:2px solid #fe5621;
+            >p{
+                float:left;
+                height:34px;
+                >span{
+                    float:left;
+                    margin:2px 5px 0 0;
+                    width:35px;
+                    height:24px;
+                    background:#feaa90 url(../img/floor_mt_h2.png) 0 -3px;
+                    line-height: 24px;
+                }
+                >i{
+                    float: left;
+                    font-size:20px;
+                    color:#333;
+                    font-weight:600;
+                }
+            }
+            .tower04_auto_top_nav{
+                float:right;
+                height:34px;
+                border-bottom:0;
+                >li{
+                    float: left;
+                    >a{
+                        display: block;
+                        height:34px;
+                        line-height:34px;
+                        padding:0 18px 0 17px;
+                        color:#333; 
+                        border-bottom:2px solid #fe5621;
+                    }
+                }
+                /*选项卡对应的class名的样式*/
+                >li.active{
+                    >a{
+                        height:33px;
+                        background:#fff;
+                        line-height:30px;
+                        display: block;
+                        color:#feaa90;
+                        padding:0 7px 0 16px;
+                        border-left:1px solid #fe5621;
+                        border-right:1px solid #fe5621;
+                        border-top:3px solid #fe5621;
+                        border-bottom:0;
+                    }
+                }
+            }
+        }
+        .tower04_auto_center{
+            width:100%;
+            height:474px;
+            position: relative;
+            .tower04_auto_center_left{
+                width:330px;
+                height:474px;
+                float: left;
+                background: url(../img/towerFour/left/01.jpg);
+                >ul.tower04_auto_center_left_top{
+                    float: left;
+                    width:330px;
+                    height:84px;
+                    background:rgba(200,200,200,0.5);/**会连盒子内字体也给透明了，rgba可以解决这个问题**/
+                    margin-top:238px;
+                    >li{
+                        float: left;
+                        width:105px;
+                        height:41px;
+                        line-height: 41px;
+                        >img{
+                            margin:8px 7px 0 10px;
+                            float:left;
+                            width:24px;
+                            height:24px;
+                        }
+                        >a{
+                            float:left;  
+                        }
+                    }
+                }
+                >ul.tower04_auto_center_left_bottom{
+                    float: left;
+                    width:298px;
+                    height:137px;
+                    border-right:1px solid #eee;
+                    background:rgba(246,246,246,0.5);
+                    padding:15px 26px 0 26px;
+                    >li{
+                        float: left;
+                        margin-right:11px;
+                    }
+                }
+            }
+            >ul{
+                >li{
+                    width:880px;
+                    position: absolute;
+                    top:0;
+                    right:0;
+                    height:474px;
+                    background:#fff;
+                }
+                >.tower04_auto_top_nav1{
+                    >.one{
+                        width:880px;
+                        height:236px;
+                        >div.lbMargin{
+                            float:left;
+                            width:440px;
+                            height:236px;
+                            overflow: hidden;
+                            position: relative;
+                            //轮播图
+                            >ul.shuffling{
+                                position: absolute;
+                                top:0;
+                                left:0;
+                                float:left;
+                                height:236px;
+                                width:439px*6;
+                                img{
+                                    float:left;
+                                    width:439px;
+                                    height:239px;
+                                }
+                            }
+                            >ul.index{
+                                height:9px;
+                                position:absolute;
+                                top:208px;
+                                left:184px;
+                                >li{
+                                    width:9px;
+                                    height:9px;
+                                    float: left;
+                                    border-radius: 50%;
+                                    background:#3e3e3e;
+                                    margin-right:6px;
+                                }
+                                >li.active{
+                                    background:#f15c18;
+                                }
+                            }
+                            ul.click{
+                                width:439px;
+                                height:62px;
+                                position: absolute;
+                                top:87px;
+                                left:0;
+                                a{
+                                    width:28px;
+                                    height:62px;
+                                    background:rgba(250,250,250,0.8);
+                                    text-align: center;
+                                    line-height: 62px;
+                                    color:#000;
+                                    font-size:20px;
+                                }
+                                li:first-child a{
+                                    float:left;
+                                }
+                                li:last-child a{
+                                    float:right;
+                                }
+                            }
+                        }
+                        >ul{
+                            width:440px;
+                            height:235px;
+                            float: left;
+                            img{
+                                float:left;
+                                width:219px;
+                                height:117px;
+                                border-bottom:1px solid #eee;
+                                border-right:1px solid #eee;
+                            }
+                        }
+                    }
+                    >.tow{
+                        width:880px;
+                        height:237px;
+                        img{
+                            float:left;
+                            width:219px;
+                            height:236px;
+                            border-bottom:1px solid #eee;
+                            border-right:1px solid #eee;
+                        }
+                    }  
+                }
+                >.tower04_auto_top_nav2{
+                    >ul{
+                        >li{
+                            float:left;
+                            width:219px;
+                            opacity: 0.2;
+                            height:236px;
+                            border-bottom:1px solid #eee;
+                            border-right:1px solid #eee;
+                            img{
+                                width:130px;
+                                height:130px;
+                                margin:21px 0 15px 44px;
+                            }
+                            >a.txt{
+                                display: block;
+                                height:35px;
+                                margin-top:15px;
+                                padding:0 17px;
+                                line-height:18px;
+                                color:#333;
+                                overflow: hidden;
+                            }
+                            >a.txt:hover{
+                                 color:red;
+                            }
+                            >p{
+                                font-size:14px;
+                                color:red;
+                                padding:6px 0 0 17px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .tower04_auto_bottom{
+            width:1210px;
+            height:63px;
+            background:#fff;
+            .tower04_auto_bottom_img{
+                >li{
+                    width:120px;
+                    height:33px;
+                    border-left:1px dashed #ccc;
+                    margin-top:15px;
+                    float: left;
+                    img{
+                        margin:0 11px 0 10px;
+                        width:99px;
+                        height:33px;
+                    }
+                }
+                >li:first-child{border:0;}
+            }
+        }
+    }
+}
+/**第五层楼**/
+.tower05{
+    width:100%;
+    height:590px;
+    background:#f2f2f2;
+    .tower05_auto{
+        width:1210px;
+        height:100%;
+        margin:0 auto;
+        /**上下结构，上部为选项卡导航栏以及楼层号样式，下部为选项卡布局样式**/
+        .tower05_auto_top{
+            width:100%;
+            height:34px;
+            border-bottom:2px solid #fe5621;
+            >p{
+                float:left;
+                height:34px;
+                >span{
+                    float:left;
+                    margin:2px 5px 0 0;
+                    width:35px;
+                    height:24px;
+                    background:#feaa90 url(../img/floor_mt_h2.png) 0 -3px;
+                    line-height: 24px;
+                }
+                >i{
+                    float: left;
+                    font-size:20px;
+                    color:#333;
+                    font-weight:600;
+                }
+            }
+            .tower05_auto_top_nav{
+                float:right;
+                height:34px;
+                border-bottom:0;
+                >li{
+                    float: left;
+                    >a{
+                        display: block;
+                        height:34px;
+                        line-height:34px;
+                        padding:0 18px 0 17px;
+                        color:#333; 
+                        border-bottom:2px solid #fe5621;
+                    }
+                }
+                /*选项卡对应的class名的样式*/
+                >li.active{
+                    >a{
+                        height:33px;
+                        background:#fff;
+                        line-height:30px;
+                        display: block;
+                        color:#feaa90;
+                        padding:0 7px 0 16px;
+                        border-left:1px solid #fe5621;
+                        border-right:1px solid #fe5621;
+                        border-top:3px solid #fe5621;
+                        border-bottom:0;
+                    }
+                }
+            }
+        }
+        .tower05_auto_center{
+            width:100%;
+            height:474px;
+            position: relative;
+            .tower05_auto_center_left{
+                width:330px;
+                height:474px;
+                float: left;
+                background: url(../img/towerFive/left/01.jpg);
+                >ul.tower05_auto_center_left_top{
+                    float: left;
+                    width:330px;
+                    height:84px;
+                    background:rgba(200,200,200,0.5);/**rgba会连盒子内字体也给透明了，rgba可以解决这个问题**/
+                    margin-top:238px;
+                    >li{
+                        float: left;
+                        width:105px;
+                        height:41px;
+                        line-height: 41px;
+                        >img{
+                            margin:8px 7px 0 10px;
+                            float:left;
+                            width:24px;
+                            height:24px;
+                        }
+                        >a{
+                            float:left;  
+                        }
+                    }
+                }
+                >ul.tower05_auto_center_left_bottom{
+                    float: left;
+                    width:298px;
+                    height:137px;
+                    border-right:1px solid #eee;
+                    background:rgba(246,246,246,0.5);
+                    padding:15px 26px 0 26px;
+                    >li{
+                        float: left;
+                        margin-right:11px;
+                    }
+                }
+            }
+            >ul{
+                >li{
+                    width:880px;
+                    position: absolute;
+                    top:0;
+                    right:0;
+                    height:474px;
+                    background:#fff;
+                }
+                >.tower05_auto_top_nav1{
+                    >.one{
+                        width:880px;
+                        height:236px;
+                        >div.lbMargin{
+                            float:left;
+                            width:440px;
+                            height:236px;
+                            overflow: hidden;
+                            position: relative;
+                            //轮播图
+                            >ul.shuffling{
+                                position: absolute;
+                                top:0;
+                                left:0;
+                                float:left;
+                                height:236px;
+                                width:439px*6;
+                                img{
+                                    float:left;
+                                    width:439px;
+                                    height:239px;
+                                }
+                            }
+                            >ul.index{
+                                height:9px;
+                                position:absolute;
+                                top:208px;
+                                left:184px;
+                                >li{
+                                    width:9px;
+                                    height:9px;
+                                    float: left;
+                                    border-radius: 50%;
+                                    background:#3e3e3e;
+                                    margin-right:6px;
+                                }
+                                >li.active{
+                                    background:#f15c18;
+                                }
+                            }
+                            ul.click{
+                                width:439px;
+                                height:62px;
+                                position: absolute;
+                                top:87px;
+                                left:0;
+                                a{
+                                    width:28px;
+                                    height:62px;
+                                    background:rgba(250,250,250,0.8);
+                                    text-align: center;
+                                    line-height: 62px;
+                                    color:#000;
+                                    font-size:20px;
+                                }
+                                li:first-child a{
+                                    float:left;
+                                }
+                                li:last-child a{
+                                    float:right;
+                                }
+                            }
+                        }
+                        >ul{
+                            width:440px;
+                            height:235px;
+                            float: left;
+                            img{
+                                float:left;
+                                width:219px;
+                                height:117px;
+                                border-bottom:1px solid #eee;
+                                border-right:1px solid #eee;
+                            }
+                        }
+                    }
+                    >.tow{
+                        width:880px;
+                        height:237px;
+                        img{
+                            float:left;
+                            width:219px;
+                            height:236px;
+                            border-bottom:1px solid #eee;
+                            border-right:1px solid #eee;
+                        }
+                    }  
+                }
+                >.tower05_auto_top_nav2{
+                    >ul{
+                        >li{
+                            float:left;
+                            width:219px;
+                            opacity: 0.2;
+                            height:236px;
+                            border-bottom:1px solid #eee;
+                            border-right:1px solid #eee;
+                            img{
+                                width:130px;
+                                height:130px;
+                                margin:21px 0 15px 44px;
+                            }
+                            >a.txt{
+                                display: block;
+                                height:35px;
+                                margin-top:15px;
+                                padding:0 17px;
+                                line-height:18px;
+                                color:#333;
+                                overflow: hidden;
+                            }
+                            >a.txt:hover{
+                                 color:red;
+                            }
+                            >p{
+                                font-size:14px;
+                                color:red;
+                                padding:6px 0 0 17px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .tower05_auto_bottom{
+            width:1210px;
+            height:63px;
+            background:#fff;
+            .tower05_auto_bottom_img{
+                >li{
+                    width:120px;
+                    height:33px;
+                    border-left:1px dashed #ccc;
+                    margin-top:15px;
+                    float: left;
+                    img{
+                        margin:0 11px 0 10px;
+                        width:99px;
+                        height:33px;
+                    }
+                }
+                >li:first-child{border:0;}
+            }
+        }
+    }
+}
+/**vip层**/
+.vip{
+    width:100%;
+    height:366px;
+    background:#f2f2f2;
+    border-bottom:1px solid #e3e3e3;
+    .auto{
+        width:1208px;
+        height:346px;
+        margin:0 auto;
+        background:#fff;
+        border:1px solid #f15e1b;
+        border-top:3px solid #f15e1b;
+        .vip_header{
+            width:100%;
+            height:49px;
+            background:#f2f2f2;
+            border-bottom:1px solid #e1e1e1;
+            >p{
+                width:140px;
+                height:49px;
+                float: left;
+                line-height:49px;
+                text-align: right;
+                >span{
+                    font-size:20px;
+                    color:#f15e1b;
+                    float:right;
+                }
+                >i{
+                    float:left;
+                    width:26px;
+                    height:26px;
+                    background: url(../img/vip.png);
+                    margin:10px 0 0 23px;
+                }
+            }
+            >ul{
+                float:right;
+                width:420px;
+                height:49px;
+                font-size:16px;
+                line-height:49px;
+                >li{
+                    float:left;
+                    width:95px;
+                    height:49px;
+                    margin-right:45px;
+                    a{
+                        color:#f15e1b;
+                        float:right;
+                    }
+                    >img{
+                        float:left;
+                        width:24px;
+                        height:24px;
+                        margin-top:13px;
+                    }
+                }
+            }
+        }
+        .content{
+            width:100%;
+            height:296px;
+            >ul{
+                width:100%;
+                height:100%;
+                >li{
+                    float:left;
+                    width:240px;
+                    height:296px;
+                    border-right:1px solid #ebebeb;
+                    img{
+                        width:206px;
+                        height:206px;
+                        padding:20px 0 0 18px;
+                    }
+                    >p{
+                        margin-top:15px;
+                        width:206px;
+                        height:48px;
+                        padding:0 18px;
+                        overflow: hidden;
+                    }
+                }
+                >li:last-child{border:0;}
+            }
+        }
+    }
+}
+/**ccti**/
+.ccti{
+    width:100%;
+    height:271px;
+    background:#fff;
+    .auto{
+        width:1210px;
+        height:271px;
+        margin:0 auto;
+        .ceil{
+            width:1210px;
+            height:86px;
+            border-bottom:1px solid #e3e3e3;
+            >i{
+                width:250px;
+                height:86px;
+                float:left;
+                margin-top:18px;
+            }
+            >i.ceil_01{
+                background:url(../img/ceil/cti.png) -51px -18px;
+                margin-left:156px;
+            }
+            >i.ceil_02{
+                background:url(../img/ceil/cti.png) -301px -18px;
+            }
+            >i.ceil_03{
+                background:url(../img/ceil/cti.png) -551px -18px;
+            }
+            >i.ceil_04{
+                background:url(../img/ceil/cti.png) -801px -18px;
+            }
+        }
+        .floor{
+            width:1210px;
+            height:184px;
+            >ul{
+                width:164px;
+                height:136px;
+                float:left;
+                margin-top:25px;
+                >li{
+                    line-height:24px;
+                    >a{color:#999;}
+                }
+                >li:first-child{
+                    font-size:16px;
+                    margin-bottom:5px;
+                }
+            }
+            >ul.one{
+                margin-left:55px;
+            }
+            >ul.left{
+                border-right:1px solid #eaeaea;
+                width:280px;
+                height:133px;
+                margin:25px 0 0 50px;
+                >li{
+                    width:234px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                >li:first-child{
+                    font-size:16px;
+                    padding-left:5px;
+                    margin-bottom:5px;
+                }
+            }
+        }
+    }
+}
+/**右侧固定栏**/
+.service{
+    width:36px;
+    height:220px;
+    position: fixed;
+    top:200px;
+    right:0;
+    >._goushop{
+        i{
+            position: relative;
+            >u{
+                color:#fff;
+                font-size:12px;
+                position: absolute;
+                width:15px;
+                height:15px;
+                background:#000;
+                top:-10px;
+                left:3px;
+            }
+        }
+    }
+    >li{
+        width:97px;
+        height:36px;
+        margin-top:2px;
+        line-height:36px;
+        position: relative;
+        i{
+            font-size:20px;
+            text-align: center;
+            width:36px;
+            height:36px;
+            background:#312a27;
+            color:#fff;
+            border-radius:3px;
+            float: left;
+        }
+        i:hover{background:#fe5621;}
+        span{
+            position: absolute;
+            border-radius:3px;
+            background:#fe5621;
+            float: left;
+            width:60px;
+            text-align: center;
+            top:0;
+            //left:-57px;
+            z-index: -1;
+        }
+    }
+    li.toTop{
+        width:36px;
+        height:36px;
+        position: fixed;
+        bottom:0;
+        right:0;
+        >a{
+            display: block;
+            width:36px;
+            height:36px;
+            font-size:20px;
+            background:#312a27;
+            color:#fff;
+            text-align: center;
+            line-height:36px;
+        }
+    }
+}
+/**左侧楼层**/
+.towerRight{
+    border:1px solid #ccc;
+    width:80px;
+    height:35*7px;
+    position: fixed;
+    background: #fff;
+    left:0px;
+    top:220px;
+    display: none;
+    z-index: 99;
+    li{
+        width:74px;
+        height:35px;
+        line-height:35px;
+        text-align: center;
+        background:#fff;
+        margin:1px 3px;
+        border-bottom:1px dashed #ccc;
+        a{
+            color:#000;
+            display: block;
+            width:100%;
+            height:100%;
+        }
+        a:hover{color:#fff;}
+    }
+    li:hover{background:#fe5621;}
+    li.active{
+        background:#fe5621;
+        a{
+           color:#fff; 
+        }
+    }
+    li:last-child{
+        height:20px;
+        line-height:20px;
+        border:0;
+    }
+}
