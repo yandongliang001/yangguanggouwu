@@ -41,7 +41,8 @@ window.onload = function(){
 				for(var attr in arr){
 					if(data_name == attr){
 						for(var i in arr[attr]){
-							stp =`<p>${i}<span></span></p>`
+							stp =`<p>${i}<span></span></p>`;
+							stli = '';
 							for(var k = 0;k < arr[attr][i].length;k++){
 								stli += `<li><a href="">${arr[attr][i][k]}</a></li>`;
 							}
